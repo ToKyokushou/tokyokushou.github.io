@@ -1,35 +1,47 @@
 ---
-layout: archive
+layout: portfolio
 title: "Publications"
 permalink: /publications/
-author_profile: true
+description: "Research publications by Xusheng Du in generative AI, 3D modeling, architecture, and human-computer interaction."
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<header class="page-header">
+  <p class="page-kicker">Research archive</p>
+  <h1 class="page-title">Publications</h1>
+  <p class="page-lead">Work on generative AI, 3D modeling, architectural design, and human–computer interaction.</p>
+  {% if site.author.googlescholar and site.author.googlescholar != '' %}
+    <a class="text-link" href="{{ site.author.googlescholar | escape }}">Google Scholar <span aria-hidden="true">↗</span></a>
+  {% endif %}
+</header>
 
-{% include base_path %}
+<div class="publication-filters" hidden role="group" aria-label="Filter publications by type">
+  <button class="filter-button active" type="button" data-filter="all" aria-pressed="true">All</button>
+  <button class="filter-button" type="button" data-filter="manuscripts" aria-pressed="false">Journal articles</button>
+  <button class="filter-button" type="button" data-filter="conferences" aria-pressed="false">Conference publications</button>
+</div>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% assign filtered_posts = site.publications | where: "category", category[0] | sort: "index" %}
-    {% for post in filtered_posts %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
+<p id="publication-count" class="sr-only" role="status" aria-live="polite"></p>
+
+{% assign sorted_publications = site.publications | sort: 'date' | reverse %}
+{% assign publication_years = sorted_publications | group_by_exp: 'publication', "publication.date | date: '%Y'" %}
+<div class="publication-list">
+  {% for year in publication_years %}
+    <section class="publication-year" data-publication-year="{{ year.name }}" aria-labelledby="publications-{{ year.name }}">
+      <h2 id="publications-{{ year.name }}" class="section-heading">{{ year.name }}</h2>
+      {% for publication in year.items %}
+        <article class="publication-row" data-category="{{ publication.category | escape }}">
+          <time datetime="{{ publication.date | date: '%Y' }}">{{ publication.date | date: '%Y' }}</time>
+          <div class="publication-content">
+            <h3><a href="{{ publication.url | relative_url }}">{{ publication.title | escape }}</a></h3>
+            {% if publication.citation and publication.citation != '' %}
+              <div class="publication-authors">{{ publication.citation | markdownify }}</div>
+            {% endif %}
+            {% if publication.venue and publication.venue != '' %}
+              <p class="publication-venue">{{ publication.venue | escape }}</p>
+            {% endif %}
+          </div>
+        </article>
+      {% endfor %}
+    </section>
   {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
-
+</div>

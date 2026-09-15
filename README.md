@@ -1,3 +1,46 @@
+# Xusheng Du · Research portfolio
+
+A personal research website built on Jekyll / AcademicPages and hosted on GitHub Pages.
+
+The portfolio uses the supplied five-color palette: indigo `#2A4D8F`, cloth blue
+`#5F82B8`, cotton `#F5F0E6`, wood `#A67C52`, and thread gray `#D8D2C8`.
+
+## Update the website
+
+- Homepage text: `_pages/about.md`.
+- Featured work, image paths, and project summaries: `_data/featured_projects.yml`.
+- Publications: add or edit Markdown records in `_publications/`. The archive
+  groups entries by year and filters by the existing `manuscripts` / `conferences`
+  categories. Keep existing permalinks stable.
+- CV: `_pages/cv.md`. Its print button opens the browser print dialog, where
+  visitors can choose Save as PDF.
+- Contact email and ORCID: `_config.yml` under `author`.
+- Colors, layout, mobile styles, and print styles: `assets/css/portfolio.css`.
+- Navigation and footer: `_includes/portfolio-header.html` and
+  `_includes/portfolio-footer.html`.
+
+Homepage projects reuse the existing research figures and link to full project
+pages. The redesign does not add unverified publication records or a PDF download
+that is not present in the repository. The former template CV route redirects to
+`/cv/`; four sample portfolio/teaching records are excluded from the build.
+
+## Local build
+
+With Ruby and Bundler installed:
+
+```sh
+bundle install
+bundle exec jekyll serve --safe
+```
+
+Open the address printed by Jekyll. For a production build, run
+`bundle exec jekyll build --safe`. Check the homepage, publications filters, CV
+printing, mobile navigation, and a publication detail page before merging.
+
+---
+
+## Original AcademicPages documentation
+
 # Academic Pages
 **Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
 

@@ -1,16 +1,14 @@
 ---
-layout: archive
-title: "Talks and presentations"
+layout: portfolio
+title: "Talks & Presentations"
 permalink: /talks/
-author_profile: true
+excerpt: "Research talks and presentations by Xusheng Du."
 ---
 
-{% if site.talkmap_link == true %}
-
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
-{% endif %}
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+<header class="page-header"><p class="page-kicker">Sharing research</p><h1 class="page-title">Talks &amp; presentations</h1><p class="page-lead">Presentations on sketch-based modeling, generative AI, and interactive design.</p></header>
+<div class="publication-list">
+{% assign sorted_talks = site.talks | sort: 'date' | reverse %}
+{% for talk in sorted_talks %}
+<article class="publication-row"><time datetime="{{ talk.date | date: '%Y' }}">{{ talk.date | date: '%Y' }}</time><div class="publication-content"><h3><a href="{{ talk.url | relative_url }}">{{ talk.title | escape }}</a></h3><p class="publication-venue">{{ talk.venue | escape }} · {{ talk.type | escape }}</p><p class="publication-authors">{{ talk.excerpt | strip_html | escape }}</p></div></article>
 {% endfor %}
+</div>
