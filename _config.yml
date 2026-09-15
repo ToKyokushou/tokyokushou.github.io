@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "DU's Personal Homepage"
+title                    : "Xusheng Du"
 title_separator          : "-"
 name                     : &name "DU Xusheng"
-description              : &description "personal description"
+description              : &description "Research on controllable generative AI, sketch-based 3D modeling, and architectural design."
 url                      : https://ToKyokushou.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ToKyokushou/ToKyokushou.github.io"
@@ -46,7 +46,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "/ToKyokushou"
+  github           : "ToKyokushou"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -161,6 +161,10 @@ include:
   - _pages
   - files
 exclude:
+  - _portfolio/portfolio-1.md
+  - _portfolio/portfolio-2.html
+  - _teaching/2014-spring-teaching-1.md
+  - _teaching/2015-spring-teaching-2.md
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

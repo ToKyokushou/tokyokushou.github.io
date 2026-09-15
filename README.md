@@ -1,3 +1,60 @@
+# Xusheng Du · Research portfolio
+
+A personal research website built on Jekyll / AcademicPages and hosted on GitHub Pages.
+
+The portfolio uses a pure-white background (`#FFFFFF`) with the supplied palette: indigo `#2A4D8F`, cloth blue
+`#5F82B8`, cotton `#F5F0E6`, wood `#A67C52`, and thread gray `#D8D2C8`.
+
+## Update the website
+
+- Homepage text: `_pages/about.md`.
+- Featured work, image paths, and project summaries: `_data/featured_projects.yml`.
+  These records drive both the hero research carousel and the selected-work section.
+- Publications: add or edit Markdown records in `_publications/`. The archive
+  groups entries by year and filters by the existing `manuscripts` / `conferences`
+  categories. Keep existing permalinks stable.
+- CV: `_pages/cv.md`. Its print button opens the browser print dialog, where
+  visitors can choose Save as PDF.
+- Contact email and ORCID: `_config.yml` under `author`.
+- Colors, layout, mobile styles, and print styles: `assets/css/portfolio.css`.
+- Navigation and footer: `_includes/portfolio-header.html` and
+  `_includes/portfolio-footer.html`.
+
+Homepage projects reuse the existing research figures and link to full project
+pages. The redesign does not add unverified publication records or a PDF download
+that is not present in the repository. The former template CV route redirects to
+`/cv/`; four sample portfolio/teaching records are excluded from the build.
+
+## Presentation and accessibility
+
+The hero uses real research figures instead of a portrait. It rotates every six
+seconds, with previous/next, direct selection, and pause/resume controls. Reading
+with the pointer or keyboard in the carousel pauses rotation; manual navigation
+keeps it paused. Autoplay also pauses when the tab is hidden or the carousel is
+outside the viewport. Reduced-motion preferences default to paused.
+
+The white layout uses numbered sections, blue section rules, an 18 px desktop
+body size, and larger archive/CV text. Reference layouts: [Jon Barron](https://jonbarron.info/)
+for research-led image/text rows and [Richard Zhang](https://richzhang.github.io/)
+for clearly separated academic sections. No reference-site code or assets are used.
+
+## Local build
+
+With Ruby and Bundler installed:
+
+```sh
+bundle install
+bundle exec jekyll serve --safe
+```
+
+Open the address printed by Jekyll. For a production build, run
+`bundle exec jekyll build --safe`. Check the homepage, publications filters, CV
+printing, mobile navigation, and a publication detail page before merging.
+
+---
+
+## Original AcademicPages documentation
+
 # Academic Pages
 **Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
 

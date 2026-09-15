@@ -1,62 +1,93 @@
 ---
-layout: archive
-title: "CV"
+layout: portfolio
+title: "Curriculum Vitae"
 permalink: /cv/
-author_profile: true
+description: "Education, research, and experience of Xusheng Du."
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+<header class="page-header">
+  <p class="page-kicker">Background &amp; experience</p>
+  <h1 class="page-title">Curriculum vitae</h1>
+  <p class="page-lead">Xusheng Du · 杜 旭升<br>Ph.D. in Information Science, Japan Advanced Institute of Science and Technology (2026).</p>
+  <button id="print-cv" class="text-link" type="button">Print / Save as PDF <span aria-hidden="true">↗</span></button>
+</header>
 
-🎓 **Ph.D. Candidate** (3rd Year) 
+<section class="cv-section" aria-labelledby="cv-research">
+  <h2 id="cv-research" class="section-heading">Research interests</h2>
+  <p>Sketch-guided image and 3D shape generation, generative AI for architectural design, and interactive tools that help people express and refine their ideas.</p>
+</section>
 
-Japan Advanced Institute of Science and Technology (JAIST)  
+<section class="cv-section" aria-labelledby="cv-education">
+  <h2 id="cv-education" class="section-heading">Education</h2>
+  <div class="cv-entry">
+    <span>2023.04–2026.03</span>
+    <div><h3>Ph.D. in Information Science</h3><p>Japan Advanced Institute of Science and Technology (JAIST), Japan</p></div>
+  </div>
+  <div class="cv-entry">
+    <span>2021.04–2023.03</span>
+    <div><h3>M.A. in Information Science</h3><p>Japan Advanced Institute of Science and Technology (JAIST), Japan</p></div>
+  </div>
+  <div class="cv-entry">
+    <span>2011.09–2015.06</span>
+    <div><h3>B.A. in Physical Science</h3><p>Guangzhou University, China</p></div>
+  </div>
+</section>
 
----
+<section class="cv-section" aria-labelledby="cv-experience">
+  <h2 id="cv-experience" class="section-heading">Professional experience</h2>
+  <div class="cv-entry">
+    <span>2017.09–2019.10</span>
+    <div><h3>Software Engineer</h3><p>Udesk Co., Ltd.</p></div>
+  </div>
+  <div class="cv-entry">
+    <span>2015.07–2017.08</span>
+    <div><h3>Software Engineer</h3><p>Gong Xiang Future (Beijing) Technology Co., Ltd.</p></div>
+  </div>
+</section>
 
-## 😉 Research Interests
+<section class="cv-section" aria-labelledby="cv-publications">
+  <h2 id="cv-publications" class="section-heading">Selected publications</h2>
+  <div class="cv-entry">
+    <span>2025</span>
+    <div><h3><a href="{{ '/publication/2025-03-depth-consistent-generation' | relative_url }}">Multi-View Depth Consistent Image Generation Using Generative AI Models: Application on Architectural Design of University Buildings</a></h3><p><strong>Xusheng Du</strong>, Ruihan Gui, Zhengyang Wang, Ye Zhang, Haoran Xie. CAADRIA 2025.</p></div>
+  </div>
+  <div class="cv-entry">
+    <span>2024</span>
+    <div><h3><a href="{{ '/publication/2024-03-dualshape' | relative_url }}">DualShape: Sketch-based 3D Shape Design with Part Generation and Retrieval</a></h3><p><strong>Xusheng Du</strong>, Tianyu Zhang, Haoran Xie. IEEE Access.</p></div>
+  </div>
+  <div class="cv-entry">
+    <span>2024</span>
+    <div><h3><a href="{{ '/publication/2024-01-generative-ai-architecture-review' | relative_url }}">Generative AI Models for Different Steps in Architectural Design: A Literature Review</a></h3><p>Chengyuan Li, Tianyu Zhang, <strong>Xusheng Du</strong>, Ye Zhang, Haoran Xie. Frontiers of Architectural Research.</p></div>
+  </div>
+  <div class="cv-entry">
+    <span>2022</span>
+    <div><h3><a href="{{ '/publication/2022-01-sketch-3d-sparse-pc' | relative_url }}">Sketch-based 3D Shape Modeling from Sparse Point Clouds</a></h3><p><strong>Xusheng Du</strong>, Yi He, Xi Yang, Chia-Ming Chang, Haoran Xie. IWAIT 2022.</p></div>
+  </div>
+  <a class="text-link" href="{{ '/publications/' | relative_url }}">View publications <span aria-hidden="true">↗</span></a>
+</section>
 
-- **Image and 3D Model Generation** from Hand-Drawn Sketches  
-- **Interactive Interface Design and Development** for Human-Centered Experience  
+<section class="cv-section" aria-labelledby="cv-awards">
+  <h2 id="cv-awards" class="section-heading">Awards &amp; research support</h2>
+  <div class="cv-entry">
+    <span>2024</span>
+    <div><h3>Best Poster Award</h3><p>International Symposium on Intelligence Design (ISID 2024)</p></div>
+  </div>
+  <div class="cv-entry">
+    <span>Research support</span>
+    <div><h3>SPRING Researcher</h3><p>次世代研究員（未来創造イノベーション博士人材支援プログラム）</p></div>
+  </div>
+</section>
 
----
-
-## 🎓 Education
-
-- **Ph.D.** in Information Science, JAIST, Japan (2023.04 – 2026.03)  
-- **M.A.** in Information Science, JAIST, Japan (2021.04 – 2023.03)  
-- **B.A.** in Physical Science, Guangzhou University, China (2011.09 – 2015.06)
-
----
-
-## 💼 Work Experience
-
-- **Software Engineer**, Gong Xiang Future (Beijing) Technology Co., Ltd. (2015.07 – 2017.08)  
-- **Software Engineer**, Udesk Co., Ltd. (2017.09 – 2019.10)
-
----
-
-## 📄 Selected Publications
-
-- *Multi-View Depth Consistent Image Generation Using Generative AI Models: Application on architectural design of university buildings*, CAADRIA 2025.
-- *DualShape: Sketch-based 3D Shape Design with Part Generation and Retrieval*, IEEE Access, 2024.
-- *Sketch-based 3D Shape Modeling from Sparse Point Clouds*, IWAIT 2022.
-- *Multimodal Large Language Model-Driven Sketch to 3D Indoor Scene Synthesis*, ISID 2024.
-- *A Sketch-based Hybrid Approach for Part Shape Generation and Assembly*, ISID 2023.
-- *DiffOBI: Diffusion-based Image Generation of Oracle Bone Inscription Style Characters*, SIGGRAPH Asia 2024.
-- *Generative AI Models for Different Steps in Architectural Design: A Literature Review*, Frontiers of Architectural Research, 2024.
-- *Interactive Drawing Interface for Aging Anime Face Sketches Using Transformer-Based Generative Model*, IEEE Access, 2024.
-
----
-
-## 🏅 Awards and Honors
-
-- **SPRING Researcher**, 次世代研究員（未来創造イノベーション博士人材支援プログラム）  
-- **Best Poster Award**, ISID 2024
-
----
-
-## 🛠️ Skills
-
-- Programming: `Python`, `JavaScript`, `Vue.js`, `Blender`, `HTML/CSS`
+<section class="cv-section" aria-labelledby="cv-skills">
+  <h2 id="cv-skills" class="section-heading">Technical skills</h2>
+  <div class="cv-entry">
+    <span>Development</span>
+    <div><p>Python, JavaScript, Vue.js, HTML and CSS</p></div>
+  </div>
+  <div class="cv-entry">
+    <span>3D tools</span>
+    <div><p>Blender</p></div>
+  </div>
+</section>
