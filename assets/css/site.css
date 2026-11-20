@@ -188,6 +188,8 @@ html[lang="ja"] .section > h2 { font-size: 0.98rem; letter-spacing: 0.06em; }
 .expand .expand__less, .expand[open] .expand__more { display: none; }
 .expand[open] .expand__less { display: inline; }
 .expand .pubs .pub:first-child { padding-top: 14px; }
+.expand--plain { border-top: 0; }
+.expand--plain > summary { margin-top: 10px; }
 
 /* ---------- Publications ---------- */
 

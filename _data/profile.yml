@@ -22,14 +22,32 @@ en:
     sketches can drive the generation of images and 3D models, and I design and build
     interactive interfaces that keep people at the centre of the creative process.
   news:
-    - date: 2025.03
-      text: Two papers presented at CAADRIA 2025 in Tokyo, including our work on multi-view depth-consistent image generation for architectural design.
-    - date: 2025.01
-      text: Our paper "Sketch-Guided Scene Image Generation with Diffusion Model" was accepted to Computers & Graphics.
-    - date: 2024.12
-      text: DiffOBI was presented at ACM SIGGRAPH Asia 2024 (Technical Communications) in Tokyo.
-    - date: 2024.03
-      text: Received the Best Poster Award at ISID 2024.
+    - date: "2026.11"
+      text: "Four papers submitted to CAADRIA 2027 are under review, including one as first author and one as corresponding author."
+    - date: "2026.08"
+      text: "Gave an invited talk, “From Sketches to Cities: Controllable Generative AI for Architectural Design,” at the School of Architecture, Tianjin University (August 24)."
+    - date: "2026.07"
+      text: "Started the JSPS KAKENHI Grant-in-Aid for Research Activity Start-up project “A Generative AI Framework for Multiscale Design Support Across Urban, Architectural, and 3D Geometric Domains” as principal investigator."
+    - date: "2026.07"
+      text: "The CoreSearch paper (first author) was published in the proceedings of HCI International 2026, Montreal (LNCS)."
+    - date: "2026.06"
+      text: "Served as session chair at NICOGRAPH International 2026, Nagoya (Session 5, “Applied Visualization, Simulation, and XR Systems”)."
+    - date: "2026.06"
+      text: "A co-authored paper received the Honorable Mention Award at NICOGRAPH International 2026."
+    - date: "2026.04"
+      text: "Three papers were published in the proceedings of CAADRIA 2026, Hsinchu (one as first author, one as co-first author)."
+    - date: "2026.04"
+      text: "Joined the Waseda Research Institute for Science and Engineering, Waseda University, as Assistant Professor (April 1)."
+    - date: "2026.03"
+      text: "Received a Ph.D. in Information Science from JAIST and was recognized as an outstanding doctoral graduate (March 25)."
+    - date: "2026.03"
+      text: "Our Sustainable Cities and Society paper on forecasting urban evolution with generative AI was featured in a press release by Waseda University and JAIST (March 24)."
+    - date: "2026.03"
+      text: "A co-authored Frontiers of Architectural Research paper on generating building designs from text was featured in a press release (March 31)."
+    - date: "2025.06"
+      text: "Co-organized the “AI-Driven Architectural Design and Behavioral Modeling Workshop” at NICOGRAPH International 2025, Kanazawa."
+    - date: "2024.03"
+      text: "Received the Best Poster Award at ISID 2024."
   interests:
     - title: Sketch-based generation
       text: Image and 3D model generation from hand-drawn sketches
@@ -78,14 +96,32 @@ ja:
     人間を中心に据えた創作支援のためのインタラクティブインタフェースの設計・開発に
     取り組んでいます。
   news:
-    - date: 2025.03
-      text: CAADRIA 2025（東京）にて，建築設計のための多視点深度整合画像生成に関する研究を含む2件の論文を発表しました。
-    - date: 2025.01
-      text: 論文「Sketch-Guided Scene Image Generation with Diffusion Model」が Computers & Graphics に採録されました。
-    - date: 2024.12
-      text: ACM SIGGRAPH Asia 2024（Technical Communications，東京）にて DiffOBI を発表しました。
-    - date: 2024.03
-      text: ISID 2024 にて Best Poster Award を受賞しました。
+    - date: "2026.11"
+      text: "CAADRIA 2027 に論文4編を投稿中（筆頭1編，責任著者1編を含む）"
+    - date: "2026.08"
+      text: "天津大学建築学院にて招待講演「From Sketches to Cities: Controllable Generative AI for Architectural Design」（8月24日）"
+    - date: "2026.07"
+      text: "科研費 研究活動スタート支援「都市・建築・三次元形状を横断するマルチスケール設計支援のための生成AI基盤の構築」開始（研究代表者）"
+    - date: "2026.07"
+      text: "CoreSearch の論文が HCI International 2026（モントリオール）の論文集（LNCS）に掲載（筆頭）"
+    - date: "2026.06"
+      text: "NICOGRAPH International 2026（名古屋）にて Session 5 “Applied Visualization, Simulation, and XR Systems” の座長を担当"
+    - date: "2026.06"
+      text: "NICOGRAPH International 2026 にて共著論文が Honorable Mention Award を受賞"
+    - date: "2026.04"
+      text: "CAADRIA 2026（新竹）の論文集に論文3編が掲載（筆頭1編，共同筆頭1編）"
+    - date: "2026.04"
+      text: "早稲田大学 理工学術院総合研究所 研究院講師に着任（4月1日）"
+    - date: "2026.03"
+      text: "博士（情報科学）を取得，博士後期課程優秀修了生として表彰（北陸先端科学技術大学院大学，3月25日）"
+    - date: "2026.03"
+      text: "Sustainable Cities and Society 掲載論文がプレスリリース「生成AIで都市の未来を高精度に予測」として紹介（3月24日，早稲田大学・JAIST）"
+    - date: "2026.03"
+      text: "Frontiers of Architectural Research 掲載の共著論文がプレスリリース「テキストから正確な建築デザインを自動で生成するAIシステムを開発」として紹介（3月31日）"
+    - date: "2025.06"
+      text: "NICOGRAPH International 2025 併設ワークショップ “AI-Driven Architectural Design and Behavioral Modeling Workshop” を共同企画（金沢）"
+    - date: "2024.03"
+      text: "ISID 2024 にて Best Poster Award を受賞"
   interests:
     - title: スケッチベース生成
       text: 手描きスケッチからの画像・3Dモデル生成

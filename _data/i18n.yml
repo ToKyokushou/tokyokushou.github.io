@@ -9,6 +9,7 @@ en:
   interests: Research Interests
   selected: Selected Publications
   news: News
+  news_more: Earlier news
   show_more: Show more selected publications
   show_less: Show fewer
   all_publications: Full publication list
@@ -39,6 +40,7 @@ ja:
   interests: 研究分野
   selected: 主要業績
   news: 新着情報
+  news_more: 過去のお知らせ
   show_more: その他の主要業績を表示
   show_less: 閉じる
   all_publications: 研究業績一覧

@@ -30,11 +30,25 @@ layout: site
 
 <section class="section" id="news">
   <h2>{{ t.news }}</h2>
+  {% assign news_rest = p.news | size | minus: 5 %}
   <ul class="news">
     {% for n in p.news limit: 5 %}
     <li><span class="news__date">{{ n.date }}</span><span>{{ n.text }}</span></li>
     {% endfor %}
   </ul>
+  {% if news_rest > 0 %}
+  <details class="expand expand--plain">
+    <summary>
+      <span class="expand__more">{{ t.news_more }} ({{ news_rest }})</span>
+      <span class="expand__less">{{ t.show_less }}</span>
+    </summary>
+    <ul class="news">
+      {% for n in p.news offset: 5 %}
+      <li><span class="news__date">{{ n.date }}</span><span>{{ n.text }}</span></li>
+      {% endfor %}
+    </ul>
+  </details>
+  {% endif %}
 </section>
 
 <section class="section" id="interests">
