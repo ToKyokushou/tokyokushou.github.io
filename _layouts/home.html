@@ -60,7 +60,7 @@ layout: site
     <div class="flow__row">
       <div class="flow__box"><strong>{{ p.flow.intent }}</strong><span>{{ p.flow.intent_text }}</span></div>
       <span class="flow__arrow" aria-hidden="true">→</span>
-      <div class="flow__box flow__box--main"><strong>{{ p.flow.ai }}</strong><span>{{ p.flow.ai_text }}</span></div>
+      <div class="flow__box flow__box--main"><strong>{{ p.flow.ai }}</strong></div>
       <span class="flow__arrow" aria-hidden="true">→</span>
       <div class="flow__box"><strong>{{ p.flow.result }}</strong><span>{{ p.flow.result_text }}</span></div>
     </div>
@@ -73,14 +73,6 @@ layout: site
       <div class="theme__fig">{% include theme-art.html name=i.art %}</div>
       <h3>{{ i.title }}</h3>
       <p>{{ i.text }}</p>
-      <div class="theme__papers">
-        {% for ref in i.papers %}
-          {% assign doc = site.publications | where: "pid", ref.pid | first %}
-          {% assign ref_url = doc.url %}
-          {% if lang == "ja" %}{% assign ref_url = doc.url | append: "?lang=ja" %}{% endif %}
-          <a href="{{ ref_url }}">{{ ref.label }}</a>
-        {% endfor %}
-      </div>
     </li>
     {% endfor %}
   </ul>

@@ -45,31 +45,12 @@ en:
   interests:
   - title: Interaction
     text: Interactive interfaces that let users inspect and adjust the generation or search process
-    papers:
-    - label: HCII '26 (CoreSearch)
-      pid: IC06
-    - label: NICOGRAPH Int'l '23 (DualSlide)
-      pid: IC15
-    - label: HCII '23 (SGDraw)
-      pid: IC14
     art: interaction
   - title: 3D shapes
     text: Sketch-based 3D shape generation, retrieval, and drawing guidance
-    papers:
-    - label: IEEE Access '24 (DualShape)
-      pid: J07
-    - label: IWAIT '22
-      pid: IC17
     art: shape
   - title: Architecture and cities
     text: Generative AI that connects designs across levels of detail (LoD) and spatial scales
-    papers:
-    - label: SCS '26 (MMCN)
-      pid: J01
-    - label: CAADRIA '26
-      pid: IC05
-    - label: CAADRIA '25
-      pid: IC08
     art: city
   education:
   - period: 2023.04 – 2026.03
@@ -134,7 +115,6 @@ en:
     intent: Human intent
     intent_text: Sketches · Text · Keywords
     ai: Generative AI
-    ai_text: Diffusion models · LLMs · Retrieval
     result: Design results
     result_text: 3D shapes · Buildings · Cities
     loop: Inspect how the intent is reflected, then adjust
@@ -174,31 +154,12 @@ ja:
   interests:
   - title: インタラクション
     text: 生成や検索の過程を利用者が確認・調整できる対話型インタフェース
-    papers:
-    - label: HCII '26（CoreSearch）
-      pid: IC06
-    - label: NICOGRAPH Int'l '23（DualSlide）
-      pid: IC15
-    - label: HCII '23（SGDraw）
-      pid: IC14
     art: interaction
   - title: 3D形状
     text: 手描きスケッチからの3次元形状の生成・検索と描画支援
-    papers:
-    - label: IEEE Access '24（DualShape）
-      pid: J07
-    - label: IWAIT '22
-      pid: IC17
     art: shape
   - title: 建築・都市
     text: 詳細度（LoD）やスケールの異なる設計をつなぐ生成AI
-    papers:
-    - label: SCS '26（MMCN）
-      pid: J01
-    - label: CAADRIA '26
-      pid: IC05
-    - label: CAADRIA '25
-      pid: IC08
     art: city
   education:
   - period: 2023.04 – 2026.03
@@ -263,7 +224,6 @@ ja:
     intent: 人の意図
     intent_text: スケッチ・テキスト・キーワード
     ai: 生成AI
-    ai_text: 拡散モデル・LLM・検索
     result: 設計結果
     result_text: 3次元形状・建築・都市
     loop: 意図の反映のされ方を確認し，調整する
