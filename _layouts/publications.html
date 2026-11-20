@@ -24,7 +24,7 @@ layout: site
   {% assign key = parts[0] %}
   {% assign items = all | where: "category", key | sort: "date" | reverse %}
   <section class="section" id="{{ key }}">
-    <h2>{{ t[key] }}</h2>
+    <h2 class="sec"><span>{{ t[key] }}</span></h2>
     <ul class="pubs{% unless key == 'journals' or key == 'conferences' %} pubs--compact{% endunless %}">
       {% for post in items %}
         {% capture label %}{{ parts[1] }}{{ forloop.rindex }}{% endcapture %}

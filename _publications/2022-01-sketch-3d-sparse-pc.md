@@ -1,5 +1,5 @@
 ---
-title: Sketch-based 3D shape modeling from sparse point clouds
+title: Sketch-Based 3D Shape Modeling from Sparse Point Clouds
 pid: IC17
 category: conferences
 permalink: /publication/2022-01-sketch-3d-sparse-pc

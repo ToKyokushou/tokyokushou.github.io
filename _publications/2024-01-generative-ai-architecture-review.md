@@ -1,5 +1,5 @@
 ---
-title: 'Generative AI models for different steps in architectural design: A literature review'
+title: 'Generative AI Models for Different Steps in Architectural Design: A Literature Review'
 pid: J05
 category: journals
 permalink: /publication/2024-01-generative-ai-architecture-review

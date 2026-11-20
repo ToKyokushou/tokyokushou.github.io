@@ -29,18 +29,18 @@ layout: site
   <div class="paper__content">
     <section data-lang="en">
       {% if page.abstract %}
-        <h2>{{ page.abstract_label | default: en.abstract }}</h2>
+        <h2 class="sec"><span>{{ page.abstract_label | default: en.abstract }}</span></h2>
         {{ page.abstract | markdownify }}
       {% else %}
-        <h2>{{ en.summary }}</h2>
+        <h2 class="sec"><span>{{ en.summary }}</span></h2>
         <p>{{ page.summary_en }}</p>
       {% endif %}
     </section>
     <section data-lang="ja">
-      <h2>{{ ja.summary }}</h2>
+      <h2 class="sec"><span>{{ ja.summary }}</span></h2>
       <p>{{ page.summary_ja }}</p>
       {% if page.abstract %}
-        <h2>{{ page.abstract_label | default: "Abstract" }}</h2>
+        <h2 class="sec"><span>{{ page.abstract_label | default: "Abstract" }}</span></h2>
         {{ page.abstract | markdownify }}
       {% endif %}
     </section>

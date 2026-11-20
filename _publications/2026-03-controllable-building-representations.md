@@ -1,5 +1,5 @@
 ---
-title: 'Controllable generation of building representations: Aligning campus building design intent with multi-stage retrieval-augmented diffusion models'
+title: 'Controllable Generation of Building Representations: Aligning Campus Building Design Intent with Multi-Stage Retrieval-Augmented Diffusion Models'
 pid: J02
 category: journals
 permalink: /publication/2026-03-controllable-building-representations

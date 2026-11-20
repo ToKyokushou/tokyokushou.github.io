@@ -1,5 +1,5 @@
 ---
-title: 'Sketch-Based Facade Renovation With Generative AI: A Streamlined Framework for Bypassing As-Built Modelling in Industrial Adaptive Reuse'
+title: 'Sketch-Based Facade Renovation with Generative AI: A Streamlined Framework for Bypassing As-Built Modelling in Industrial Adaptive Reuse'
 pid: IC03
 category: conferences
 permalink: /publication/2026-04-facade-renovation

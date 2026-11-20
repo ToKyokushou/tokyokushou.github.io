@@ -1,5 +1,5 @@
 ---
-title: 'From Architectural Sketch to Conceptual Representation: Using structure-aware diffusion model to generate renderings of school buildings'
+title: 'From Architectural Sketch to Conceptual Representation: Using Structure-Aware Diffusion Model to Generate Renderings of School Buildings'
 pid: IC07
 category: conferences
 permalink: /publication/2025-03-architectural-sketch-representation

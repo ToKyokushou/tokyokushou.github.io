@@ -1,5 +1,5 @@
 ---
-title: 'DiffOBI: Diffusion-based Image Generation of Oracle Bone Inscription Style Characters'
+title: 'DiffOBI: Diffusion-Based Image Generation of Oracle Bone Inscription Style Characters'
 pid: IC09
 category: conferences
 permalink: /publication/2024-12-diffobi

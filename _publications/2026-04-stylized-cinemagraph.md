@@ -1,5 +1,5 @@
 ---
-title: Sketch-guided stylized landscape cinemagraph synthesis
+title: Sketch-Guided Stylized Landscape Cinemagraph Synthesis
 pid: J03
 category: journals
 permalink: /publication/2026-04-stylized-cinemagraph

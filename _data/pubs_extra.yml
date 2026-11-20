@@ -18,7 +18,7 @@
   tag_en: Poster
   tag_ja: ポスター
 - pid: IP03
-  title: A Sketch-based Hybrid Approach for Part Shape Generation and Assembly
+  title: A Sketch-Based Hybrid Approach for Part Shape Generation and Assembly
   category: intl_presentations
   date: '2023-03-01'
   authors: <strong>Xusheng Du</strong>, Haoran Xie
@@ -47,7 +47,7 @@
   tag_en: Poster
   tag_ja: ポスター
 - pid: DP02
-  title: 'Sketch2Cinemagraph: Sketch-guided Generation for Landscape Cinemagraph'
+  title: 'Sketch2Cinemagraph: Sketch-Guided Generation for Landscape Cinemagraph'
   category: domestic
   date: '2024-09-03'
   authors: Hao Jin, Zhengyang Wang, <strong>Xusheng Du</strong>, Xiaoxuan Xie, Haoran Xie
@@ -135,7 +135,7 @@
   tag_en: Invited talk
   tag_ja: 招待講演
 - pid: TH02
-  title: 'Generative AI-Driven 3D Modeling and Applications using Intuitive Control: From Architectural Design to Urban Planning'
+  title: 'Generative AI-Driven 3D Modeling and Applications Using Intuitive Control: From Architectural Design to Urban Planning'
   category: thesis
   date: '2026-03-25'
   authors: <strong>Xusheng Du</strong>

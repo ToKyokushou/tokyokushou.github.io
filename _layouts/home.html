@@ -25,12 +25,12 @@ layout: site
 </section>
 
 <section class="section" id="about">
-  <h2>{{ t.about }}</h2>
+  <h2 class="sec"><span>{{ t.about }}</span></h2>
   {% for para in p.about %}<p>{{ para }}</p>{% endfor %}
 </section>
 
 <section class="section" id="news">
-  <h2>{{ t.news }}</h2>
+  <h2 class="sec"><span>{{ t.news }}</span></h2>
   {% assign news_rest = p.news | size | minus: 5 %}
   <ul class="news">
     {% for n in p.news limit: 5 %}
@@ -53,7 +53,7 @@ layout: site
 </section>
 
 <section class="section" id="interests">
-  <h2>{{ t.interests }}</h2>
+  <h2 class="sec"><span>{{ t.interests }}</span></h2>
   <p>{{ p.interests_intro }}</p>
 
   <div class="flow" role="img" aria-label="{{ p.flow.intent }} → {{ p.flow.ai }} → {{ p.flow.result }}; {{ p.flow.loop }}">
@@ -77,7 +77,7 @@ layout: site
 </section>
 
 <section class="section" id="selected">
-  <h2>{{ t.selected }}</h2>
+  <h2 class="sec"><span>{{ t.selected }}</span></h2>
   {% assign docs = site.publications | where_exp: "d", "d.selected" | sort: "selected" %}
   {% assign rest = docs | size | minus: 2 %}
   <ul class="pubs">

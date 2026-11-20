@@ -1,5 +1,5 @@
 ---
-title: 'AI-driven urban evolution forecasting: A unified memory-aware multi-conditional generation framework for sustainable development planning'
+title: 'AI-Driven Urban Evolution Forecasting: A Unified Memory-Aware Multi-Conditional Generation Framework for Sustainable Development Planning'
 pid: J01
 category: journals
 permalink: /publication/2026-05-urban-evolution-forecasting

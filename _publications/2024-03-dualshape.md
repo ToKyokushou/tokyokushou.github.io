@@ -1,5 +1,5 @@
 ---
-title: 'DualShape: Sketch-Based 3D Shape Design With Part Generation and Retrieval'
+title: 'DualShape: Sketch-Based 3D Shape Design with Part Generation and Retrieval'
 pid: J07
 category: journals
 permalink: /publication/2024-03-dualshape

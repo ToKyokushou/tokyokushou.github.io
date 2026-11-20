@@ -1,5 +1,5 @@
 ---
-title: Sketch-guided scene image generation with diffusion model
+title: Sketch-Guided Scene Image Generation with Diffusion Model
 pid: J04
 category: journals
 permalink: /publication/2025-01-sketch-guided-diffusion
