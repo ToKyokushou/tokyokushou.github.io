@@ -20,15 +20,11 @@ en:
   journals: Journal Articles (refereed)
   conferences: International Conference Papers (refereed)
   details: Details
-  paper: Paper
   code: Code
   back: Back to publications
   cv: Curriculum Vitae
   cv_pdf: Download PDF
-  email: Email
   updated: Last updated
-  notfound: Page not found
-  notfound_text: The page you were looking for does not exist.
   grants: Research Grants
   activities: Academic Activities
   thesis: Thesis
@@ -38,8 +34,6 @@ en:
   legend: † Equal contribution  * Corresponding author
   summary: Summary
   abstract: Abstract
-  pubs_note: The full list of publications is on the
-  figures: Figures
   short:
     journals: Journals
     conferences: Conferences
@@ -67,15 +61,11 @@ ja:
   journals: 学術雑誌論文（査読付）
   conferences: 国際会議論文（査読付）
   details: 詳細
-  paper: 論文
   code: コード
   back: 研究業績一覧へ戻る
   cv: 経歴
   cv_pdf: PDF版
-  email: メール
   updated: 最終更新
-  notfound: ページが見つかりません
-  notfound_text: お探しのページは存在しません。
   grants: 外部資金
   activities: 学術活動
   thesis: 学位論文
@@ -85,8 +75,6 @@ ja:
   legend: † 同等貢献　* 責任著者
   summary: 概要
   abstract: 概要
-  pubs_note: 研究業績の一覧は
-  figures: 図
   short:
     journals: 学術雑誌
     conferences: 国際会議
