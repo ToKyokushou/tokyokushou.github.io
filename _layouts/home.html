@@ -55,22 +55,35 @@ layout: site
 <section class="section" id="interests">
   <h2>{{ t.interests }}</h2>
   <p>{{ p.interests_intro }}</p>
-  <dl class="themes">
+
+  <div class="flow" role="img" aria-label="{{ p.flow.intent }} → {{ p.flow.ai }} → {{ p.flow.result }}; {{ p.flow.loop }}">
+    <div class="flow__row">
+      <div class="flow__box"><strong>{{ p.flow.intent }}</strong><span>{{ p.flow.intent_text }}</span></div>
+      <span class="flow__arrow" aria-hidden="true">→</span>
+      <div class="flow__box flow__box--main"><strong>{{ p.flow.ai }}</strong><span>{{ p.flow.ai_text }}</span></div>
+      <span class="flow__arrow" aria-hidden="true">→</span>
+      <div class="flow__box"><strong>{{ p.flow.result }}</strong><span>{{ p.flow.result_text }}</span></div>
+    </div>
+    <div class="flow__loop"><span>{{ p.flow.loop }}</span></div>
+  </div>
+
+  <ul class="themes">
     {% for i in p.interests %}
-    <dt>{{ i.title }}</dt>
-    <dd>
-      {{ i.text }}
-      <span class="themes__papers">
+    <li class="theme">
+      <div class="theme__fig"><img src="{{ i.image }}" alt="" loading="lazy"></div>
+      <h3>{{ i.title }}</h3>
+      <p>{{ i.text }}</p>
+      <div class="theme__papers">
         {% for ref in i.papers %}
           {% assign doc = site.publications | where: "pid", ref.pid | first %}
           {% assign ref_url = doc.url %}
           {% if lang == "ja" %}{% assign ref_url = doc.url | append: "?lang=ja" %}{% endif %}
           <a href="{{ ref_url }}">{{ ref.label }}</a>
         {% endfor %}
-      </span>
-    </dd>
+      </div>
+    </li>
     {% endfor %}
-  </dl>
+  </ul>
 </section>
 
 <section class="section" id="selected">
