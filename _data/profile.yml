@@ -114,9 +114,9 @@ en:
     title: Workshop organizer
     org: “AI-Driven Architectural Design and Behavioral Modeling Workshop,” International Workshop for Science and Art 2025 (with NICOGRAPH International 2025), Kanazawa
     note: Co-organized with Yuan Ma and Mikiya Kusunoki
-  - period: 2025 ~
+  - period: null
     title: Reviewer
-    org: Computers & Graphics; Journal of the Institute of Image Electronics Engineers of Japan
+    org: Computers & Graphics, Journal of the Institute of Image Electronics Engineers of Japan, and others
   - period: 2025.03 ~
     title: Memberships
     org: The Society for Art and Science (2026.05 ~); Asia Digital Art and Design Association, ADADA (2025.03 ~)
@@ -237,9 +237,9 @@ ja:
     title: 企画・運営
     org: International Workshop for Science and Art 2025（NICOGRAPH International 2025併設）“AI-Driven Architectural Design and Behavioral Modeling Workshop”，金沢
     note: Yuan Ma，Mikiya Kusunoki と共同
-  - period: 2025 〜
+  - period: null
     title: 論文査読
-    org: Computers & Graphics，画像電子学会誌
+    org: Computers & Graphics，画像電子学会誌 など
   - period: 2025.03 〜
     title: 所属学会
     org: 芸術科学会（2026.05 〜），Asia Digital Art and Design Association（ADADA）（2025.03 〜）
