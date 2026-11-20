@@ -28,6 +28,15 @@ layout: site
   <p>{{ p.about }}</p>
 </section>
 
+<section class="section" id="news">
+  <h2>{{ t.news }}</h2>
+  <ul class="news">
+    {% for n in p.news limit: 5 %}
+    <li><span class="news__date">{{ n.date }}</span><span>{{ n.text }}</span></li>
+    {% endfor %}
+  </ul>
+</section>
+
 <section class="section" id="interests">
   <h2>{{ t.interests }}</h2>
   <dl class="pairs">
@@ -39,12 +48,26 @@ layout: site
 
 <section class="section" id="selected">
   <h2>{{ t.selected }}</h2>
-  {% assign docs = site.publications | concat: site.talks | where: "selected", true | sort: "date" | reverse %}
+  {% assign docs = site.publications | concat: site.talks | where_exp: "d", "d.selected" | sort: "selected" %}
+  {% assign rest = docs | size | minus: 2 %}
   <ul class="pubs">
-    {% for post in docs %}
+    {% for post in docs limit: 2 %}
       {% include pub-item.html post=post lang=lang thumb=true %}
     {% endfor %}
   </ul>
+  {% if rest > 0 %}
+  <details class="expand">
+    <summary>
+      <span class="expand__more">{{ t.show_more }} ({{ rest }})</span>
+      <span class="expand__less">{{ t.show_less }}</span>
+    </summary>
+    <ul class="pubs">
+      {% for post in docs offset: 2 %}
+        {% include pub-item.html post=post lang=lang thumb=true %}
+      {% endfor %}
+    </ul>
+  </details>
+  {% endif %}
   <p class="more"><a href="{{ t.root }}/publications/">{{ t.all_publications }} →</a></p>
 </section>
 

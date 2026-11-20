@@ -8,6 +8,9 @@ en:
   about: About
   interests: Research Interests
   selected: Selected Publications
+  news: News
+  show_more: Show more selected publications
+  show_less: Show fewer
   all_publications: Full publication list
   education: Education
   experience: Work Experience
@@ -35,6 +38,9 @@ ja:
   about: 自己紹介
   interests: 研究分野
   selected: 主要業績
+  news: 新着情報
+  show_more: その他の主要業績を表示
+  show_less: 閉じる
   all_publications: 研究業績一覧
   education: 学歴
   experience: 職歴

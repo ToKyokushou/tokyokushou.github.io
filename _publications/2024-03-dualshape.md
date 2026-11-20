@@ -10,8 +10,8 @@ venue: 'IEEE Access'
 thumbnail: /images/dualshape-2.png
 citation: '**Xusheng Du**, Tianyu Zhang, Haoran Xie.'
 venue_short: "IEEE Access 2024"
+selected: 1
 thumb: /images/thumbs/dualshape-2.jpg
-selected: true
 ---
 
 <img src="/images/dualshape-1.png" alt="" style="width:100%;" />

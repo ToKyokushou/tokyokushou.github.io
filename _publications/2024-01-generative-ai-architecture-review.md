@@ -11,7 +11,6 @@ citation: 'Chengyuan Li, Tianyu Zhang, **Xusheng Du**, Ye Zhang, Haoran Xie.'
 thumbnail: /images/6-survey-1.png
 venue_short: "FoAR 2024"
 thumb: /images/thumbs/6-survey-1.jpg
-selected: true
 ---
 <img src="/images/6-survey-1.png" alt="" style="width:100%;" />
 

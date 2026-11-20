@@ -10,5 +10,4 @@ venue: '3rd International Symposium on Intelligence Design (ISID 2023), Online'
 citation: '**Xusheng Du** and Haoran Xie.' 
 type: Poster
 venue_short: "ISID 2023"
-selected: true
 ---

@@ -10,8 +10,8 @@ venue: 'IEEE Access'
 citation: 'Sicheng Li, **Xusheng Du**, Haoran Xie, Kazunori Miyata.'
 thumbnail: /images/5-animeface-1.png
 venue_short: "IEEE Access 2024"
+selected: 4
 thumb: /images/thumbs/5-animeface-1.jpg
-selected: true
 ---
 <img src="/images/5-animeface-1.png" alt="" style="width:100%;" />
 

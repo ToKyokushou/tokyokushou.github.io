@@ -10,8 +10,8 @@ venue: 'International Workshop on Advanced Image Technology (IWAIT 2022)'
 citation: '**Xusheng Du**, Yi He, Xi Yang, Chia-Ming Chang, Haoran Xie.'
 thumbnail: /images/1-sparse-pc-1.png
 venue_short: "IWAIT 2022"
+selected: 5
 thumb: /images/thumbs/1-sparse-pc-1.jpg
-selected: true
 ---
 <img src="/images/1-sparse-pc-1.png" alt="" style="width:100%;" />
 

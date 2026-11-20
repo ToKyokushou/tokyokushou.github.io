@@ -10,8 +10,8 @@ venue: 'ACM SIGGRAPH Asia 2024, Technical Communications, Tokyo, Japan'
 citation: 'Xiaoxuan Xie, **Xusheng Du**, Minhao Li, Xi Yang, Haoran Xie.' 
 thumbnail: /images/11-obi-1.png
 venue_short: "SIGGRAPH Asia 2024 Tech. Comm."
+selected: 3
 thumb: /images/thumbs/11-obi-1.jpg
-selected: true
 ---
 <img src="/images/11-obi-1.png" alt="" style="width:100%;" />
 

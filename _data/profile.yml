@@ -21,6 +21,15 @@ en:
     graphics, generative AI and human–computer interaction: I study how hand-drawn
     sketches can drive the generation of images and 3D models, and I design and build
     interactive interfaces that keep people at the centre of the creative process.
+  news:
+    - date: 2025.03
+      text: Two papers presented at CAADRIA 2025 in Tokyo, including our work on multi-view depth-consistent image generation for architectural design.
+    - date: 2025.01
+      text: Our paper "Sketch-Guided Scene Image Generation with Diffusion Model" was accepted to Computers & Graphics.
+    - date: 2024.12
+      text: DiffOBI was presented at ACM SIGGRAPH Asia 2024 (Technical Communications) in Tokyo.
+    - date: 2024.03
+      text: Received the Best Poster Award at ISID 2024.
   interests:
     - title: Sketch-based generation
       text: Image and 3D model generation from hand-drawn sketches
@@ -68,6 +77,15 @@ ja:
     融合領域を対象に，手描きスケッチを入力とした画像・3Dモデルの生成手法と，
     人間を中心に据えた創作支援のためのインタラクティブインタフェースの設計・開発に
     取り組んでいます。
+  news:
+    - date: 2025.03
+      text: CAADRIA 2025（東京）にて，建築設計のための多視点深度整合画像生成に関する研究を含む2件の論文を発表しました。
+    - date: 2025.01
+      text: 論文「Sketch-Guided Scene Image Generation with Diffusion Model」が Computers & Graphics に採録されました。
+    - date: 2024.12
+      text: ACM SIGGRAPH Asia 2024（Technical Communications，東京）にて DiffOBI を発表しました。
+    - date: 2024.03
+      text: ISID 2024 にて Best Poster Award を受賞しました。
   interests:
     - title: スケッチベース生成
       text: 手描きスケッチからの画像・3Dモデル生成
