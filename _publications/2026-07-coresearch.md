@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/2026-07-coresearch
 date: '2026-07-07'
 authors: <strong>Xusheng Du</strong>, James Quirk, Chia-Ming Chang*, Haoran Xie, Takeo Igarashi
-venue: Human-Computer Interaction, HCI International 2026 (LNCS 16704)
+venue: HCI International 2026, Human-Computer Interaction (LNCS 16704)
 venue_details: pp. 421–437, Montreal, Canada
 venue_short: HCII 2026
 thumb: /images/thumbs/IC06.jpg

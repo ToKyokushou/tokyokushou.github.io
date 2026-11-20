@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/2026-04-facade-renovation
 date: '2026-04-03'
 authors: Warissara Booranamaitree†, <strong>Xusheng Du</strong>†, Yushu Cai, Zhengyang Wang, Ye Zhang, Haoran Xie
-venue: Proc. 31st International Conference on Computer-Aided Architectural Design Research in Asia (CAADRIA 2026)
+venue: CAADRIA 2026 (31st International Conference)
 venue_details: vol. 2, pp. 11–20, Hsinchu, Taiwan
 venue_short: CAADRIA 2026
 thumb: /images/thumbs/IC03.jpg

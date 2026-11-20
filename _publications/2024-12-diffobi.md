@@ -9,8 +9,6 @@ venue: SIGGRAPH Asia 2024 Technical Communications
 venue_details: Article 16, pp. 1–4, Tokyo, Japan
 venue_short: SIGGRAPH Asia 2024
 thumb: /images/thumbs/11-obi-1.jpg
-tag_en: Technical Communications
-tag_ja: Technical Communications
 doi: 10.1145/3681758.3698005
 abstract: Oracle bone inscriptions are the most valuable asset of humankind with irreplaceable archaeological and visual values. However, it is still challenging to analyze and generate oracle bone inscription-style images for visual identification and art design. In this paper, we propose DiffOBI, a novel approach for generating images in the oracle bone inscription style using diffusion models. We first construct a dataset that aligns with oracle bone inscription, text prompts, and object images. This dataset serves as the foundation for fine-tuning ControlNet. By inputting images of various objects along with corresponding text prompts, the model generates the corresponding images in the style of oracle bone inscription. To further enhance the quality of the generated images, we integrate a refinement module to refine the initial results, ensuring the refined results conform more closely to the original structure and norms of oracle bone inscription. This approach ensures that the generated images conform to the given input images and also preserves the unique pictographic features of oracle bone inscription.
 summary_ja: 甲骨文字は現存資料が限られ，デザインや研究に利用できるデータが不足している。本研究では，拡散モデルを用いて任意の文字を甲骨文字のスタイルで画像生成する手法DiffOBIを提案した。

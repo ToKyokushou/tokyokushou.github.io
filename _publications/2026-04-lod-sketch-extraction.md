@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/2026-04-lod-sketch-extraction
 date: '2026-04-02'
 authors: <strong>Xusheng Du</strong>, Athiwat Kongkaeo, Ye Zhang, Haoran Xie
-venue: Proc. 31st International Conference on Computer-Aided Architectural Design Research in Asia (CAADRIA 2026)
+venue: CAADRIA 2026 (31st International Conference)
 venue_details: vol. 1, pp. 417–426, Hsinchu, Taiwan
 venue_short: CAADRIA 2026
 thumb: /images/thumbs/IC05.jpg

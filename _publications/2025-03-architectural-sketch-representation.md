@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/2025-03-architectural-sketch-representation
 date: '2025-03-01'
 authors: Zhengyang Wang, Hao Jin, <strong>Xusheng Du</strong>, Yuxiao Ren, Ye Zhang, Haoran Xie
-venue: Proc. 30th International Conference on Computer-Aided Architectural Design Research in Asia (CAADRIA 2025)
+venue: CAADRIA 2025 (30th International Conference)
 venue_details: vol. 1, pp. 69–78, Tokyo, Japan
 venue_short: CAADRIA 2025
 thumb: /images/thumbs/13-arc-1.jpg

@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/2025-03-depth-consistent-generation
 date: '2025-03-02'
 authors: <strong>Xusheng Du</strong>, Ruihan Gui, Zhengyang Wang, Ye Zhang, Haoran Xie
-venue: Proc. 30th International Conference on Computer-Aided Architectural Design Research in Asia (CAADRIA 2025)
+venue: CAADRIA 2025 (30th International Conference)
 venue_details: vol. 1, pp. 111–120, Tokyo, Japan
 venue_short: CAADRIA 2025
 thumb: /images/thumbs/14-arc-3.jpg

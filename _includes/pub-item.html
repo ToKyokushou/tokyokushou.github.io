@@ -9,7 +9,10 @@
 {% assign venue = post.venue %}
 {% assign venue_details = post.venue_details %}
 {% assign tag = post.tag_en %}
+{% assign sep = ", " %}
+{% assign stop = "." %}
 {% if include.lang == "ja" %}
+  {% if post.venue_ja or post.venue_details_ja %}{% assign sep = "，" %}{% assign stop = "．" %}{% endif %}
   {% if post.venue_ja %}{% assign venue = post.venue_ja %}{% endif %}
   {% if post.venue_details_ja %}{% assign venue_details = post.venue_details_ja %}{% endif %}
   {% assign tag = post.tag_ja %}
@@ -31,7 +34,7 @@
     </p>
     <p class="pub__authors">{{ post.authors }}</p>
     <p class="pub__venue">
-      <em>{{ venue }}</em>{% if venue_details and venue_details != "" %}, {{ venue_details }}{% endif %}, {{ post.date | date: "%Y" }}.
+      <em>{{ venue }}</em>{% if venue_details and venue_details != "" %}{{ sep }}{{ venue_details }}{% endif %}{{ sep }}{{ post.date | date: "%Y" }}{{ stop }}
       {% if tag %}<span class="tag">{{ tag }}</span>{% endif %}
       {% if post.award %}<span class="tag tag--award">{{ post.award }}</span>{% endif %}
     </p>
