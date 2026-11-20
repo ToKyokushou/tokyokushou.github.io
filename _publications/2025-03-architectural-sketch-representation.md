@@ -4,9 +4,9 @@ pid: IC07
 category: conferences
 permalink: /publication/2025-03-architectural-sketch-representation
 date: '2025-03-01'
-authors: 'Zhengyang&nbsp;Wang, Hao&nbsp;Jin, <strong>Xusheng&nbsp;Du</strong>, Yuxiao&nbsp;Ren, Ye&nbsp;Zhang, Haoran&nbsp;Xie'
+authors: Zhengyang Wang, Hao Jin, <strong>Xusheng Du</strong>, Yuxiao Ren, Ye Zhang, Haoran Xie
 venue: CAADRIA 2025 (30th International Conference)
-venue_details: 'vol.&nbsp;1, pp.&nbsp;69–&#8288;78, Tokyo,&nbsp;Japan'
+venue_details: vol. 1, pp. 69–78, Tokyo, Japan
 venue_short: CAADRIA 2025
 thumb: /images/thumbs/13-arc-1.jpg
 doi: 10.52842/conf.caadria.2025.1.069

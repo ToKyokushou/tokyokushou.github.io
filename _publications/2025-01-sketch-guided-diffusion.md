@@ -4,9 +4,9 @@ pid: J04
 category: journals
 permalink: /publication/2025-01-sketch-guided-diffusion
 date: '2025-06-01'
-authors: 'Tianyu&nbsp;Zhang, Xiaoxuan&nbsp;Xie, <strong>Xusheng&nbsp;Du</strong>, Haoran&nbsp;Xie*'
+authors: Tianyu Zhang, Xiaoxuan Xie, <strong>Xusheng Du</strong>, Haoran Xie*
 venue: Computers & Graphics
-venue_details: 'vol.&nbsp;129, Article&nbsp;104226'
+venue_details: vol. 129, Article 104226
 venue_short: C&G 2025
 thumb: /images/thumbs/12-sg-1.jpg
 doi: 10.1016/j.cag.2025.104226

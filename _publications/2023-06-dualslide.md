@@ -4,9 +4,9 @@ pid: IC15
 category: conferences
 permalink: /publication/2023-06-dualslide
 date: '2023-06-01'
-authors: 'Jiahao&nbsp;Weng, <strong>Xusheng&nbsp;Du</strong>, Haoran&nbsp;Xie'
+authors: Jiahao Weng, <strong>Xusheng Du</strong>, Haoran Xie
 venue: NICOGRAPH International 2023
-venue_details: 'pp.&nbsp;46–&#8288;53, Hokkaido,&nbsp;Japan'
+venue_details: pp. 46–53, Hokkaido, Japan
 venue_short: NICOGRAPH Int'l 2023
 thumb: /images/thumbs/3-dualslide-1.jpg
 doi: 10.1109/NICOINT59725.2023.00017

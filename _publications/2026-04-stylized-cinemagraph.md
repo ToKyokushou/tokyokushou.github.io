@@ -4,9 +4,9 @@ pid: J03
 category: journals
 permalink: /publication/2026-04-stylized-cinemagraph
 date: '2026-04-01'
-authors: 'Hao&nbsp;Jin, Hengyuan&nbsp;Chang, Xiaoxuan&nbsp;Xie, Zhengyang&nbsp;Wang, <strong>Xusheng&nbsp;Du</strong>, Shaojun&nbsp;Hu, Haoran&nbsp;Xie*'
+authors: Hao Jin, Hengyuan Chang, Xiaoxuan Xie, Zhengyang Wang, <strong>Xusheng Du</strong>, Shaojun Hu, Haoran Xie*
 venue: Computers & Graphics
-venue_details: 'vol.&nbsp;135, Article&nbsp;104547'
+venue_details: vol. 135, Article 104547
 venue_short: C&G 2026
 thumb: /images/thumbs/J03.jpg
 doi: 10.1016/j.cag.2026.104547

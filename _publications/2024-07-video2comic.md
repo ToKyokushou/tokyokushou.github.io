@@ -4,9 +4,9 @@ pid: IC11
 category: conferences
 permalink: /publication/2024-07-video2comic
 date: '2024-12-17'
-authors: 'Zhengyang&nbsp;Wang, <strong>Xusheng&nbsp;Du</strong>, Tsukasa&nbsp;Fukusato, Haoran&nbsp;Xie'
+authors: Zhengyang Wang, <strong>Xusheng Du</strong>, Tsukasa Fukusato, Haoran Xie
 venue: HCI International 2024 – Late Breaking Papers (LNCS 15380)
-venue_details: 'pp.&nbsp;219–&#8288;230, Washington,&nbsp;D.C.,&nbsp;USA'
+venue_details: pp. 219–230, Washington, D.C., USA
 venue_short: HCII 2024
 thumb: /images/thumbs/9-comic-1.jpg
 doi: 10.1007/978-3-031-76821-7_16

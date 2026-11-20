@@ -4,9 +4,9 @@ pid: IC08
 category: conferences
 permalink: /publication/2025-03-depth-consistent-generation
 date: '2025-03-02'
-authors: '<strong>Xusheng&nbsp;Du</strong>, Ruihan&nbsp;Gui, Zhengyang&nbsp;Wang, Ye&nbsp;Zhang, Haoran&nbsp;Xie'
+authors: <strong>Xusheng Du</strong>, Ruihan Gui, Zhengyang Wang, Ye Zhang, Haoran Xie
 venue: CAADRIA 2025 (30th International Conference)
-venue_details: 'vol.&nbsp;1, pp.&nbsp;111–&#8288;120, Tokyo,&nbsp;Japan'
+venue_details: vol. 1, pp. 111–120, Tokyo, Japan
 venue_short: CAADRIA 2025
 thumb: /images/thumbs/14-arc-3.jpg
 selected: 6

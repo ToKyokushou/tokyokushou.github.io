@@ -4,9 +4,9 @@ pid: IC09
 category: conferences
 permalink: /publication/2024-12-diffobi
 date: '2024-12-03'
-authors: 'Xiaoxuan&nbsp;Xie, <strong>Xusheng&nbsp;Du</strong>, Minhao&nbsp;Li, Xi&nbsp;Yang, Haoran&nbsp;Xie'
+authors: Xiaoxuan Xie, <strong>Xusheng Du</strong>, Minhao Li, Xi Yang, Haoran Xie
 venue: SIGGRAPH Asia 2024 Technical Communications
-venue_details: 'Article&nbsp;16, pp.&nbsp;1–&#8288;4, Tokyo,&nbsp;Japan'
+venue_details: Article 16, pp. 1–4, Tokyo, Japan
 venue_short: SIGGRAPH Asia 2024
 thumb: /images/thumbs/11-obi-1.jpg
 doi: 10.1145/3681758.3698005

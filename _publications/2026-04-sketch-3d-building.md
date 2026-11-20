@@ -4,9 +4,9 @@ pid: IC04
 category: conferences
 permalink: /publication/2026-04-sketch-3d-building
 date: '2026-04-01'
-authors: 'Zhengyang&nbsp;Wang, Nuttapong&nbsp;Rochanavibhata, Yuxiao&nbsp;Ren, <strong>Xusheng&nbsp;Du</strong>, Ye&nbsp;Zhang, Haoran&nbsp;Xie'
+authors: Zhengyang Wang, Nuttapong Rochanavibhata, Yuxiao Ren, <strong>Xusheng Du</strong>, Ye Zhang, Haoran Xie
 venue: CAADRIA 2026 (31st International Conference)
-venue_details: 'vol.&nbsp;1, pp.&nbsp;427–&#8288;436, Hsinchu,&nbsp;Taiwan'
+venue_details: vol. 1, pp. 427–436, Hsinchu, Taiwan
 venue_short: CAADRIA 2026
 thumb: /images/thumbs/IC04.jpg
 doi: 10.52842/conf.caadria.2026.1.427

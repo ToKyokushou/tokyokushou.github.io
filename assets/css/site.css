@@ -222,8 +222,7 @@ html[lang="ja"] .sec span { letter-spacing: 0.06em; }
 .entries { list-style: none; margin: 0; padding: 0; }
 .entry { display: grid; grid-template-columns: var(--col) 1fr; gap: 0 var(--col-gap); padding: 7px 0; }
 .entry__period { color: var(--muted); font-variant-numeric: tabular-nums; }
-.entry__title, .entry__org, .entry__note { display: block; text-wrap: balance; }
-.entry__note { color: var(--muted); font-size: var(--fs-sm); margin-top: 2px; }
+.entry__note { display: block; color: var(--muted); font-size: var(--fs-sm); margin-top: 2px; }
 
 /* ---------- News ---------- */
 

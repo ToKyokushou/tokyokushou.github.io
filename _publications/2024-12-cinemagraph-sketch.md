@@ -4,9 +4,9 @@ pid: IC10
 category: conferences
 permalink: /publication/2024-12-cinemagraph-sketch
 date: '2024-12-02'
-authors: 'Hao&nbsp;Jin, Zhengyang&nbsp;Wang, <strong>Xusheng&nbsp;Du</strong>, Xiaoxuan&nbsp;Xie, Haoran&nbsp;Xie'
+authors: Hao Jin, Zhengyang Wang, <strong>Xusheng Du</strong>, Xiaoxuan Xie, Haoran Xie
 venue: SIGGRAPH Asia 2024 Posters
-venue_details: 'Article&nbsp;54, pp.&nbsp;1–&#8288;2, Tokyo,&nbsp;Japan'
+venue_details: Article 54, pp. 1–2, Tokyo, Japan
 venue_short: SIGGRAPH Asia 2024
 thumb: /images/thumbs/10-cinema-sketch-1.jpg
 doi: 10.1145/3681756.3698209

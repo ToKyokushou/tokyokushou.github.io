@@ -4,9 +4,9 @@ pid: J01
 category: journals
 permalink: /publication/2026-05-urban-evolution-forecasting
 date: '2026-05-01'
-authors: '<strong>Xusheng&nbsp;Du</strong>†, Chengyuan&nbsp;Li†, Qingpeng&nbsp;Li, Yuxin&nbsp;Lu, Yimeng&nbsp;Xu, Ye&nbsp;Zhang, Zhen&nbsp;Xu, Haoran&nbsp;Xie*'
+authors: <strong>Xusheng Du</strong>†, Chengyuan Li†, Qingpeng Li, Yuxin Lu, Yimeng Xu, Ye Zhang, Zhen Xu, Haoran Xie*
 venue: Sustainable Cities and Society
-venue_details: 'vol.&nbsp;141, Article&nbsp;107272'
+venue_details: vol. 141, Article 107272
 venue_short: SCS 2026
 thumb: /images/thumbs/J01.jpg
 tag_en: Co-first author

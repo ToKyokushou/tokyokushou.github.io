@@ -58,18 +58,18 @@ en:
   education:
   - period: 2023.04 – 2026.03
     title: Ph.D. in Information Science
-    org: Graduate School of Advanced Science and Technology<br>Japan Advanced Institute of Science and Technology (JAIST)
+    org: Graduate School of Advanced Science and Technology, Japan Advanced Institute of Science and Technology (JAIST)
     note: 'Dissertation: Generative AI-Driven 3D Modeling and Applications Using Intuitive Control: From Architectural Design to Urban Planning (Supervisor: Haoran Xie)'
   - period: 2021.04 – 2023.03
     title: Master’s degree in Information Science
-    org: Graduate School of Advanced Science and Technology<br>Japan Advanced Institute of Science and Technology (JAIST)
+    org: Graduate School of Advanced Science and Technology, Japan Advanced Institute of Science and Technology (JAIST)
     note: 'Thesis: Real-Time 3D Shadow Guidance for Sketch-Based 3D Shape Generation'
   - period: 2019.10 – 2021.03
     title: Japanese language studies
     org: Akamonkai Japanese Language School, Tokyo
   - period: 2011.09 – 2015.06
     title: Bachelor of Engineering
-    org: Optical Information Science and Technology<br>School of Physics and Electronic Engineering, Guangzhou University, China
+    org: Optical Information Science and Technology, School of Physics and Electronic Engineering, Guangzhou University, China
   experience:
   - period: 2026.04 – present
     title: Junior Researcher (Assistant Professor)
@@ -97,25 +97,25 @@ en:
     org: Japan Advanced Institute of Science and Technology (JAIST)
   grants:
   - period: 2026.07 – 2028.03
-    title: JSPS KAKENHI Grant-in-Aid for Research Activity Start-up (26K24681)<br>Principal Investigator
+    title: JSPS KAKENHI Grant-in-Aid for Research Activity Start-up (26K24681), Principal Investigator
     org: A Generative AI Framework for Multiscale Design Support Across Urban, Architectural, and 3D Geometric Domains
   - period: 2025.04 – 2026.03
-    title: JST SPRING (JPMJSP2102)<br>JAIST-SPRING Researcher
+    title: JST SPRING (JPMJSP2102), JAIST-SPRING Researcher
     org: 'Support for Pioneering Research Initiated by the Next Generation: research support for doctoral students at JAIST'
   activities:
   - period: '2026.06'
     title: Session chair
-    org: NICOGRAPH International 2026, Session 5 (Track A), Nagoya<br>“Applied Visualization, Simulation, and XR Systems”
+    org: NICOGRAPH International 2026, Session 5 “Applied Visualization, Simulation, and XR Systems” (Track A), Nagoya
   - period: '2025.06'
     title: Workshop organizer
-    org: “AI-Driven Architectural Design and Behavioral Modeling Workshop”<br>International Workshop for Science and Art 2025, Kanazawa
-    note: Held with NICOGRAPH International 2025; co-organized with Yuan Ma and Mikiya Kusunoki
+    org: “AI-Driven Architectural Design and Behavioral Modeling Workshop,” International Workshop for Science and Art 2025 (with NICOGRAPH International 2025), Kanazawa
+    note: Co-organized with Yuan Ma and Mikiya Kusunoki
   - period: 2025.01 ~
     title: Reviewer
-    org: Computers & Graphics<br>Journal of the Institute of Image Electronics Engineers of Japan, and others
+    org: Computers & Graphics, Journal of the Institute of Image Electronics Engineers of Japan, and others
   - period: 2025.03 ~
     title: Memberships
-    org: The Society for Art and Science (2026.05 ~)<br>Asia Digital Art and Design Association, ADADA (2025.03 ~)
+    org: The Society for Art and Science (2026.05 ~); Asia Digital Art and Design Association, ADADA (2025.03 ~)
   - period: '2023.10'
     title: Outreach
     org: Organized a public event on generative AI at JAIST Festival 2023
@@ -166,22 +166,22 @@ ja:
   interests_intro: 生成AIとヒューマンコンピュータインタラクションの境界領域で，<strong>人の意図を生成AIの結果に正確に反映させること</strong>を研究しています。与えた条件が結果のどこにどう反映されたかを利用者が確かめ，調整できるようにすることが一貫した問題意識です。特に，インタラクション，3D形状，建築・都市の3つのテーマに取り組んでいます。
   interests:
   - title: インタラクション
-    text: 生成や検索の過程を<br>利用者が確認・調整できる<br>対話型インタフェース
+    text: 生成や検索の過程を利用者が確認・調整できる対話型インタフェース
     art: interaction
   - title: 3D形状
-    text: 手描きスケッチからの<br>3次元形状の生成・検索と描画支援
+    text: 手描きスケッチからの3次元形状の生成・検索と描画支援
     art: shape
   - title: 建築・都市
-    text: 詳細度（LoD）やスケールの<br>異なる設計をつなぐ生成AI
+    text: 詳細度（LoD）やスケールの異なる設計をつなぐ生成AI
     art: city
   education:
   - period: 2023.04 – 2026.03
     title: 博士（情報科学）
-    org: 北陸先端科学技術大学院大学 先端科学技術研究科<br>先端科学技術専攻 博士後期課程 修了
+    org: 北陸先端科学技術大学院大学 先端科学技術研究科 先端科学技術専攻 博士後期課程 修了
     note: '博士論文：Generative AI-Driven 3D Modeling and Applications Using Intuitive Control: From Architectural Design to Urban Planning（主指導教員：謝 浩然）'
   - period: 2021.04 – 2023.03
     title: 修士（情報科学）
-    org: 北陸先端科学技術大学院大学 先端科学技術研究科<br>先端科学技術専攻 博士前期課程 修了
+    org: 北陸先端科学技術大学院大学 先端科学技術研究科 先端科学技術専攻 博士前期課程 修了
     note: 修士論文：Real-Time 3D Shadow Guidance for Sketch-Based 3D Shape Generation
   - period: 2019.10 – 2021.03
     title: 日本語を学修
@@ -200,11 +200,11 @@ ja:
     note: 「メディア創造論」講義補助および演習（チュートリアル）指導
   - period: 2017.09 – 2019.09
     title: ソフトウェアエンジニア
-    org: Beijing Wofengshidai Data Technology Co., Ltd.<br>北京沃丰时代数据科技有限公司
+    org: Beijing Wofengshidai Data Technology Co., Ltd.（北京沃丰时代数据科技有限公司）
     note: Webシステムのフロントエンド開発
   - period: 2015.07 – 2017.08
     title: ソフトウェアエンジニア
-    org: Gongxiang Future (Beijing) Technology Co., Ltd.<br>公象未来（北京）科技有限公司
+    org: Gongxiang Future (Beijing) Technology Co., Ltd.（公象未来（北京）科技有限公司）
     note: Webシステムのフロントエンド開発
   awards:
   - period: '2026.06'
@@ -216,28 +216,28 @@ ja:
     org: 北陸先端科学技術大学院大学
   grants:
   - period: 2026.07 – 2028.03
-    title: 科学研究費助成事業 研究活動スタート支援（26K24681）<br>研究代表者
+    title: 科学研究費助成事業 研究活動スタート支援（26K24681），研究代表者
     org: 都市・建築・三次元形状を横断するマルチスケール設計支援のための生成AI基盤の構築
   - period: 2025.04 – 2026.03
-    title: JST 次世代研究者挑戦的研究プログラム（SPRING，JPMJSP2102）<br>JAIST-SPRING研究員
+    title: JST 次世代研究者挑戦的研究プログラム（SPRING，JPMJSP2102），JAIST-SPRING研究員
     org: 北陸先端科学技術大学院大学における博士後期課程の研究活動支援
   activities:
   - period: '2026.06'
     title: 座長
-    org: NICOGRAPH International 2026 Session 5（Track A），名古屋<br>“Applied Visualization, Simulation, and XR Systems”
+    org: NICOGRAPH International 2026 Session 5 “Applied Visualization, Simulation, and XR Systems”（Track A），名古屋
   - period: '2025.06'
     title: 企画・運営
-    org: “AI-Driven Architectural Design and Behavioral Modeling Workshop”<br>International Workshop for Science and Art 2025，金沢
-    note: NICOGRAPH International 2025 併設，Yuan Ma，Mikiya Kusunoki と共同
+    org: International Workshop for Science and Art 2025（NICOGRAPH International 2025併設）“AI-Driven Architectural Design and Behavioral Modeling Workshop”，金沢
+    note: Yuan Ma，Mikiya Kusunoki と共同
   - period: 2025.01 〜
     title: 論文査読
     org: Computers & Graphics，画像電子学会誌 など
   - period: 2025.03 〜
     title: 所属学会
-    org: 芸術科学会（2026.05 〜）<br>Asia Digital Art and Design Association（ADADA）（2025.03 〜）
+    org: 芸術科学会（2026.05 〜），Asia Digital Art and Design Association（ADADA）（2025.03 〜）
   - period: '2023.10'
     title: アウトリーチ
-    org: JAISTフェスティバル2023 一般向けイベント<br>「生成AIってなんだろう、その不思議と仕組み」企画・運営
+    org: JAISTフェスティバル2023 一般向けイベント「生成AIってなんだろう、その不思議と仕組み」企画・運営
   - period: '2022.07'
     title: 資格
     org: 日本語能力試験（JLPT）N1

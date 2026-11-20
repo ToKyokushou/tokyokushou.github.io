@@ -4,9 +4,9 @@ pid: J07
 category: journals
 permalink: /publication/2024-03-dualshape
 date: '2024-02-01'
-authors: '<strong>Xusheng&nbsp;Du</strong>, Tianyu&nbsp;Zhang, Haoran&nbsp;Xie*'
+authors: <strong>Xusheng Du</strong>, Tianyu Zhang, Haoran Xie*
 venue: IEEE Access
-venue_details: 'vol.&nbsp;12, pp.&nbsp;18888–&#8288;18900'
+venue_details: vol. 12, pp. 18888–18900
 venue_short: IEEE Access 2024
 thumb: /images/thumbs/dualshape-2.jpg
 selected: 2
