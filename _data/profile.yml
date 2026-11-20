@@ -35,7 +35,7 @@ en:
   - date: '2026.04'
     text: Three papers were published in the proceedings of CAADRIA 2026, Hsinchu (one as first author, one as co-first author).
   - date: '2026.04'
-    text: Joined the Waseda Research Institute for Science and Engineering, Waseda University, as Junior Researcher (Assistant Professor) (April 1).
+    text: Joined the Waseda Research Institute for Science and Engineering, Waseda University, on April 1 as Junior Researcher (Assistant Professor).
   - date: '2026.03'
     text: Received a Ph.D. in Information Science from JAIST and was recognized as an outstanding doctoral graduate (March 25).
   - date: '2026.03'
@@ -75,14 +75,10 @@ en:
     title: Junior Researcher (Assistant Professor)
     org: Waseda Research Institute for Science and Engineering, Waseda University
     note: Research on generative-AI design support in a JST BOOST project; supervision of student research
-  - period: 2024.04 – 2024.06
+  - period: 2024.04 – 2024.06<br>2023.04 – 2023.06
     title: Teaching Assistant
     org: Japan Advanced Institute of Science and Technology (JAIST)
-    note: Lecture support and tutorial instruction for the course “メディア創造論” (Media Creation)
-  - period: 2023.04 – 2023.06
-    title: Teaching Assistant
-    org: Japan Advanced Institute of Science and Technology (JAIST)
-    note: Lecture support and tutorial instruction for the course “メディア創造論” (Media Creation)
+    note: Lecture support and tutorial instruction for the course “Media Creation” <span class="nowrap">(メディア創造論)</span>
   - period: 2017.09 – 2019.09
     title: Software Engineer
     org: Beijing Wofengshidai Data Technology Co., Ltd.
@@ -198,11 +194,7 @@ ja:
     title: 次席研究員（研究院講師）
     org: 早稲田大学 理工学術院総合研究所
     note: JST BOOST研究課題における生成AI設計支援研究，学生研究指導
-  - period: 2024.04 – 2024.06
-    title: ティーチング・アシスタント
-    org: 北陸先端科学技術大学院大学
-    note: 「メディア創造論」講義補助および演習（チュートリアル）指導
-  - period: 2023.04 – 2023.06
+  - period: 2024.04 – 2024.06<br>2023.04 – 2023.06
     title: ティーチング・アシスタント
     org: 北陸先端科学技術大学院大学
     note: 「メディア創造論」講義補助および演習（チュートリアル）指導

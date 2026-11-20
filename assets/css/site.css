@@ -228,6 +228,8 @@ html[lang="ja"] .sec span { letter-spacing: 0.06em; }
 
 .news { list-style: none; margin: 0; padding: 0; }
 .news li { display: grid; grid-template-columns: var(--col) 1fr; gap: 0 var(--col-gap); padding: 4px 0; }
+/* avoid a lone word on the last line */
+.news li, .entry__body, .pub__title, .pub__venue { text-wrap: pretty; }
 .news__date { color: var(--muted); font-variant-numeric: tabular-nums; }
 
 /* ---------- Expandable list ---------- */
@@ -261,8 +263,8 @@ html[lang="ja"] .sec span { letter-spacing: 0.06em; }
   position: sticky;
   top: 0;
   z-index: 5;
-  margin: 14px -24px 0;
-  padding: 10px 24px;
+  margin: 14px 0 0;
+  padding: 10px 0;
   background: var(--bg);
   border-bottom: 1px solid var(--rule);
   font-size: var(--fs-sm);
@@ -333,6 +335,7 @@ html[lang="ja"] .sec span { letter-spacing: 0.06em; }
 /* ---------- Publication detail page ---------- */
 
 .back { font-size: var(--fs-sm); margin-bottom: 20px; }
+.back--end { margin: 36px 0 0; padding-top: 16px; border-top: 1px solid var(--rule); }
 
 .paper__head { padding-bottom: 18px; margin-bottom: 24px; border-bottom: 1px solid var(--rule); }
 .paper__title { font-family: var(--serif); font-size: 1.6rem; margin-bottom: 12px; }
@@ -353,7 +356,6 @@ html[lang="ja"] .sec span { letter-spacing: 0.06em; }
 
 @media (max-width: 640px) {
   .wrap { padding: 0 16px; }
-  .toc { margin-left: -16px; margin-right: -16px; padding-left: 16px; padding-right: 16px; }
   main.wrap { padding-top: 28px; }
   .masthead__name { width: 100%; }
   .masthead__nav { margin-right: auto; }
