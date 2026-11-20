@@ -26,7 +26,7 @@ layout: site
 
 <section class="section" id="about">
   <h2>{{ t.about }}</h2>
-  <p>{{ p.about }}</p>
+  {% for para in p.about %}<p>{{ para }}</p>{% endfor %}
 </section>
 
 <section class="section" id="news">

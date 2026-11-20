@@ -22,6 +22,7 @@
 {% endif %}
 {% assign p = site.data.profile[lang] %}
 {% assign t = site.data.i18n[lang] %}
+{% assign about_first = p.about | first %}
 {% capture page_title %}{% if page.title %}{{ page.title }} – {% endif %}{{ p.name }}{% endcapture %}
 <!doctype html>
 <html lang="{{ lang }}" data-lang="{{ lang }}">
@@ -29,7 +30,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page_title | strip | escape }}</title>
-  <meta name="description" content="{{ page.excerpt | default: p.about | strip_html | strip_newlines | truncate: 200 | escape }}">
+  <meta name="description" content="{{ page.excerpt | default: about_first | strip_html | strip_newlines | truncate: 200 | escape }}">
   <meta name="author" content="{{ site.data.profile.en.name }}">
   <meta property="og:title" content="{{ page_title | strip | escape }}">
   <meta property="og:type" content="website">
