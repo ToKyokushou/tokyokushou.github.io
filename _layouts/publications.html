@@ -8,12 +8,14 @@ layout: site
 
 <h1 class="page-title">{{ t.publications }}</h1>
 
-<nav class="toc" aria-label="{{ t.publications }}">
+<nav class="toc" id="toc" aria-label="{{ t.publications }}">
+  <div class="toc__inner">
   {% for s in sections %}
     {% assign key = s | split: ":" | first %}
     {% assign items = all | where: "category", key %}
-    <a href="#{{ key }}">{{ t[key] }} <span class="count">{{ items | size }}</span></a>
+    <a href="#{{ key }}" title="{{ t[key] }}">{{ t.short[key] }} <span class="count">{{ items | size }}</span></a>
   {% endfor %}
+  </div>
 </nav>
 <p class="legend">{{ t.legend }}</p>
 
@@ -35,3 +37,20 @@ layout: site
     </ul>
   </section>
 {% endfor %}
+
+<script>
+  // Highlight the section currently in view in the sticky bar.
+  (function () {
+    var links = document.querySelectorAll('#toc a');
+    var sections = Array.prototype.map.call(links, function (a) { return document.querySelector(a.getAttribute('href')); });
+    function update() {
+      var line = document.getElementById('toc').getBoundingClientRect().bottom + 24, current = 0;
+      sections.forEach(function (sec, i) { if (sec.getBoundingClientRect().top <= line) current = i; });
+      if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2) current = sections.length - 1;
+      links.forEach(function (a, i) { if (i === current) a.setAttribute('aria-current', 'true'); else a.removeAttribute('aria-current'); });
+    }
+    window.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    update();
+  })();
+</script>

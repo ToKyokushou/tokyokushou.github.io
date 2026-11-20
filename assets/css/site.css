@@ -101,7 +101,7 @@ h1, h2, h3 { line-height: 1.3; margin: 0; }
 
 .lede { color: var(--muted); margin-bottom: 0; }
 
-.section { margin-top: 40px; scroll-margin-top: 16px; }
+.section { margin-top: 40px; scroll-margin-top: 72px; }
 
 .section > h2 {
   font-size: 0.86rem;
@@ -203,9 +203,22 @@ html[lang="ja"] .section > h2 { font-size: 0.98rem; letter-spacing: 0.06em; }
 
 /* ---------- Publications ---------- */
 
-.toc { display: flex; flex-wrap: wrap; gap: 8px 10px; margin-top: 18px; font-size: 0.9rem; }
-.toc a { border: 1px solid var(--rule); border-radius: 4px; padding: 4px 12px; color: var(--text); }
+.toc {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  margin: 14px -24px 0;
+  padding: 10px 24px;
+  background: var(--bg);
+  border-bottom: 1px solid var(--rule);
+  font-size: 0.9rem;
+}
+.toc__inner { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; }
+.toc__inner::-webkit-scrollbar { display: none; }
+.toc a { flex: none; border: 1px solid var(--rule); border-radius: 4px; padding: 4px 12px; color: var(--text); white-space: nowrap; }
 .toc a:hover { background: var(--soft); text-decoration: none; }
+.toc a[aria-current] { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+.toc a[aria-current] .count { color: inherit; opacity: 0.8; }
 .count { color: var(--muted); margin-left: 4px; }
 .legend { color: var(--muted); font-size: 0.85rem; margin: 12px 0 0; }
 
@@ -284,6 +297,7 @@ html[lang="ja"] .section > h2 { font-size: 0.98rem; letter-spacing: 0.06em; }
 
 @media (max-width: 640px) {
   .wrap { padding: 0 16px; }
+  .toc { margin-left: -16px; margin-right: -16px; padding-left: 16px; padding-right: 16px; }
   main.wrap { padding-top: 28px; }
   .masthead__name { width: 100%; }
   .masthead__nav { margin-right: auto; }
@@ -305,6 +319,7 @@ html[lang="ja"] .section > h2 { font-size: 0.98rem; letter-spacing: 0.06em; }
 
 @media print {
   .masthead__nav, .masthead__lang, .toc, .pub__links, .back { display: none; }
+  .toc { position: static; }
   body { font-size: 11pt; }
   .pub, .entry { break-inside: avoid; }
 }

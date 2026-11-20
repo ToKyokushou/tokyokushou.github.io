@@ -40,6 +40,13 @@ en:
   abstract: Abstract
   pubs_note: The full list of publications is on the
   figures: Figures
+  short:
+    journals: Journals
+    conferences: Conferences
+    intl_presentations: Presentations
+    domestic: Domestic
+    invited: Invited
+    thesis: Thesis
 ja:
   root: /ja
   nav_home: ホーム
@@ -80,3 +87,10 @@ ja:
   abstract: 概要
   pubs_note: 研究業績の一覧は
   figures: 図
+  short:
+    journals: 学術雑誌
+    conferences: 国際会議
+    intl_presentations: 国際発表
+    domestic: 国内発表
+    invited: 招待講演
+    thesis: 学位論文
