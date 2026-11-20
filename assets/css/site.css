@@ -227,7 +227,8 @@ html[lang="ja"] .sec span { letter-spacing: 0.06em; }
 /* ---------- News ---------- */
 
 .news { list-style: none; margin: 0; padding: 0; }
-.news li { display: grid; grid-template-columns: var(--col) 1fr; gap: 0 var(--col-gap); padding: 4px 0; }
+/* the news list keeps its own, narrower date column */
+.news li { display: grid; grid-template-columns: 5.2em 1fr; gap: 0 16px; padding: 4px 0; }
 /* avoid a lone word on the last line */
 .news li, .entry__body, .pub__title, .pub__venue { text-wrap: pretty; }
 .news__date { color: var(--muted); font-variant-numeric: tabular-nums; }
