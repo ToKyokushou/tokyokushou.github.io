@@ -43,7 +43,7 @@ en:
     text: A co-authored Frontiers of Architectural Research paper on generating building designs from text was featured in a press release (March 31).
   - date: '2025.06'
     text: Co-organized the “AI-Driven Architectural Design and Behavioral Modeling Workshop” at NICOGRAPH International 2025, Kanazawa.
-  interests_intro: 'My research lies between generative AI and human-computer interaction: <strong>making generative AI reflect what people actually intend</strong>. A consistent concern is letting users see where and how the conditions they gave show up in the result, and adjust it. In particular, I work on three themes.'
+  interests_intro: 'My research lies between generative AI and human-computer interaction: <strong>making generative AI reflect what people actually intend</strong>. A consistent concern is letting users see where and how the conditions they gave show up in the result, and adjust it. In particular, I work on three themes: interaction, 3D shapes, and architecture and cities.'
   interests:
   - title: Interaction
     text: Interactive interfaces that let users inspect and adjust the generation or search process
@@ -159,7 +159,7 @@ ja:
     text: Frontiers of Architectural Research 掲載の共著論文がプレスリリース「テキストから正確な建築デザインを自動で生成するAIシステムを開発」として紹介（3月31日）
   - date: '2025.06'
     text: NICOGRAPH International 2025 併設ワークショップ “AI-Driven Architectural Design and Behavioral Modeling Workshop” を共同企画（金沢）
-  interests_intro: 生成AIとヒューマンコンピュータインタラクションの境界領域で，<strong>人の意図を生成AIの結果に正確に反映させること</strong>を研究しています。与えた条件が結果のどこにどう反映されたかを利用者が確かめ，調整できるようにすることが一貫した問題意識です。特に次の3つに取り組んでいます。
+  interests_intro: 生成AIとヒューマンコンピュータインタラクションの境界領域で，<strong>人の意図を生成AIの結果に正確に反映させること</strong>を研究しています。与えた条件が結果のどこにどう反映されたかを利用者が確かめ，調整できるようにすることが一貫した問題意識です。特に，インタラクション，3D形状，建築・都市の3つのテーマに取り組んでいます。
   interests:
   - title: インタラクション
     text: 生成や検索の過程を利用者が確認・調整できる対話型インタフェース
