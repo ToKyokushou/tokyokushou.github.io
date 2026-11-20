@@ -161,6 +161,11 @@ include:
   - _pages
   - files
 exclude:
+  - markdown_generator
+  - scripts
+  - CONTRIBUTING.md
+  - README.md
+  - docker-compose.yaml
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
