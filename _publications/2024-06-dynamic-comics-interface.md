@@ -4,9 +4,9 @@ pid: IC12
 category: conferences
 permalink: /publication/2024-06-dynamic-comics-interface
 date: '2024-06-14'
-authors: Zhengyang Wang, <strong>Xusheng Du</strong>, Tsukasa Fukusato, Haoran Xie
+authors: 'Zhengyang&nbsp;Wang, <strong>Xusheng&nbsp;Du</strong>, Tsukasa&nbsp;Fukusato, Haoran&nbsp;Xie'
 venue: NICOGRAPH International 2024
-venue_details: p. 83, Hachioji, Japan
+venue_details: 'p.&nbsp;83, Hachioji,&nbsp;Japan'
 venue_short: NICOGRAPH Int'l 2024
 thumb: /images/thumbs/7-comic-1.jpg
 tag_en: 1-page paper

@@ -4,9 +4,9 @@ pid: J05
 category: journals
 permalink: /publication/2024-01-generative-ai-architecture-review
 date: '2025-05-31'
-authors: Chengyuan Li, Tianyu Zhang, <strong>Xusheng Du</strong>, Ye Zhang, Haoran Xie
+authors: 'Chengyuan&nbsp;Li, Tianyu&nbsp;Zhang, <strong>Xusheng&nbsp;Du</strong>, Ye&nbsp;Zhang, Haoran&nbsp;Xie'
 venue: Frontiers of Architectural Research
-venue_details: vol. 14, no. 3, pp. 759–783
+venue_details: 'vol.&nbsp;14, no.&nbsp;3, pp.&nbsp;759–&#8288;783'
 venue_short: FoAR 2025
 thumb: /images/thumbs/6-survey-1.jpg
 tag_en: Review

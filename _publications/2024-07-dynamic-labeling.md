@@ -4,9 +4,9 @@ pid: IC13
 category: conferences
 permalink: /publication/2024-07-dynamic-labeling
 date: '2024-06-01'
-authors: Chia-Ming Chang, Yi He, <strong>Xusheng Du</strong>, Xi Yang, Haoran Xie
+authors: 'Chia-Ming&nbsp;Chang, Yi&nbsp;He, <strong>Xusheng&nbsp;Du</strong>, Xi&nbsp;Yang, Haoran&nbsp;Xie'
 venue: HCI International 2024, Human Interface and the Management of Information (LNCS 14689)
-venue_details: pp. 99–118, Washington, D.C., USA
+venue_details: 'pp.&nbsp;99–&#8288;118, Washington,&nbsp;D.C.,&nbsp;USA'
 venue_short: HCII 2024
 thumb: /images/thumbs/8-label-3.jpg
 doi: 10.1007/978-3-031-60107-1_8

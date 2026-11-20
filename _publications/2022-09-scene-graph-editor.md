@@ -4,9 +4,9 @@ pid: IC16
 category: conferences
 permalink: /publication/2022-09-scene-graph-editor
 date: '2022-09-01'
-authors: Tianyu Zhang, <strong>Xusheng Du</strong>, Chia-Ming Chang, Xi Yang, Haoran Xie
+authors: 'Tianyu&nbsp;Zhang, <strong>Xusheng&nbsp;Du</strong>, Chia-Ming&nbsp;Chang, Xi&nbsp;Yang, Haoran&nbsp;Xie'
 venue: 2022 International Conference on Cyberworlds (CW 2022)
-venue_details: pp. 171–172, Kanazawa, Japan
+venue_details: 'pp.&nbsp;171–&#8288;172, Kanazawa,&nbsp;Japan'
 venue_short: CW 2022
 thumb: /images/thumbs/2-sg-1.jpg
 tag_en: Poster paper

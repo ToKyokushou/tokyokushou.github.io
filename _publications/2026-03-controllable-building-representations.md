@@ -4,7 +4,7 @@ pid: J02
 category: journals
 permalink: /publication/2026-03-controllable-building-representations
 date: '2026-03-01'
-authors: Zhengyang Wang, Yuxiao Ren, Hao Jin, Jieli Feng, <strong>Xusheng Du</strong>, Ye Zhang*, Haoran Xie*
+authors: 'Zhengyang&nbsp;Wang, Yuxiao&nbsp;Ren, Hao&nbsp;Jin, Jieli&nbsp;Feng, <strong>Xusheng&nbsp;Du</strong>, Ye&nbsp;Zhang*, Haoran&nbsp;Xie*'
 venue: Frontiers of Architectural Research
 venue_details: in press (online first)
 venue_short: FoAR 2026

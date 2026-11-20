@@ -4,9 +4,9 @@ pid: J06
 category: journals
 permalink: /publication/2024-01-anime-face-transformer
 date: '2024-09-01'
-authors: Sicheng Li, <strong>Xusheng Du</strong>, Haoran Xie, Kazunori Miyata
+authors: 'Sicheng&nbsp;Li, <strong>Xusheng&nbsp;Du</strong>, Haoran&nbsp;Xie, Kazunori&nbsp;Miyata'
 venue: IEEE Access
-venue_details: vol. 12, pp. 138751–138762
+venue_details: 'vol.&nbsp;12, pp.&nbsp;138751–&#8288;138762'
 venue_short: IEEE Access 2024
 thumb: /images/thumbs/5-animeface-1.jpg
 doi: 10.1109/ACCESS.2024.3466230

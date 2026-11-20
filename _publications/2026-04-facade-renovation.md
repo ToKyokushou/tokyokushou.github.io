@@ -4,9 +4,9 @@ pid: IC03
 category: conferences
 permalink: /publication/2026-04-facade-renovation
 date: '2026-04-03'
-authors: Warissara Booranamaitree†, <strong>Xusheng Du</strong>†, Yushu Cai, Zhengyang Wang, Ye Zhang, Haoran Xie
+authors: 'Warissara&nbsp;Booranamaitree†, <strong>Xusheng&nbsp;Du</strong>†, Yushu&nbsp;Cai, Zhengyang&nbsp;Wang, Ye&nbsp;Zhang, Haoran&nbsp;Xie'
 venue: CAADRIA 2026 (31st International Conference)
-venue_details: vol. 2, pp. 11–20, Hsinchu, Taiwan
+venue_details: 'vol.&nbsp;2, pp.&nbsp;11–&#8288;20, Hsinchu,&nbsp;Taiwan'
 venue_short: CAADRIA 2026
 thumb: /images/thumbs/IC03.jpg
 tag_en: Co-first author

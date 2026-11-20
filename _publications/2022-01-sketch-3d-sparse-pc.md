@@ -4,9 +4,9 @@ pid: IC17
 category: conferences
 permalink: /publication/2022-01-sketch-3d-sparse-pc
 date: '2022-05-01'
-authors: <strong>Xusheng Du</strong>, Yi He, Xi Yang, Chia-Ming Chang, Haoran Xie
-venue: International Workshop on Advanced Imaging Technology (IWAIT 2022), Proc. SPIE 12177
-venue_details: 121773K, Hong Kong
+authors: '<strong>Xusheng&nbsp;Du</strong>, Yi&nbsp;He, Xi&nbsp;Yang, Chia-Ming&nbsp;Chang, Haoran&nbsp;Xie'
+venue: 'International Workshop on Advanced Imaging Technology (IWAIT 2022), Proc.&nbsp;SPIE&nbsp;12177'
+venue_details: '121773K, Hong&nbsp;Kong'
 venue_short: IWAIT 2022
 thumb: /images/thumbs/1-sparse-pc-1.jpg
 doi: 10.1117/12.2626116

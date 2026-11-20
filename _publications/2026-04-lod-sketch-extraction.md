@@ -4,9 +4,9 @@ pid: IC05
 category: conferences
 permalink: /publication/2026-04-lod-sketch-extraction
 date: '2026-04-02'
-authors: <strong>Xusheng Du</strong>, Athiwat Kongkaeo, Ye Zhang, Haoran Xie
+authors: '<strong>Xusheng&nbsp;Du</strong>, Athiwat&nbsp;Kongkaeo, Ye&nbsp;Zhang, Haoran&nbsp;Xie'
 venue: CAADRIA 2026 (31st International Conference)
-venue_details: vol. 1, pp. 417–426, Hsinchu, Taiwan
+venue_details: 'vol.&nbsp;1, pp.&nbsp;417–&#8288;426, Hsinchu,&nbsp;Taiwan'
 venue_short: CAADRIA 2026
 thumb: /images/thumbs/IC05.jpg
 selected: 5
