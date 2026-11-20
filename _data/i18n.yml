@@ -5,7 +5,7 @@ en:
   nav_home: Home
   nav_publications: Publications
   nav_cv: CV
-  about: Short Bio
+  about: About Me
   interests: Research Interests
   selected: Selected Publications
   news: News
@@ -45,7 +45,7 @@ ja:
   nav_home: ホーム
   nav_publications: 研究業績
   nav_cv: 経歴
-  about: 略歴
+  about: 自己紹介
   interests: 研究内容
   selected: 主要業績
   news: 新着情報
