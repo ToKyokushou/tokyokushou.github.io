@@ -107,18 +107,25 @@ en:
     title: JST SPRING (JPMJSP2102), JAIST-SPRING Researcher
     org: 'Support for Pioneering Research Initiated by the Next Generation: research support for doctoral students at JAIST'
   activities:
-  - title: Session chair
-    text: NICOGRAPH International 2026, Session 5 “Applied Visualization, Simulation, and XR Systems” (Track A), Nagoya, June 2026
-  - title: Workshop organizer
-    text: “AI-Driven Architectural Design and Behavioral Modeling Workshop,” International Workshop for Science and Art 2025 (with NICOGRAPH International 2025), Kanazawa, June 2025; co-organized with Yuan Ma and Mikiya Kusunoki
-  - title: Reviewer
-    text: Computers & Graphics (2025); Journal of the Institute of Image Electronics Engineers of Japan (2026)
-  - title: Memberships
-    text: The Society for Art and Science (2026.05–); Asia Digital Art and Design Association, ADADA (2025.03–)
-  - title: Outreach
-    text: Organized a public event on generative AI at JAIST Festival 2023 (October 2023)
-  - title: Language
-    text: Japanese-Language Proficiency Test (JLPT) N1 (July 2022)
+  - period: '2026.06'
+    title: Session chair
+    org: NICOGRAPH International 2026, Session 5 “Applied Visualization, Simulation, and XR Systems” (Track A), Nagoya
+  - period: '2025.06'
+    title: Workshop organizer
+    org: “AI-Driven Architectural Design and Behavioral Modeling Workshop,” International Workshop for Science and Art 2025 (with NICOGRAPH International 2025), Kanazawa
+    note: Co-organized with Yuan Ma and Mikiya Kusunoki
+  - period: 2025 – 2026
+    title: Reviewer
+    org: Computers & Graphics (2025); Journal of the Institute of Image Electronics Engineers of Japan (2026)
+  - period: 2025.03 – present
+    title: Memberships
+    org: The Society for Art and Science (2026.05–); Asia Digital Art and Design Association, ADADA (2025.03–)
+  - period: '2023.10'
+    title: Outreach
+    org: Organized a public event on generative AI at JAIST Festival 2023
+  - period: '2022.07'
+    title: Language
+    org: Japanese-Language Proficiency Test (JLPT) N1
   flow:
     intent: Human intent
     intent_text: Sketches · Text · Keywords
@@ -223,18 +230,25 @@ ja:
     title: JST 次世代研究者挑戦的研究プログラム（SPRING，JPMJSP2102），JAIST-SPRING研究員
     org: 北陸先端科学技術大学院大学における博士後期課程の研究活動支援
   activities:
-  - title: 座長
-    text: NICOGRAPH International 2026 Session 5 “Applied Visualization, Simulation, and XR Systems”（Track A），名古屋（2026.06）
-  - title: 企画・運営
-    text: International Workshop for Science and Art 2025（NICOGRAPH International 2025併設）“AI-Driven Architectural Design and Behavioral Modeling Workshop”，金沢（2025.06，Yuan Ma，Mikiya Kusunoki と共同）
-  - title: 論文査読
-    text: Computers & Graphics（2025），画像電子学会誌（2026）
-  - title: 所属学会
-    text: 芸術科学会（2026.05–），Asia Digital Art and Design Association（ADADA）（2025.03–）
-  - title: アウトリーチ
-    text: JAISTフェスティバル2023 一般向けイベント「生成AIってなんだろう、その不思議と仕組み」企画・運営（2023.10）
-  - title: 資格
-    text: 日本語能力試験（JLPT）N1（2022.07）
+  - period: '2026.06'
+    title: 座長
+    org: NICOGRAPH International 2026 Session 5 “Applied Visualization, Simulation, and XR Systems”（Track A），名古屋
+  - period: '2025.06'
+    title: 企画・運営
+    org: International Workshop for Science and Art 2025（NICOGRAPH International 2025併設）“AI-Driven Architectural Design and Behavioral Modeling Workshop”，金沢
+    note: Yuan Ma，Mikiya Kusunoki と共同
+  - period: 2025 – 2026
+    title: 論文査読
+    org: Computers & Graphics（2025），画像電子学会誌（2026）
+  - period: 2025.03 – 現在
+    title: 所属学会
+    org: 芸術科学会（2026.05–），Asia Digital Art and Design Association（ADADA）（2025.03–）
+  - period: '2023.10'
+    title: アウトリーチ
+    org: JAISTフェスティバル2023 一般向けイベント「生成AIってなんだろう、その不思議と仕組み」企画・運営
+  - period: '2022.07'
+    title: 資格
+    org: 日本語能力試験（JLPT）N1
   flow:
     intent: 人の意図
     intent_text: スケッチ・テキスト・キーワード

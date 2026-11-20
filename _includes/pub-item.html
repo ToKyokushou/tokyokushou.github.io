@@ -17,7 +17,7 @@
   {% if post.venue_details_ja %}{% assign venue_details = post.venue_details_ja %}{% endif %}
   {% assign tag = post.tag_ja %}
 {% endif %}
-<li class="pub{% if include.thumb %} pub--thumb{% endif %}">
+<li class="pub{% if include.thumb %} pub--thumb{% endif %}{% if include.label %} pub--num{% endif %}">
   {% if include.thumb %}
     <div class="pub__fig">
       {% if post.thumb %}
