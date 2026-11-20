@@ -9,7 +9,7 @@ venue: CAADRIA 2025 (30th International Conference)
 venue_details: vol. 1, pp. 111–120, Tokyo, Japan
 venue_short: CAADRIA 2025
 thumb: /images/thumbs/14-arc-3.jpg
-selected: 6
+selected: 3
 doi: 10.52842/conf.caadria.2025.1.111
 code: https://github.com/ToKyokushou/RenderDesign_MultiViewGeneration
 arxiv: https://arxiv.org/abs/2503.03068

@@ -9,7 +9,7 @@ venue: HCI International 2026, Human-Computer Interaction (LNCS 16704)
 venue_details: pp. 421–437, Montreal, Canada
 venue_short: HCII 2026
 thumb: /images/thumbs/IC06.jpg
-selected: 4
+selected: 5
 doi: 10.1007/978-3-032-29593-4_27
 abstract: We present CoreSearch, an interactive keyword search interface designed to improve user experience and search effectiveness in online marketplaces. By allowing users to adjust the specificity of core keywords, CoreSearch enables dynamic control over the inclusion of semantically related expansion keywords. This approach to keyword expansion addresses the limitations of traditional static search methods, enabling users to refine the search scope in real time according to their specific needs. This work details the design, implementation, and evaluation of CoreSearch’s interactive interface and search algorithm through a controlled user study. Results show that CoreSearch significantly improves search effectiveness and perceived search experience, particularly when search targets are difficult to describe. In addition, real-time updates and an intuitive interface support interactive refinement while keeping interaction overhead manageable.
 summary_ja: ECサイトの商品検索では，利用者が適切な検索キーワードを思いつけないことが課題となる。本研究では，検索キーワードの拡張過程を利用者が対話的に確認・調整できる検索インタフェースCoreSearchを提案し，ユーザ実験により意図に合った商品の探索を支援する効果を検証した。

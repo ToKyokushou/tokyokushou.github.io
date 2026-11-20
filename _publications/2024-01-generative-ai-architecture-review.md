@@ -9,9 +9,9 @@ venue: Frontiers of Architectural Research
 venue_details: vol. 14, no. 3, pp. 759–783
 venue_short: FoAR 2025
 thumb: /images/thumbs/6-survey-1.jpg
+selected: 6
 tag_en: Review
 tag_ja: 総説
-selected: 3
 doi: 10.1016/j.foar.2024.10.001
 arxiv: https://arxiv.org/abs/2404.01335
 abstract: Recent advances in generative artificial intelligence (AI) technologies have been significantly driven by models such as generative adversarial networks (GANs), variational autoencoders (VAEs), and denoising diffusion probabilistic models (DDPMs). Although architects recognize the potential of generative AI in design, personal barriers often restrict their access to the latest technological developments, thereby causing the application of generative AI in architectural design to lag behind. Therefore, it is essential to comprehend the principles and advancements of generative AI models and analyze their relevance in architecture applications. This paper first provides an overview of generative AI technologies, with a focus on probabilistic diffusion models (DDPMs), 3D generative models, and foundation models, highlighting their recent developments and main application scenarios. Then, the paper explains how the abovementioned models could be utilized in architecture. We subdivide the architectural design process into six steps and review related research projects in each step from 2020 to the present. Lastly, this paper discusses potential future directions for applying generative AI in the architectural design steps. This research can help architects quickly understand the development and latest progress of generative AI and contribute to the further development of intelligent architecture.

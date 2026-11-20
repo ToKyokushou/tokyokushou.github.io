@@ -9,6 +9,7 @@ venue: CAADRIA 2026 (31st International Conference)
 venue_details: vol. 2, pp. 11–20, Hsinchu, Taiwan
 venue_short: CAADRIA 2026
 thumb: /images/thumbs/IC03.jpg
+selected: 4
 tag_en: Co-first author
 tag_ja: 共同筆頭
 doi: 10.52842/conf.caadria.2026.2.011
