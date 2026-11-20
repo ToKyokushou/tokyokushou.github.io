@@ -79,9 +79,9 @@ layout: site
 <section class="section" id="selected">
   <h2 class="sec"><span>{{ t.selected }}</span></h2>
   {% assign docs = site.publications | where_exp: "d", "d.selected" | sort: "selected" %}
-  {% assign rest = docs | size | minus: 2 %}
+  {% assign rest = docs | size | minus: 3 %}
   <ul class="pubs">
-    {% for post in docs limit: 2 %}
+    {% for post in docs limit: 3 %}
       {% include pub-item.html post=post lang=lang thumb=true %}
     {% endfor %}
   </ul>
@@ -92,7 +92,7 @@ layout: site
       <span class="expand__less">{{ t.show_less }}</span>
     </summary>
     <ul class="pubs">
-      {% for post in docs offset: 2 %}
+      {% for post in docs offset: 3 %}
         {% include pub-item.html post=post lang=lang thumb=true %}
       {% endfor %}
     </ul>

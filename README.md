@@ -15,7 +15,7 @@ Built with Jekyll and published by GitHub Pages from the `master` branch.
 | Colours, spacing, layout | `assets/css/site.css` |
 
 A paper appears under "Selected Publications" on the homepage when its file has
-`selected: <number>`; the number sets the order, and the first two are shown
+`selected: <number>`; the number sets the order, and the first three are shown
 before the "show more" control.
 
 ## Preview locally
