@@ -3,7 +3,8 @@
 
 common:
   photo: /images/profile-photo.jpg
-  email: xusheng.du@aoni.waseda.jp
+  email_user: xusheng.du
+  email_domain: aoni.waseda.jp
   orcid: https://orcid.org/0009-0008-1086-2081
   kaken: https://nrid.nii.ac.jp/ja/nrid/1000031041361/
   github: https://github.com/ToKyokushou

@@ -8,7 +8,7 @@ layout: site
 
 <h1 class="page-title">{{ t.cv }}</h1>
 <p class="lede">
-  {{ p.name }}（{{ p.name_alt }}） · {{ p.role }} · {{ p.affiliation }}
+  {% if lang == "ja" %}{{ p.name }}（{{ p.name_alt }}）{% else %}{{ p.name }} ({{ p.name_alt }}){% endif %} · {{ p.role }} · {{ p.affiliation }}
   {% if c.cv_pdf %} · <a href="{{ c.cv_pdf }}">{{ t.cv_pdf }}</a>{% endif %}
 </p>
 
@@ -41,7 +41,7 @@ layout: site
   </dl>
 </section>
 
-<section class="section">
+<section class="section no-print">
   <h2 class="sec"><span>{{ t.publications }}</span></h2>
   <p class="more"><a href="{{ t.root }}/publications/">{{ t.all_publications }} →</a></p>
 </section>

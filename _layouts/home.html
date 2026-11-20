@@ -14,7 +14,7 @@ layout: site
     <p class="profile__affiliation">{{ p.affiliation }}</p>
     <p class="profile__location">{{ p.degree }}</p>
     <ul class="profile__links">
-      <li><a href="mailto:{{ c.email }}">{{ c.email }}</a></li>
+      <li><a class="js-email" data-user="{{ c.email_user }}" data-domain="{{ c.email_domain }}">{{ c.email_user }} [at] {{ c.email_domain }}</a></li>
       {% if c.scholar %}<li><a href="{{ c.scholar }}">Google Scholar</a></li>{% endif %}
       {% if c.orcid %}<li><a href="{{ c.orcid }}">ORCID</a></li>{% endif %}
       {% if c.kaken %}<li><a href="{{ c.kaken }}">KAKEN</a></li>{% endif %}
@@ -100,3 +100,12 @@ layout: site
   {% endif %}
   <p class="more"><a href="{{ t.root }}/publications/">{{ t.all_publications }} →</a></p>
 </section>
+
+<script>
+  // The address is assembled here so that it does not appear as plain text in the page source.
+  document.querySelectorAll('.js-email').forEach(function (a) {
+    var addr = a.dataset.user + '@' + a.dataset.domain;
+    a.textContent = addr;
+    a.href = 'mailto:' + addr;
+  });
+</script>

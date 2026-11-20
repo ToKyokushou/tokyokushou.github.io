@@ -342,7 +342,7 @@ html[lang="ja"] .sec span { letter-spacing: 0.06em; }
 .paper__content section p + .sec { margin-top: 28px; }
 .paper__content figure { margin: 28px 0 0; padding: 12px; background: #fff; border: 1px solid var(--rule); border-radius: 4px; }
 .paper__content img { display: block; margin: 0 auto; }
-.paper__content p { text-align: justify; hyphens: auto; }
+.paper__content p { text-align: left; }
 
 /* ---------- Footer ---------- */
 
@@ -361,8 +361,10 @@ html[lang="ja"] .sec span { letter-spacing: 0.06em; }
   .profile__photo { width: 128px; height: 128px; }
   .profile__name { font-size: 1.6rem; }
   .profile__name-alt { display: block; margin: 2px 0 0; }
-  .profile__links { flex-direction: column; }
+  .profile__links { gap: 8px; }
   .profile__links li + li::before { content: none; }
+  .profile__links a { display: inline-block; padding: 6px 12px; border: 1px solid var(--rule); border-radius: 4px; }
+  .pub__links a { padding: 4px 11px; }
   .pairs, .entry, .news li, .themes { grid-template-columns: 1fr; }
   .flow__row { grid-template-columns: 1fr; gap: 26px; }
   .themes { gap: 14px; }
@@ -376,12 +378,20 @@ html[lang="ja"] .sec span { letter-spacing: 0.06em; }
   .pub__fig { height: 150px; }
   .pub--thumb .pub__fig:has(.pub__fig-empty) { display: none; }
   .paper__title { font-size: 1.3rem; }
-  .paper__content p { text-align: left; }
 }
 
 @media print {
-  .masthead__nav, .masthead__lang, .toc, .pub__links, .back { display: none; }
+  .masthead__nav, .masthead__lang, .toc, .pub__links, .back, .more, .expand > summary, .no-print { display: none; }
   .toc { position: static; }
-  body { font-size: 11pt; }
-  .pub, .entry { break-inside: avoid; }
+  body { font-size: 10.5pt; color: #000; }
+  .masthead, .footer { border-color: #999; }
+  a { color: inherit; }
+  main.wrap { padding-top: 16px; padding-bottom: 0; }
+  /* Browsers drop background colours when printing, so headings become plain bold text on a rule. */
+  .sec { border-bottom: 1px solid #000; margin-bottom: 10px; break-after: avoid; }
+  .sec span { background: none; color: #000; padding: 0 0 4px; }
+  .section { margin-top: 22px; }
+  .lede, .entry__period, .entry__note, .pub__venue, .news__date { color: #333; }
+  .pub, .entry, .news li, .pairs dt, .pairs dd { break-inside: avoid; }
+  .theme__fig, .flow__box { background: none; }
 }

@@ -41,7 +41,10 @@
   <link rel="alternate" hreflang="en" href="{{ en_url | absolute_url }}">
   <link rel="alternate" hreflang="ja" href="{{ ja_url | absolute_url }}">
   {% endunless %}
-  <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}">
+  <link rel="icon" href="{{ '/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="alternate icon" href="{{ '/images/favicon.ico' | relative_url }}" sizes="any">
+  <link rel="apple-touch-icon" href="{{ '/images/apple-touch-icon-180x180.png' | relative_url }}">
+  <link rel="manifest" href="{{ '/images/manifest.json' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
   {% if shared %}
   <script>
