@@ -1,28 +1,52 @@
 ---
 layout: site
 ---
+{% assign en = site.data.i18n.en %}
+{% assign ja = site.data.i18n.ja %}
 <p class="back">
-  <a data-lang="en" href="/publications/">← {{ site.data.i18n.en.back }}</a>
-  <a data-lang="ja" href="/ja/publications/">← {{ site.data.i18n.ja.back }}</a>
+  <a data-lang="en" href="/publications/">← {{ en.back }}</a>
+  <a data-lang="ja" href="/ja/publications/">← {{ ja.back }}</a>
 </p>
 
 <article class="paper">
   <header class="paper__head">
     <h1 class="paper__title">{{ page.title }}</h1>
-    <p class="paper__authors">{{ page.citation | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
+    <p class="paper__authors">{{ page.authors }}</p>
     <p class="paper__venue">
-      <em>{{ page.venue }}</em>, {{ page.date | date: "%Y" }}.
-      {% if page.type %}<span class="tag">{{ page.type }}</span>{% endif %}
+      <em>{{ page.venue }}</em>{% if page.venue_details %}, {{ page.venue_details }}{% endif %}, {{ page.date | date: "%Y" }}.
+      {% if page.tag_en %}<span class="tag" data-lang="en">{{ page.tag_en }}</span><span class="tag" data-lang="ja">{{ page.tag_ja }}</span>{% endif %}
       {% if page.award %}<span class="tag tag--award">{{ page.award }}</span>{% endif %}
     </p>
-    {% if page.paperurl or page.codeurl %}
+    {% if page.doi or page.arxiv or page.code %}
     <p class="pub__links">
-      {% if page.paperurl %}<a href="{{ page.paperurl }}">{{ site.data.i18n.en.paper }}</a>{% endif %}
-      {% if page.codeurl %}<a href="{{ page.codeurl }}">{{ site.data.i18n.en.code }}</a>{% endif %}
+      {% if page.doi %}<a href="https://doi.org/{{ page.doi }}">DOI</a>{% endif %}
+      {% if page.arxiv %}<a href="{{ page.arxiv }}">arXiv</a>{% endif %}
+      {% if page.code %}<a href="{{ page.code }}"><span data-lang="en">{{ en.code }}</span><span data-lang="ja">{{ ja.code }}</span></a>{% endif %}
     </p>
     {% endif %}
   </header>
+
   <div class="paper__content">
-    {{ content }}
+    <section data-lang="en">
+      {% if page.abstract %}
+        <h2>{{ en.abstract }}</h2>
+        {{ page.abstract | markdownify }}
+      {% else %}
+        <h2>{{ en.summary }}</h2>
+        <p>{{ page.summary_en }}</p>
+      {% endif %}
+    </section>
+    <section data-lang="ja">
+      <h2>{{ ja.summary }}</h2>
+      <p>{{ page.summary_ja }}</p>
+      {% if page.abstract %}
+        <h2>Abstract</h2>
+        {{ page.abstract | markdownify }}
+      {% endif %}
+    </section>
+
+    {% for fig in page.figures %}
+      <figure><img src="{{ fig.src }}" alt="{{ fig.caption | escape }}" loading="lazy"></figure>
+    {% endfor %}
   </div>
 </article>

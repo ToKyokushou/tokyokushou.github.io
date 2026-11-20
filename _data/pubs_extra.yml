@@ -1,0 +1,145 @@
+# Publications without a detail page (presentations, invited talks, thesis).
+- pid: IP01
+  title: Multimodal Large Language Model-Driven Sketch to 3D Indoor Scene Synthesis
+  category: intl_presentations
+  date: '2024-03-02'
+  authors: <strong>Xusheng Du</strong>, Haoran Xie
+  venue: 4th International Symposium on Intelligence Design (ISID 2024)
+  venue_details: Online
+  tag_en: Poster
+  tag_ja: ポスター
+  award: Best Poster Award
+- pid: IP02
+  title: Dynamic Comic Creation Interface from Video Sequences
+  category: intl_presentations
+  date: '2024-03-01'
+  authors: Zhengyang Wang, <strong>Xusheng Du</strong>, Tsukasa Fukusato, Haoran Xie
+  venue: 4th International Symposium on Intelligence Design (ISID 2024)
+  venue_details: Online
+  tag_en: Poster
+  tag_ja: ポスター
+- pid: IP03
+  title: A Sketch-based Hybrid Approach for Part Shape Generation and Assembly
+  category: intl_presentations
+  date: '2023-03-01'
+  authors: <strong>Xusheng Du</strong>, Haoran Xie
+  venue: 3rd International Symposium on Intelligence Design (ISID 2023)
+  venue_details: Online
+  tag_en: Poster
+  tag_ja: ポスター
+- pid: IP04
+  title: An Efficient Sketch-Based 3D Model Retrieval and Reconstruction from Sparse Point Clouds
+  category: intl_presentations
+  date: '2022-03-01'
+  authors: <strong>Xusheng Du</strong>, Yi He, Xi Yang, Chia-Ming Chang, Haoran Xie
+  venue: 2nd International Symposium on Intelligence Design (ISID 2022)
+  venue_details: Online
+  tag_en: Poster
+  tag_ja: ポスター
+- pid: DP01
+  title: メモリ認識型多条件生成モデルを用いた都市空間の進化予測
+  category: domestic
+  date: '2025-09-01'
+  authors: <strong>杜旭升</strong>, Chengyuan Li, Zhen Xu, 謝浩然
+  venue: Visual Computing 2025
+  venue_details: P313, Tokyo
+  venue_ja: Visual Computing 2025
+  venue_details_ja: P313，東京
+  tag_en: Poster
+  tag_ja: ポスター
+- pid: DP02
+  title: 'Sketch2Cinemagraph: Sketch-guided Generation for Landscape Cinemagraph'
+  category: domestic
+  date: '2024-09-03'
+  authors: Hao Jin, Zhengyang Wang, <strong>Xusheng Du</strong>, Xiaoxuan Xie, Haoran Xie
+  venue: Visual Computing 2024
+  venue_details: No. 38, Tokyo
+  venue_ja: Visual Computing 2024
+  venue_details_ja: No. 38，東京
+  tag_en: Oral (short), refereed
+  tag_ja: 口頭（Short）・査読有
+- pid: DP03
+  title: 拡散モデルを用いた甲骨文字スタイルの画像生成
+  category: domestic
+  date: '2024-09-01'
+  authors: 謝曉玄, <strong>杜旭升</strong>, 李旻昊, 謝浩然
+  venue: Visual Computing 2024
+  venue_details: No. 16, Tokyo
+  venue_ja: Visual Computing 2024
+  venue_details_ja: No. 16，東京
+  tag_en: Oral (short), refereed
+  tag_ja: 口頭（Short）・査読有
+- pid: DP04
+  title: 'DualShape: パーツ生成と検索を用いたスケッチベース3D形状設計'
+  category: domestic
+  date: '2024-09-04'
+  authors: <strong>杜旭升</strong>, 張天宇, 謝浩然
+  venue: Visual Computing 2024
+  venue_details: No. 40, Tokyo
+  venue_ja: Visual Computing 2024
+  venue_details_ja: No. 40，東京
+  tag_en: Oral (short), refereed
+  tag_ja: 口頭（Short）・査読有
+- pid: DP05
+  title: Oracle Bone Character Generation with Diffusion Models
+  category: domestic
+  date: '2024-06-01'
+  authors: 謝曉玄, <strong>杜旭升</strong>, 李旻昊, 謝浩然
+  venue: IPSJ SIG Technical Report, 194th Meeting on Computer Graphics and Visual Informatics
+  venue_details: 2024-CG-194, No. 4, pp. 1–6, Tokyo
+  venue_ja: 情報処理学会 研究報告 コンピュータグラフィックスとビジュアル情報学（CG）第194回研究発表会
+  venue_details_ja: 2024-CG-194，No. 4，pp. 1–6，東京
+  tag_en: Oral
+  tag_ja: 口頭
+- pid: DP06
+  title: DualShape：部品生成と検索によるスケッチベース３次元形状デザイン
+  category: domestic
+  date: '2023-09-01'
+  authors: <strong>杜旭升</strong>, 張天宇, 謝浩然
+  venue: Visual Computing 2023
+  venue_details: P29, Tokyo
+  venue_ja: Visual Computing 2023
+  venue_details_ja: P29，東京
+  tag_en: Poster
+  tag_ja: ポスター
+- pid: DP07
+  title: Real-Time 3D Shadow Guidance for Sketch-Based 3D Shape Generation
+  category: domestic
+  date: '2023-02-21'
+  authors: <strong>Xusheng Du</strong>, 謝浩然
+  venue: IIEEJ 303rd Technical Meeting
+  venue_details: No. 24, pp. 131–136, Hiroshima
+  venue_ja: 画像電子学会 第303回研究会 講演予稿
+  venue_details_ja: No. 24，pp. 131–136，広島
+  tag_en: Oral
+  tag_ja: 口頭
+  doi: 10.11371/wiieej.22.03.0_131
+- pid: DP08
+  title: スパース点群からのスケッチベースモデリングインタフェースの開発
+  category: domestic
+  date: '2021-10-01'
+  authors: <strong>杜旭升</strong>, 何毅, 楊渓, 謝浩然
+  venue: Visual Computing 2021
+  venue_details: P28, Online
+  venue_ja: Visual Computing 2021
+  venue_details_ja: P28，オンライン
+  tag_en: Poster
+  tag_ja: ポスター
+- pid: IT01
+  title: 'From Sketches to Cities: Controllable Generative AI for Architectural Design'
+  category: invited
+  date: '2026-08-24'
+  authors: <strong>Xusheng Du</strong>
+  venue: JAIST Human-Centered AI Lab (Xie Lab) Academic Seminar, School of Architecture, Tianjin University
+  venue_details: Tianjin, China
+  venue_details_ja: 天津（中国）
+  tag_en: Invited talk
+  tag_ja: 招待講演
+- pid: TH02
+  title: 'Generative AI-Driven 3D Modeling and Applications using Intuitive Control: From Architectural Design to Urban Planning'
+  category: thesis
+  date: '2026-03-25'
+  authors: <strong>Xusheng Du</strong>
+  venue: Doctoral dissertation, Japan Advanced Institute of Science and Technology (JAIST)
+  venue_details: ''
+  venue_ja: 博士論文，北陸先端科学技術大学院大学

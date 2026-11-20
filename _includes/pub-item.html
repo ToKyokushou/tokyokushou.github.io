@@ -1,12 +1,19 @@
 {% comment %}
-  One publication entry.
+  One publication entry (a document of the publications collection, or a row of _data/pubs_extra.yml).
   Params: post, lang, label (e.g. "J3", optional), thumb (true to show the figure column)
 {% endcomment %}
 {% assign post = include.post %}
 {% assign it = site.data.i18n[include.lang] %}
-{% assign body = post.content | strip %}
 {% assign detail_url = post.url %}
-{% if include.lang == "ja" %}{% assign detail_url = post.url | append: "?lang=ja" %}{% endif %}
+{% if detail_url and include.lang == "ja" %}{% assign detail_url = post.url | append: "?lang=ja" %}{% endif %}
+{% assign venue = post.venue %}
+{% assign venue_details = post.venue_details %}
+{% assign tag = post.tag_en %}
+{% if include.lang == "ja" %}
+  {% if post.venue_ja %}{% assign venue = post.venue_ja %}{% endif %}
+  {% if post.venue_details_ja %}{% assign venue_details = post.venue_details_ja %}{% endif %}
+  {% assign tag = post.tag_ja %}
+{% endif %}
 <li class="pub{% if include.thumb %} pub--thumb{% endif %}">
   {% if include.thumb %}
     <div class="pub__fig">
@@ -20,19 +27,20 @@
   <div class="pub__body">
     <p class="pub__title">
       {% if include.label %}<span class="pub__label">[{{ include.label }}]</span>{% endif %}
-      {% if body != "" %}<a href="{{ detail_url }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}
+      {% if detail_url %}<a href="{{ detail_url }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}
     </p>
-    <p class="pub__authors">{{ post.citation | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
+    <p class="pub__authors">{{ post.authors }}</p>
     <p class="pub__venue">
-      <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}.
-      {% if post.type %}<span class="tag">{{ post.type }}</span>{% endif %}
+      <em>{{ venue }}</em>{% if venue_details and venue_details != "" %}, {{ venue_details }}{% endif %}, {{ post.date | date: "%Y" }}.
+      {% if tag %}<span class="tag">{{ tag }}</span>{% endif %}
       {% if post.award %}<span class="tag tag--award">{{ post.award }}</span>{% endif %}
     </p>
-    {% if body != "" or post.paperurl or post.codeurl %}
+    {% if detail_url or post.doi or post.arxiv or post.code %}
     <p class="pub__links">
-      {% if body != "" %}<a href="{{ detail_url }}">{{ it.details }}</a>{% endif %}
-      {% if post.paperurl %}<a href="{{ post.paperurl }}">{{ it.paper }}</a>{% endif %}
-      {% if post.codeurl %}<a href="{{ post.codeurl }}">{{ it.code }}</a>{% endif %}
+      {% if detail_url %}<a href="{{ detail_url }}">{{ it.details }}</a>{% endif %}
+      {% if post.doi %}<a href="https://doi.org/{{ post.doi }}">DOI</a>{% endif %}
+      {% if post.arxiv %}<a href="{{ post.arxiv }}">arXiv</a>{% endif %}
+      {% if post.code %}<a href="{{ post.code }}">{{ it.code }}</a>{% endif %}
     </p>
     {% endif %}
   </div>

@@ -12,11 +12,12 @@ layout: site
     <h1 class="profile__name">{{ p.name }} <span class="profile__name-alt">{{ p.name_alt }}</span></h1>
     <p class="profile__role">{{ p.role }}</p>
     <p class="profile__affiliation">{{ p.affiliation }}</p>
-    <p class="profile__location">{{ p.location }}</p>
+    <p class="profile__location">{{ p.degree }}</p>
     <ul class="profile__links">
       <li><a href="mailto:{{ c.email }}">{{ c.email }}</a></li>
       {% if c.scholar %}<li><a href="{{ c.scholar }}">Google Scholar</a></li>{% endif %}
       {% if c.orcid %}<li><a href="{{ c.orcid }}">ORCID</a></li>{% endif %}
+      {% if c.kaken %}<li><a href="{{ c.kaken }}">KAKEN</a></li>{% endif %}
       {% if c.github %}<li><a href="{{ c.github }}">GitHub</a></li>{% endif %}
       <li><a href="{{ t.root }}/cv/">{{ t.nav_cv }}</a></li>
     </ul>
@@ -53,16 +54,28 @@ layout: site
 
 <section class="section" id="interests">
   <h2>{{ t.interests }}</h2>
-  <dl class="pairs">
+  <p>{{ p.interests_intro }}</p>
+  <dl class="themes">
     {% for i in p.interests %}
-    <dt>{{ i.title }}</dt><dd>{{ i.text }}</dd>
+    <dt>{{ i.title }}</dt>
+    <dd>
+      {{ i.text }}
+      <span class="themes__papers">
+        {% for ref in i.papers %}
+          {% assign doc = site.publications | where: "pid", ref.pid | first %}
+          {% assign ref_url = doc.url %}
+          {% if lang == "ja" %}{% assign ref_url = doc.url | append: "?lang=ja" %}{% endif %}
+          <a href="{{ ref_url }}">{{ ref.label }}</a>
+        {% endfor %}
+      </span>
+    </dd>
     {% endfor %}
   </dl>
 </section>
 
 <section class="section" id="selected">
   <h2>{{ t.selected }}</h2>
-  {% assign docs = site.publications | concat: site.talks | where_exp: "d", "d.selected" | sort: "selected" %}
+  {% assign docs = site.publications | where_exp: "d", "d.selected" | sort: "selected" %}
   {% assign rest = docs | size | minus: 2 %}
   <ul class="pubs">
     {% for post in docs limit: 2 %}
@@ -83,14 +96,4 @@ layout: site
   </details>
   {% endif %}
   <p class="more"><a href="{{ t.root }}/publications/">{{ t.all_publications }} →</a></p>
-</section>
-
-<section class="section" id="education">
-  <h2>{{ t.education }}</h2>
-  {% include entry-list.html items=p.education %}
-</section>
-
-<section class="section" id="awards">
-  <h2>{{ t.awards }}</h2>
-  {% include entry-list.html items=p.awards %}
 </section>

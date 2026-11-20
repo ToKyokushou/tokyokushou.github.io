@@ -1,11 +1,11 @@
 # Interface strings for the English (en) and Japanese (ja) versions of the site.
 
 en:
-  root: ""
+  root: ''
   nav_home: Home
   nav_publications: Publications
   nav_cv: CV
-  about: About
+  about: Short Bio
   interests: Research Interests
   selected: Selected Publications
   news: News
@@ -14,14 +14,12 @@ en:
   show_less: Show fewer
   all_publications: Full publication list
   education: Education
-  experience: Work Experience
-  awards: Awards and Honors
-  skills: Skills
+  experience: Employment
+  awards: Awards
   publications: Publications
-  journals: Journal Articles
-  conferences: International Conference Papers
-  presentations: Posters and Presentations
-  details: Abstract
+  journals: Journal Articles (refereed)
+  conferences: International Conference Papers (refereed)
+  details: Details
   paper: Paper
   code: Code
   back: Back to publications
@@ -31,13 +29,24 @@ en:
   updated: Last updated
   notfound: Page not found
   notfound_text: The page you were looking for does not exist.
+  grants: Research Grants
+  activities: Academic Activities
+  thesis: Thesis
+  intl_presentations: International Conference Presentations (non-refereed)
+  domestic: Domestic Conferences and Workshops
+  invited: Invited Talks
+  legend: † Equal contribution  * Corresponding author
+  summary: Summary
+  abstract: Abstract
+  pubs_note: The full list of publications is on the
+  figures: Figures
 ja:
   root: /ja
   nav_home: ホーム
   nav_publications: 研究業績
   nav_cv: 経歴
-  about: 自己紹介
-  interests: 研究分野
+  about: 略歴
+  interests: 研究内容
   selected: 主要業績
   news: 新着情報
   news_more: 過去のお知らせ
@@ -46,13 +55,11 @@ ja:
   all_publications: 研究業績一覧
   education: 学歴
   experience: 職歴
-  awards: 受賞・採択
-  skills: スキル
+  awards: 受賞
   publications: 研究業績
-  journals: 学術論文誌
-  conferences: 国際会議論文
-  presentations: ポスター・口頭発表
-  details: 概要
+  journals: 学術雑誌論文（査読付）
+  conferences: 国際会議論文（査読付）
+  details: 詳細
   paper: 論文
   code: コード
   back: 研究業績一覧へ戻る
@@ -62,3 +69,14 @@ ja:
   updated: 最終更新
   notfound: ページが見つかりません
   notfound_text: お探しのページは存在しません。
+  grants: 外部資金
+  activities: 学術活動
+  thesis: 学位論文
+  intl_presentations: 国際会議発表（査読なし）
+  domestic: 国内学会・研究会発表
+  invited: 招待講演
+  legend: † 同等貢献　* 責任著者
+  summary: 概要
+  abstract: 概要
+  pubs_note: 研究業績の一覧は
+  figures: 図

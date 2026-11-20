@@ -1,9 +1,12 @@
-{% comment %} Dated list (education, work, awards). Param: items {% endcomment %}
+{% comment %} Dated list (education, employment, awards, grants). Param: items {% endcomment %}
 <ul class="entries">
   {% for e in include.items %}
   <li class="entry">
     <span class="entry__period">{{ e.period }}</span>
-    <span class="entry__body"><strong>{{ e.title }}</strong><br>{{ e.org }}</span>
+    <span class="entry__body">
+      <strong>{{ e.title }}</strong><br>{{ e.org }}
+      {% if e.note %}<span class="entry__note">{{ e.note }}</span>{% endif %}
+    </span>
   </li>
   {% endfor %}
 </ul>

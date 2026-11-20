@@ -3,44 +3,35 @@ layout: site
 ---
 {% assign lang = page.lang | default: "en" %}
 {% assign t = site.data.i18n[lang] %}
-{% assign journals = site.publications | where: "category", "manuscripts" | sort: "date" | reverse %}
-{% assign conferences = site.publications | where: "category", "conferences" | sort: "date" | reverse %}
-{% assign presentations = site.talks | sort: "date" | reverse %}
+{% assign all = site.publications | concat: site.data.pubs_extra %}
+{% assign sections = "journals:J,conferences:C,intl_presentations:P,domestic:D,invited:T,thesis:TH" | split: "," %}
 
 <h1 class="page-title">{{ t.publications }}</h1>
 
 <nav class="toc" aria-label="{{ t.publications }}">
-  <a href="#journals">{{ t.journals }} <span class="count">{{ journals | size }}</span></a>
-  <a href="#conferences">{{ t.conferences }} <span class="count">{{ conferences | size }}</span></a>
-  <a href="#presentations">{{ t.presentations }} <span class="count">{{ presentations | size }}</span></a>
+  {% for s in sections %}
+    {% assign key = s | split: ":" | first %}
+    {% assign items = all | where: "category", key %}
+    <a href="#{{ key }}">{{ t[key] }} <span class="count">{{ items | size }}</span></a>
+  {% endfor %}
 </nav>
+<p class="legend">{{ t.legend }}</p>
 
-<section class="section" id="journals">
-  <h2>{{ t.journals }}</h2>
-  <ul class="pubs">
-    {% for post in journals %}
-      {% capture label %}J{{ forloop.rindex }}{% endcapture %}
-      {% include pub-item.html post=post lang=lang label=label thumb=true %}
-    {% endfor %}
-  </ul>
-</section>
-
-<section class="section" id="conferences">
-  <h2>{{ t.conferences }}</h2>
-  <ul class="pubs">
-    {% for post in conferences %}
-      {% capture label %}C{{ forloop.rindex }}{% endcapture %}
-      {% include pub-item.html post=post lang=lang label=label thumb=true %}
-    {% endfor %}
-  </ul>
-</section>
-
-<section class="section" id="presentations">
-  <h2>{{ t.presentations }}</h2>
-  <ul class="pubs">
-    {% for post in presentations %}
-      {% capture label %}P{{ forloop.rindex }}{% endcapture %}
-      {% include pub-item.html post=post lang=lang label=label %}
-    {% endfor %}
-  </ul>
-</section>
+{% for s in sections %}
+  {% assign parts = s | split: ":" %}
+  {% assign key = parts[0] %}
+  {% assign items = all | where: "category", key | sort: "date" | reverse %}
+  <section class="section" id="{{ key }}">
+    <h2>{{ t[key] }}</h2>
+    <ul class="pubs{% unless key == 'journals' or key == 'conferences' %} pubs--compact{% endunless %}">
+      {% for post in items %}
+        {% capture label %}{{ parts[1] }}{{ forloop.rindex }}{% endcapture %}
+        {% if key == "journals" or key == "conferences" %}
+          {% include pub-item.html post=post lang=lang label=label thumb=true %}
+        {% else %}
+          {% include pub-item.html post=post lang=lang label=label %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+{% endfor %}

@@ -3,156 +3,255 @@
 
 common:
   photo: /images/profile-photo.jpg
-  email: s2320034@jaist.ac.jp
+  email: xusheng.du@aoni.waseda.jp
   orcid: https://orcid.org/0009-0008-1086-2081
+  kaken: https://nrid.nii.ac.jp/ja/nrid/1000031041361/
   github: https://github.com/ToKyokushou
-  scholar:            # Google Scholar URL (optional)
-  cv_pdf:             # e.g. /files/cv.pdf (optional)
-
+  scholar: null
+  cv_pdf: null
 en:
   name: Xusheng Du
   name_alt: 杜 旭升
-  role: Ph.D. Candidate
-  affiliation: Japan Advanced Institute of Science and Technology (JAIST)
-  location: Ishikawa, Japan
-  about: >-
-    I am a Ph.D. candidate in Information Science at the Japan Advanced Institute of
-    Science and Technology (JAIST). My research lies at the intersection of computer
-    graphics, generative AI and human–computer interaction: I study how hand-drawn
-    sketches can drive the generation of images and 3D models, and I design and build
-    interactive interfaces that keep people at the centre of the creative process.
+  role: Assistant Professor
+  affiliation: Waseda Research Institute for Science and Engineering, Waseda University
+  degree: Ph.D. (Information Science)
+  about: Xusheng Du has been an Assistant Professor at the Waseda Research Institute for Science and Engineering, Waseda University, since April 2026. He received his Ph.D. in Information Science from the Japan Advanced Institute of Science and Technology (JAIST) in March 2026, where he was recognized as an outstanding doctoral graduate. Before graduate school, he worked for about four years as a software engineer at two companies in China, developing front ends for web systems. His research fields are generative AI and human-computer interaction (HCI). He works on methods and interactive systems that let people control generative AI through intuitive input such as sketches, supporting design from 3D shapes to architecture and cities. His work has been published in Sustainable Cities and Society, IEEE Access, Computers & Graphics, CAADRIA, and HCI International. He is the principal investigator of a JSPS KAKENHI Grant-in-Aid for Research Activity Start-up (FY2026–2027) and received the Best Poster Award at ISID 2024.
   news:
-    - date: "2026.11"
-      text: "Four papers submitted to CAADRIA 2027 are under review, including one as first author and one as corresponding author."
-    - date: "2026.08"
-      text: "Gave an invited talk, “From Sketches to Cities: Controllable Generative AI for Architectural Design,” at the School of Architecture, Tianjin University (August 24)."
-    - date: "2026.07"
-      text: "Started the JSPS KAKENHI Grant-in-Aid for Research Activity Start-up project “A Generative AI Framework for Multiscale Design Support Across Urban, Architectural, and 3D Geometric Domains” as principal investigator."
-    - date: "2026.07"
-      text: "The CoreSearch paper (first author) was published in the proceedings of HCI International 2026, Montreal (LNCS)."
-    - date: "2026.06"
-      text: "Served as session chair at NICOGRAPH International 2026, Nagoya (Session 5, “Applied Visualization, Simulation, and XR Systems”)."
-    - date: "2026.06"
-      text: "A co-authored paper received the Honorable Mention Award at NICOGRAPH International 2026."
-    - date: "2026.04"
-      text: "Three papers were published in the proceedings of CAADRIA 2026, Hsinchu (one as first author, one as co-first author)."
-    - date: "2026.04"
-      text: "Joined the Waseda Research Institute for Science and Engineering, Waseda University, as Assistant Professor (April 1)."
-    - date: "2026.03"
-      text: "Received a Ph.D. in Information Science from JAIST and was recognized as an outstanding doctoral graduate (March 25)."
-    - date: "2026.03"
-      text: "Our Sustainable Cities and Society paper on forecasting urban evolution with generative AI was featured in a press release by Waseda University and JAIST (March 24)."
-    - date: "2026.03"
-      text: "A co-authored Frontiers of Architectural Research paper on generating building designs from text was featured in a press release (March 31)."
-    - date: "2025.06"
-      text: "Co-organized the “AI-Driven Architectural Design and Behavioral Modeling Workshop” at NICOGRAPH International 2025, Kanazawa."
-    - date: "2024.03"
-      text: "Received the Best Poster Award at ISID 2024."
+  - date: '2026.11'
+    text: Four papers submitted to CAADRIA 2027 are under review, including one as first author and one as corresponding author.
+  - date: '2026.08'
+    text: 'Gave an invited talk, “From Sketches to Cities: Controllable Generative AI for Architectural Design,” at the School of Architecture, Tianjin University (August 24).'
+  - date: '2026.07'
+    text: Started the JSPS KAKENHI Grant-in-Aid for Research Activity Start-up project “A Generative AI Framework for Multiscale Design Support Across Urban, Architectural, and 3D Geometric Domains” as principal investigator.
+  - date: '2026.07'
+    text: The CoreSearch paper (first author) was published in the proceedings of HCI International 2026, Montreal (LNCS).
+  - date: '2026.06'
+    text: Served as session chair at NICOGRAPH International 2026, Nagoya (Session 5, “Applied Visualization, Simulation, and XR Systems”).
+  - date: '2026.06'
+    text: A co-authored paper received the Honorable Mention Award at NICOGRAPH International 2026.
+  - date: '2026.04'
+    text: Three papers were published in the proceedings of CAADRIA 2026, Hsinchu (one as first author, one as co-first author).
+  - date: '2026.04'
+    text: Joined the Waseda Research Institute for Science and Engineering, Waseda University, as Assistant Professor (April 1).
+  - date: '2026.03'
+    text: Received a Ph.D. in Information Science from JAIST and was recognized as an outstanding doctoral graduate (March 25).
+  - date: '2026.03'
+    text: Our Sustainable Cities and Society paper on forecasting urban evolution with generative AI was featured in a press release by Waseda University and JAIST (March 24).
+  - date: '2026.03'
+    text: A co-authored Frontiers of Architectural Research paper on generating building designs from text was featured in a press release (March 31).
+  - date: '2025.06'
+    text: Co-organized the “AI-Driven Architectural Design and Behavioral Modeling Workshop” at NICOGRAPH International 2025, Kanazawa.
+  - date: '2024.03'
+    text: Received the Best Poster Award at ISID 2024.
+  interests_intro: 'My research lies between generative AI and human-computer interaction: <strong>making generative AI reflect what people actually intend</strong>. A consistent concern is letting users see where and how the conditions they gave show up in the result, and adjust it. In particular, I work on three themes.'
   interests:
-    - title: Sketch-based generation
-      text: Image and 3D model generation from hand-drawn sketches
-    - title: Interactive interfaces
-      text: Interface design and development for human-centered experience
+  - title: Interaction
+    text: Interactive interfaces that let users inspect and adjust the generation or search process
+    papers:
+    - label: HCII '26 (CoreSearch)
+      pid: IC06
+    - label: NICOGRAPH Int'l '23 (DualSlide)
+      pid: IC15
+    - label: HCII '23 (SGDraw)
+      pid: IC14
+  - title: 3D shapes
+    text: Sketch-based 3D shape generation, retrieval, and drawing guidance
+    papers:
+    - label: IEEE Access '24 (DualShape)
+      pid: J07
+    - label: IWAIT '22
+      pid: IC17
+  - title: Architecture and cities
+    text: Generative AI that connects designs across levels of detail (LoD) and spatial scales
+    papers:
+    - label: SCS '26 (MMCN)
+      pid: J01
+    - label: CAADRIA '26
+      pid: IC05
+    - label: CAADRIA '25
+      pid: IC08
   education:
-    - period: 2023.04 – 2026.03
-      title: Ph.D. in Information Science
-      org: Japan Advanced Institute of Science and Technology (JAIST), Japan
-    - period: 2021.04 – 2023.03
-      title: M.A. in Information Science
-      org: Japan Advanced Institute of Science and Technology (JAIST), Japan
-    - period: 2011.09 – 2015.06
-      title: B.A. in Physical Science
-      org: Guangzhou University, China
+  - period: 2023.04 – 2026.03
+    title: Ph.D. in Information Science
+    org: Graduate School of Advanced Science and Technology, Japan Advanced Institute of Science and Technology (JAIST)
+    note: 'Dissertation: Generative AI-Driven 3D Modeling and Applications using Intuitive Control: From Architectural Design to Urban Planning (Supervisor: Haoran Xie)'
+  - period: 2021.04 – 2023.03
+    title: Master’s degree in Information Science
+    org: Graduate School of Advanced Science and Technology, Japan Advanced Institute of Science and Technology (JAIST)
+    note: 'Thesis: Real-Time 3D Shadow Guidance for Sketch-Based 3D Shape Generation'
+  - period: 2019.10 – 2021.03
+    title: Japanese language studies
+    org: Akamonkai Japanese Language School, Tokyo
+  - period: 2011.09 – 2015.06
+    title: Bachelor of Engineering
+    org: Optical Information Science and Technology, School of Physics and Electronic Engineering, Guangzhou University, China
   experience:
-    - period: 2017.09 – 2019.10
-      title: Software Engineer
-      org: Udesk Co., Ltd.
-    - period: 2015.07 – 2017.08
-      title: Software Engineer
-      org: Gong Xiang Future (Beijing) Technology Co., Ltd.
+  - period: 2026.04 – present
+    title: 'Assistant Professor (official title: Junior Researcher)'
+    org: Waseda Research Institute for Science and Engineering, Waseda University
+    note: Research on generative-AI design support in a JST BOOST project; supervision of student research
+  - period: 2023.04 – 2023.06, 2024.04 – 2024.06
+    title: Teaching Assistant
+    org: Japan Advanced Institute of Science and Technology (JAIST)
+    note: Lecture support and tutorial instruction for the course “メディア創造論” (Media Creation)
+  - period: 2017.09 – 2019.09
+    title: Software Engineer
+    org: Beijing Wofengshidai Data Technology Co., Ltd.
+    note: Front-end development of web systems
+  - period: 2015.07 – 2017.08
+    title: Software Engineer
+    org: Gongxiang Future (Beijing) Technology Co., Ltd.
+    note: Front-end development of web systems
   awards:
-    - period: 2024
-      title: Best Poster Award
-      org: 4th International Symposium on Intelligence Design (ISID 2024)
-    - period:
-      title: SPRING Researcher
-      org: JST Support for Pioneering Research Initiated by the Next Generation (SPRING), JAIST
-  skills:
-    - title: Programming
-      text: Python, JavaScript, Vue.js, HTML/CSS
-    - title: Tools
-      text: Blender
-
+  - period: '2026.06'
+    title: Honorable Mention Award
+    org: NICOGRAPH International 2026 (awarded to a co-authored paper)
+  - period: '2026.03'
+    title: Outstanding Doctoral Graduate
+    org: Japan Advanced Institute of Science and Technology (JAIST)
+  - period: '2024.03'
+    title: Best Poster Award
+    org: 4th International Symposium on Intelligence Design (ISID 2024)
+  grants:
+  - period: FY2026 – FY2027
+    title: JSPS KAKENHI Grant-in-Aid for Research Activity Start-up (26K24681), Principal Investigator
+    org: A Generative AI Framework for Multiscale Design Support Across Urban, Architectural, and 3D Geometric Domains
+  - period: 2025.04 – 2026.03
+    title: JST SPRING (JPMJSP2102), JAIST-SPRING Researcher
+    org: 'Support for Pioneering Research Initiated by the Next Generation: research support for doctoral students at JAIST'
+  activities:
+  - title: Session chair
+    text: NICOGRAPH International 2026, Session 5 “Applied Visualization, Simulation, and XR Systems” (Track A), Nagoya, June 2026
+  - title: Workshop organizer
+    text: “AI-Driven Architectural Design and Behavioral Modeling Workshop,” International Workshop for Science and Art 2025 (with NICOGRAPH International 2025), Kanazawa, June 2025; co-organized with Yuan Ma and Mikiya Kusunoki
+  - title: Reviewer
+    text: Computers & Graphics (2025); Journal of the Institute of Image Electronics Engineers of Japan (2026)
+  - title: Memberships
+    text: The Society for Art and Science (2026.05–); Asia Digital Art and Design Association, ADADA (2025.03–)
+  - title: Outreach
+    text: Organized a public event on generative AI at JAIST Festival 2023 (October 2023)
+  - title: Language
+    text: Japanese-Language Proficiency Test (JLPT) N1 (July 2022)
 ja:
   name: 杜 旭升
-  name_alt: Xusheng Du
-  role: 博士後期課程
-  affiliation: 北陸先端科学技術大学院大学（JAIST）
-  location: 石川県，日本
-  about: >-
-    北陸先端科学技術大学院大学（JAIST）情報科学系の博士後期課程に在籍しています。
-    コンピュータグラフィックス，生成AI，ヒューマンコンピュータインタラクションの
-    融合領域を対象に，手描きスケッチを入力とした画像・3Dモデルの生成手法と，
-    人間を中心に据えた創作支援のためのインタラクティブインタフェースの設計・開発に
-    取り組んでいます。
+  name_alt: DU Xusheng
+  role: 研究院講師
+  affiliation: 早稲田大学 理工学術院総合研究所
+  degree: 博士（情報科学）
+  about: 杜 旭升（DU Xusheng）は，2026年4月より早稲田大学 理工学術院総合研究所 研究院講師。2026年3月に北陸先端科学技術大学院大学で博士（情報科学）を取得し，博士後期課程優秀修了生として表彰された。大学院進学以前は，中国の企業2社で約4年間，ソフトウェアエンジニアとしてWebシステムのフロントエンド開発に従事した。専門は生成AIとヒューマンコンピュータインタラクション（HCI）。スケッチなどの直感的な入力によって生成AIを制御し，3次元形状・建築・都市の設計を支援する手法と対話型システムを研究している。研究成果は Sustainable Cities and Society，IEEE Access，Computers & Graphics，CAADRIA，HCI International などで発表している。科研費 研究活動スタート支援（2026–2027年度）研究代表者。ISID 2024 Best Poster Award 受賞。
   news:
-    - date: "2026.11"
-      text: "CAADRIA 2027 に論文4編を投稿中（筆頭1編，責任著者1編を含む）"
-    - date: "2026.08"
-      text: "天津大学建築学院にて招待講演「From Sketches to Cities: Controllable Generative AI for Architectural Design」（8月24日）"
-    - date: "2026.07"
-      text: "科研費 研究活動スタート支援「都市・建築・三次元形状を横断するマルチスケール設計支援のための生成AI基盤の構築」開始（研究代表者）"
-    - date: "2026.07"
-      text: "CoreSearch の論文が HCI International 2026（モントリオール）の論文集（LNCS）に掲載（筆頭）"
-    - date: "2026.06"
-      text: "NICOGRAPH International 2026（名古屋）にて Session 5 “Applied Visualization, Simulation, and XR Systems” の座長を担当"
-    - date: "2026.06"
-      text: "NICOGRAPH International 2026 にて共著論文が Honorable Mention Award を受賞"
-    - date: "2026.04"
-      text: "CAADRIA 2026（新竹）の論文集に論文3編が掲載（筆頭1編，共同筆頭1編）"
-    - date: "2026.04"
-      text: "早稲田大学 理工学術院総合研究所 研究院講師に着任（4月1日）"
-    - date: "2026.03"
-      text: "博士（情報科学）を取得，博士後期課程優秀修了生として表彰（北陸先端科学技術大学院大学，3月25日）"
-    - date: "2026.03"
-      text: "Sustainable Cities and Society 掲載論文がプレスリリース「生成AIで都市の未来を高精度に予測」として紹介（3月24日，早稲田大学・JAIST）"
-    - date: "2026.03"
-      text: "Frontiers of Architectural Research 掲載の共著論文がプレスリリース「テキストから正確な建築デザインを自動で生成するAIシステムを開発」として紹介（3月31日）"
-    - date: "2025.06"
-      text: "NICOGRAPH International 2025 併設ワークショップ “AI-Driven Architectural Design and Behavioral Modeling Workshop” を共同企画（金沢）"
-    - date: "2024.03"
-      text: "ISID 2024 にて Best Poster Award を受賞"
+  - date: '2026.11'
+    text: CAADRIA 2027 に論文4編を投稿中（筆頭1編，責任著者1編を含む）
+  - date: '2026.08'
+    text: '天津大学建築学院にて招待講演「From Sketches to Cities: Controllable Generative AI for Architectural Design」（8月24日）'
+  - date: '2026.07'
+    text: 科研費 研究活動スタート支援「都市・建築・三次元形状を横断するマルチスケール設計支援のための生成AI基盤の構築」開始（研究代表者）
+  - date: '2026.07'
+    text: CoreSearch の論文が HCI International 2026（モントリオール）の論文集（LNCS）に掲載（筆頭）
+  - date: '2026.06'
+    text: NICOGRAPH International 2026（名古屋）にて Session 5 “Applied Visualization, Simulation, and XR Systems” の座長を担当
+  - date: '2026.06'
+    text: NICOGRAPH International 2026 にて共著論文が Honorable Mention Award を受賞
+  - date: '2026.04'
+    text: CAADRIA 2026（新竹）の論文集に論文3編が掲載（筆頭1編，共同筆頭1編）
+  - date: '2026.04'
+    text: 早稲田大学 理工学術院総合研究所 研究院講師に着任（4月1日）
+  - date: '2026.03'
+    text: 博士（情報科学）を取得，博士後期課程優秀修了生として表彰（北陸先端科学技術大学院大学，3月25日）
+  - date: '2026.03'
+    text: Sustainable Cities and Society 掲載論文がプレスリリース「生成AIで都市の未来を高精度に予測」として紹介（3月24日，早稲田大学・JAIST）
+  - date: '2026.03'
+    text: Frontiers of Architectural Research 掲載の共著論文がプレスリリース「テキストから正確な建築デザインを自動で生成するAIシステムを開発」として紹介（3月31日）
+  - date: '2025.06'
+    text: NICOGRAPH International 2025 併設ワークショップ “AI-Driven Architectural Design and Behavioral Modeling Workshop” を共同企画（金沢）
+  - date: '2024.03'
+    text: ISID 2024 にて Best Poster Award を受賞
+  interests_intro: 生成AIとヒューマンコンピュータインタラクションの境界領域で，<strong>人の意図を生成AIの結果に正確に反映させること</strong>を研究しています。与えた条件が結果のどこにどう反映されたかを利用者が確かめ，調整できるようにすることが一貫した問題意識です。特に次の3つに取り組んでいます。
   interests:
-    - title: スケッチベース生成
-      text: 手描きスケッチからの画像・3Dモデル生成
-    - title: インタフェース設計・開発
-      text: 人間中心の体験を実現するインタフェースの設計と開発
+  - title: インタラクション
+    text: 生成や検索の過程を利用者が確認・調整できる対話型インタフェース
+    papers:
+    - label: HCII '26（CoreSearch）
+      pid: IC06
+    - label: NICOGRAPH Int'l '23（DualSlide）
+      pid: IC15
+    - label: HCII '23（SGDraw）
+      pid: IC14
+  - title: 3D形状
+    text: 手描きスケッチからの3次元形状の生成・検索と描画支援
+    papers:
+    - label: IEEE Access '24（DualShape）
+      pid: J07
+    - label: IWAIT '22
+      pid: IC17
+  - title: 建築・都市
+    text: 詳細度（LoD）やスケールの異なる設計をつなぐ生成AI
+    papers:
+    - label: SCS '26（MMCN）
+      pid: J01
+    - label: CAADRIA '26
+      pid: IC05
+    - label: CAADRIA '25
+      pid: IC08
   education:
-    - period: 2023.04 – 2026.03
-      title: 博士後期課程（情報科学）
-      org: 北陸先端科学技術大学院大学（JAIST），日本
-    - period: 2021.04 – 2023.03
-      title: 博士前期課程（情報科学）
-      org: 北陸先端科学技術大学院大学（JAIST），日本
-    - period: 2011.09 – 2015.06
-      title: 学士（物理科学）
-      org: 広州大学，中国
+  - period: 2023.04 – 2026.03
+    title: 博士（情報科学）
+    org: 北陸先端科学技術大学院大学 先端科学技術研究科 先端科学技術専攻 博士後期課程 修了
+    note: '博士論文：Generative AI-Driven 3D Modeling and Applications using Intuitive Control: From Architectural Design to Urban Planning（主指導教員：謝 浩然）'
+  - period: 2021.04 – 2023.03
+    title: 修士（情報科学）
+    org: 北陸先端科学技術大学院大学 先端科学技術研究科 先端科学技術専攻 博士前期課程 修了
+    note: 修士論文：Real-Time 3D Shadow Guidance for Sketch-Based 3D Shape Generation
+  - period: 2019.10 – 2021.03
+    title: 日本語を学修
+    org: 赤門会日本語学校 卒業
+  - period: 2011.09 – 2015.06
+    title: 学士（工学）
+    org: 広州大学（中国）物理と電子工程学部 光情報科学技術学科 卒業
   experience:
-    - period: 2017.09 – 2019.10
-      title: ソフトウェアエンジニア
-      org: Udesk Co., Ltd.
-    - period: 2015.07 – 2017.08
-      title: ソフトウェアエンジニア
-      org: Gong Xiang Future (Beijing) Technology Co., Ltd.
+  - period: 2026.04 – 現在
+    title: 研究院講師（正式な資格名称：次席研究員）
+    org: 早稲田大学 理工学術院総合研究所
+    note: JST BOOST研究課題における生成AI設計支援研究，学生研究指導
+  - period: 2023.04 – 2023.06，2024.04 – 2024.06
+    title: ティーチング・アシスタント
+    org: 北陸先端科学技術大学院大学
+    note: 「メディア創造論」講義補助および演習（チュートリアル）指導
+  - period: 2017.09 – 2019.09
+    title: ソフトウェアエンジニア
+    org: Beijing Wofengshidai Data Technology Co., Ltd.（北京沃丰时代数据科技有限公司）
+    note: Webシステムのフロントエンド開発
+  - period: 2015.07 – 2017.08
+    title: ソフトウェアエンジニア
+    org: Gongxiang Future (Beijing) Technology Co., Ltd.（公象未来（北京）科技有限公司）
+    note: Webシステムのフロントエンド開発
   awards:
-    - period: 2024
-      title: Best Poster Award（優秀ポスター賞）
-      org: 4th International Symposium on Intelligence Design (ISID 2024)
-    - period:
-      title: SPRING 次世代研究員
-      org: JST 次世代研究者挑戦的研究プログラム（未来創造イノベーション博士人材支援プログラム），JAIST
-  skills:
-    - title: プログラミング
-      text: Python, JavaScript, Vue.js, HTML/CSS
-    - title: ツール
-      text: Blender
+  - period: '2026.06'
+    title: Honorable Mention Award
+    org: NICOGRAPH International 2026（共著論文に対する賞）
+  - period: '2026.03'
+    title: 博士後期課程優秀修了生表彰
+    org: 北陸先端科学技術大学院大学
+  - period: '2024.03'
+    title: Best Poster Award
+    org: 4th International Symposium on Intelligence Design (ISID 2024)
+  grants:
+  - period: 2026 – 2027年度
+    title: 科学研究費助成事業 研究活動スタート支援（26K24681），研究代表者
+    org: 都市・建築・三次元形状を横断するマルチスケール設計支援のための生成AI基盤の構築
+  - period: 2025.04 – 2026.03
+    title: JST 次世代研究者挑戦的研究プログラム（SPRING，JPMJSP2102），JAIST-SPRING研究員
+    org: 北陸先端科学技術大学院大学における博士後期課程の研究活動支援
+  activities:
+  - title: 座長
+    text: NICOGRAPH International 2026 Session 5 “Applied Visualization, Simulation, and XR Systems”（Track A），名古屋（2026.06）
+  - title: 企画・運営
+    text: International Workshop for Science and Art 2025（NICOGRAPH International 2025併設）“AI-Driven Architectural Design and Behavioral Modeling Workshop”，金沢（2025.06，Yuan Ma，Mikiya Kusunoki と共同）
+  - title: 論文査読
+    text: Computers & Graphics（2025），画像電子学会誌（2026）
+  - title: 所属学会
+    text: 芸術科学会（2026.05–），Asia Digital Art and Design Association（ADADA）（2025.03–）
+  - title: アウトリーチ
+    text: JAISTフェスティバル2023 一般向けイベント「生成AIってなんだろう、その不思議と仕組み」企画・運営（2023.10）
+  - title: 資格
+    text: 日本語能力試験（JLPT）N1（2022.07）
