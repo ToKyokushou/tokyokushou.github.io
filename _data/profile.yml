@@ -52,7 +52,7 @@ en:
       pid: IC15
     - label: HCII '23 (SGDraw)
       pid: IC14
-    image: /images/themes/interaction.jpg
+    art: interaction
   - title: 3D shapes
     text: Sketch-based 3D shape generation, retrieval, and drawing guidance
     papers:
@@ -60,7 +60,7 @@ en:
       pid: J07
     - label: IWAIT '22
       pid: IC17
-    image: /images/themes/shape.jpg
+    art: shape
   - title: Architecture and cities
     text: Generative AI that connects designs across levels of detail (LoD) and spatial scales
     papers:
@@ -70,7 +70,7 @@ en:
       pid: IC05
     - label: CAADRIA '25
       pid: IC08
-    image: /images/themes/city.jpg
+    art: city
   education:
   - period: 2023.04 – 2026.03
     title: Ph.D. in Information Science
@@ -181,7 +181,7 @@ ja:
       pid: IC15
     - label: HCII '23（SGDraw）
       pid: IC14
-    image: /images/themes/interaction.jpg
+    art: interaction
   - title: 3D形状
     text: 手描きスケッチからの3次元形状の生成・検索と描画支援
     papers:
@@ -189,7 +189,7 @@ ja:
       pid: J07
     - label: IWAIT '22
       pid: IC17
-    image: /images/themes/shape.jpg
+    art: shape
   - title: 建築・都市
     text: 詳細度（LoD）やスケールの異なる設計をつなぐ生成AI
     papers:
@@ -199,7 +199,7 @@ ja:
       pid: IC05
     - label: CAADRIA '25
       pid: IC08
-    image: /images/themes/city.jpg
+    art: city
   education:
   - period: 2023.04 – 2026.03
     title: 博士（情報科学）

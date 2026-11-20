@@ -70,7 +70,7 @@ layout: site
   <ul class="themes">
     {% for i in p.interests %}
     <li class="theme">
-      <div class="theme__fig"><img src="{{ i.image }}" alt="" loading="lazy"></div>
+      <div class="theme__fig">{% include theme-art.html name=i.art %}</div>
       <h3>{{ i.title }}</h3>
       <p>{{ i.text }}</p>
       <div class="theme__papers">
