@@ -342,7 +342,7 @@ html[lang="ja"] .sec span { letter-spacing: 0.06em; }
 .paper__content section p + .sec { margin-top: 28px; }
 .paper__content figure { margin: 28px 0 0; padding: 12px; background: #fff; border: 1px solid var(--rule); border-radius: 4px; }
 .paper__content img { display: block; margin: 0 auto; }
-.paper__content p { text-align: left; }
+.paper__content p { text-align: justify; hyphens: manual; }
 
 /* ---------- Footer ---------- */
 
@@ -375,6 +375,7 @@ html[lang="ja"] .sec span { letter-spacing: 0.06em; }
   .flow__loop span::before { content: "↺ "; }
   .pairs dd { margin-bottom: 8px; }
   .pub--thumb { grid-template-columns: 1fr; gap: 10px; }
+  .paper__content p { text-align: left; }
   .pub__fig { height: 150px; }
   .pub--thumb .pub__fig:has(.pub__fig-empty) { display: none; }
   .paper__title { font-size: 1.3rem; }
