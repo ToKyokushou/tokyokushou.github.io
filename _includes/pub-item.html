@@ -1,0 +1,39 @@
+{% comment %}
+  One publication entry.
+  Params: post, lang, label (e.g. "J3", optional), thumb (true to show the figure column)
+{% endcomment %}
+{% assign post = include.post %}
+{% assign it = site.data.i18n[include.lang] %}
+{% assign body = post.content | strip %}
+{% assign detail_url = post.url %}
+{% if include.lang == "ja" %}{% assign detail_url = post.url | append: "?lang=ja" %}{% endif %}
+<li class="pub{% if include.thumb %} pub--thumb{% endif %}">
+  {% if include.thumb %}
+    <div class="pub__fig">
+      {% if post.thumb %}
+        <img src="{{ post.thumb }}" alt="" loading="lazy">
+      {% else %}
+        <span class="pub__fig-empty">{{ post.venue_short }}</span>
+      {% endif %}
+    </div>
+  {% endif %}
+  <div class="pub__body">
+    <p class="pub__title">
+      {% if include.label %}<span class="pub__label">[{{ include.label }}]</span>{% endif %}
+      {% if body != "" %}<a href="{{ detail_url }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}
+    </p>
+    <p class="pub__authors">{{ post.citation | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
+    <p class="pub__venue">
+      <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}.
+      {% if post.type %}<span class="tag">{{ post.type }}</span>{% endif %}
+      {% if post.award %}<span class="tag tag--award">{{ post.award }}</span>{% endif %}
+    </p>
+    {% if body != "" or post.paperurl or post.codeurl %}
+    <p class="pub__links">
+      {% if body != "" %}<a href="{{ detail_url }}">{{ it.details }}</a>{% endif %}
+      {% if post.paperurl %}<a href="{{ post.paperurl }}">{{ it.paper }}</a>{% endif %}
+      {% if post.codeurl %}<a href="{{ post.codeurl }}">{{ it.code }}</a>{% endif %}
+    </p>
+    {% endif %}
+  </div>
+</li>

@@ -1,0 +1,104 @@
+# Profile content for the homepage and CV, in English (en) and Japanese (ja).
+# Edit the text here; the page layouts read from this file.
+
+common:
+  photo: /images/profile-photo.jpg
+  email: s2320034@jaist.ac.jp
+  orcid: https://orcid.org/0009-0008-1086-2081
+  github: https://github.com/ToKyokushou
+  scholar:            # Google Scholar URL (optional)
+  cv_pdf:             # e.g. /files/cv.pdf (optional)
+
+en:
+  name: Xusheng Du
+  name_alt: 杜 旭升
+  role: Ph.D. Candidate
+  affiliation: Japan Advanced Institute of Science and Technology (JAIST)
+  location: Ishikawa, Japan
+  about: >-
+    I am a Ph.D. candidate in Information Science at the Japan Advanced Institute of
+    Science and Technology (JAIST). My research lies at the intersection of computer
+    graphics, generative AI and human–computer interaction: I study how hand-drawn
+    sketches can drive the generation of images and 3D models, and I design and build
+    interactive interfaces that keep people at the centre of the creative process.
+  interests:
+    - title: Sketch-based generation
+      text: Image and 3D model generation from hand-drawn sketches
+    - title: Interactive interfaces
+      text: Interface design and development for human-centered experience
+  education:
+    - period: 2023.04 – 2026.03
+      title: Ph.D. in Information Science
+      org: Japan Advanced Institute of Science and Technology (JAIST), Japan
+    - period: 2021.04 – 2023.03
+      title: M.A. in Information Science
+      org: Japan Advanced Institute of Science and Technology (JAIST), Japan
+    - period: 2011.09 – 2015.06
+      title: B.A. in Physical Science
+      org: Guangzhou University, China
+  experience:
+    - period: 2017.09 – 2019.10
+      title: Software Engineer
+      org: Udesk Co., Ltd.
+    - period: 2015.07 – 2017.08
+      title: Software Engineer
+      org: Gong Xiang Future (Beijing) Technology Co., Ltd.
+  awards:
+    - period: 2024
+      title: Best Poster Award
+      org: 4th International Symposium on Intelligence Design (ISID 2024)
+    - period:
+      title: SPRING Researcher
+      org: JST Support for Pioneering Research Initiated by the Next Generation (SPRING), JAIST
+  skills:
+    - title: Programming
+      text: Python, JavaScript, Vue.js, HTML/CSS
+    - title: Tools
+      text: Blender
+
+ja:
+  name: 杜 旭升
+  name_alt: Xusheng Du
+  role: 博士後期課程
+  affiliation: 北陸先端科学技術大学院大学（JAIST）
+  location: 石川県，日本
+  about: >-
+    北陸先端科学技術大学院大学（JAIST）情報科学系の博士後期課程に在籍しています。
+    コンピュータグラフィックス，生成AI，ヒューマンコンピュータインタラクションの
+    融合領域を対象に，手描きスケッチを入力とした画像・3Dモデルの生成手法と，
+    人間を中心に据えた創作支援のためのインタラクティブインタフェースの設計・開発に
+    取り組んでいます。
+  interests:
+    - title: スケッチベース生成
+      text: 手描きスケッチからの画像・3Dモデル生成
+    - title: インタフェース設計・開発
+      text: 人間中心の体験を実現するインタフェースの設計と開発
+  education:
+    - period: 2023.04 – 2026.03
+      title: 博士後期課程（情報科学）
+      org: 北陸先端科学技術大学院大学（JAIST），日本
+    - period: 2021.04 – 2023.03
+      title: 博士前期課程（情報科学）
+      org: 北陸先端科学技術大学院大学（JAIST），日本
+    - period: 2011.09 – 2015.06
+      title: 学士（物理科学）
+      org: 広州大学，中国
+  experience:
+    - period: 2017.09 – 2019.10
+      title: ソフトウェアエンジニア
+      org: Udesk Co., Ltd.
+    - period: 2015.07 – 2017.08
+      title: ソフトウェアエンジニア
+      org: Gong Xiang Future (Beijing) Technology Co., Ltd.
+  awards:
+    - period: 2024
+      title: Best Poster Award（優秀ポスター賞）
+      org: 4th International Symposium on Intelligence Design (ISID 2024)
+    - period:
+      title: SPRING 次世代研究員
+      org: JST 次世代研究者挑戦的研究プログラム（未来創造イノベーション博士人材支援プログラム），JAIST
+  skills:
+    - title: プログラミング
+      text: Python, JavaScript, Vue.js, HTML/CSS
+    - title: ツール
+      text: Blender

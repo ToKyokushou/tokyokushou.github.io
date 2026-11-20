@@ -1,0 +1,28 @@
+---
+layout: site
+---
+<p class="back">
+  <a data-lang="en" href="/publications/">← {{ site.data.i18n.en.back }}</a>
+  <a data-lang="ja" href="/ja/publications/">← {{ site.data.i18n.ja.back }}</a>
+</p>
+
+<article class="paper">
+  <header class="paper__head">
+    <h1 class="paper__title">{{ page.title }}</h1>
+    <p class="paper__authors">{{ page.citation | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
+    <p class="paper__venue">
+      <em>{{ page.venue }}</em>, {{ page.date | date: "%Y" }}.
+      {% if page.type %}<span class="tag">{{ page.type }}</span>{% endif %}
+      {% if page.award %}<span class="tag tag--award">{{ page.award }}</span>{% endif %}
+    </p>
+    {% if page.paperurl or page.codeurl %}
+    <p class="pub__links">
+      {% if page.paperurl %}<a href="{{ page.paperurl }}">{{ site.data.i18n.en.paper }}</a>{% endif %}
+      {% if page.codeurl %}<a href="{{ page.codeurl }}">{{ site.data.i18n.en.code }}</a>{% endif %}
+    </p>
+    {% endif %}
+  </header>
+  <div class="paper__content">
+    {{ content }}
+  </div>
+</article>

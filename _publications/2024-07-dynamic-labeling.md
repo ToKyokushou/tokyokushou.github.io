@@ -9,6 +9,8 @@ date: 2024-07-01
 venue: '26th International Conference on Human-Computer Interaction (HCI INTERNATIONAL 2024), Washington, USA'
 citation: 'Chia-Ming Chang, Yi He, **Xusheng Du**, Xi Yang, Haoran Xie.'
 thumbnail: /images/8-label-3.png
+venue_short: "HCII 2024"
+thumb: /images/thumbs/8-label-3.jpg
 ---
 <img src="/images/8-label-1.png" alt="" style="width:100%;" />
 

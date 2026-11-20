@@ -1,0 +1,56 @@
+# Interface strings for the English (en) and Japanese (ja) versions of the site.
+
+en:
+  root: ""
+  nav_home: Home
+  nav_publications: Publications
+  nav_cv: CV
+  about: About
+  interests: Research Interests
+  selected: Selected Publications
+  all_publications: Full publication list
+  education: Education
+  experience: Work Experience
+  awards: Awards and Honors
+  skills: Skills
+  publications: Publications
+  journals: Journal Articles
+  conferences: International Conference Papers
+  presentations: Posters and Presentations
+  details: Abstract
+  paper: Paper
+  code: Code
+  back: Back to publications
+  cv: Curriculum Vitae
+  cv_pdf: Download PDF
+  email: Email
+  updated: Last updated
+  notfound: Page not found
+  notfound_text: The page you were looking for does not exist.
+ja:
+  root: /ja
+  nav_home: ホーム
+  nav_publications: 研究業績
+  nav_cv: 経歴
+  about: 自己紹介
+  interests: 研究分野
+  selected: 主要業績
+  all_publications: 研究業績一覧
+  education: 学歴
+  experience: 職歴
+  awards: 受賞・採択
+  skills: スキル
+  publications: 研究業績
+  journals: 学術論文誌
+  conferences: 国際会議論文
+  presentations: ポスター・口頭発表
+  details: 概要
+  paper: 論文
+  code: コード
+  back: 研究業績一覧へ戻る
+  cv: 経歴
+  cv_pdf: PDF版
+  email: メール
+  updated: 最終更新
+  notfound: ページが見つかりません
+  notfound_text: お探しのページは存在しません。

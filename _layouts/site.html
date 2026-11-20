@@ -1,0 +1,80 @@
+{% comment %}
+  Base layout of the site.
+  Pages set `lang: en` or `lang: ja`. Pages without `lang` (publication detail pages)
+  are shared by both versions: their navigation is rendered in both languages and
+  switched to Japanese when the address ends with ?lang=ja.
+{% endcomment %}
+{% if page.lang %}
+  {% assign lang = page.lang %}
+  {% assign shared = false %}
+  {% if lang == "ja" %}
+    {% assign en_url = page.url | remove_first: "/ja" %}
+    {% assign ja_url = page.url %}
+  {% else %}
+    {% assign en_url = page.url %}
+    {% assign ja_url = page.url | prepend: "/ja" %}
+  {% endif %}
+{% else %}
+  {% assign lang = "en" %}
+  {% assign shared = true %}
+  {% assign en_url = page.url %}
+  {% assign ja_url = page.url | append: "?lang=ja" %}
+{% endif %}
+{% assign p = site.data.profile[lang] %}
+{% assign t = site.data.i18n[lang] %}
+{% capture page_title %}{% if page.title %}{{ page.title }} – {% endif %}{{ p.name }}{% endcapture %}
+<!doctype html>
+<html lang="{{ lang }}" data-lang="{{ lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page_title | strip | escape }}</title>
+  <meta name="description" content="{{ page.excerpt | default: p.about | strip_html | strip_newlines | truncate: 200 | escape }}">
+  <meta name="author" content="{{ site.data.profile.en.name }}">
+  <meta property="og:title" content="{{ page_title | strip | escape }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ site.data.profile.common.photo | absolute_url }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  {% unless shared %}
+  <link rel="alternate" hreflang="en" href="{{ en_url | absolute_url }}">
+  <link rel="alternate" hreflang="ja" href="{{ ja_url | absolute_url }}">
+  {% endunless %}
+  <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  {% if shared %}
+  <script>
+    if (new URLSearchParams(location.search).get('lang') === 'ja') {
+      document.documentElement.lang = 'ja';
+      document.documentElement.dataset.lang = 'ja';
+    }
+  </script>
+  {% endif %}
+</head>
+<body>
+  {% if shared %}
+    {% include site-masthead.html lang="en" en_url=en_url ja_url=ja_url %}
+    {% include site-masthead.html lang="ja" en_url=en_url ja_url=ja_url %}
+  {% else %}
+    {% include site-masthead.html lang=lang en_url=en_url ja_url=ja_url %}
+  {% endif %}
+
+  <main class="wrap">
+    {{ content }}
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <span>© {{ site.time | date: "%Y" }} {{ site.data.profile.en.name }}</span>
+      <span>
+        {% if shared %}
+          <span data-lang="en">{{ site.data.i18n.en.updated }}</span><span data-lang="ja">{{ site.data.i18n.ja.updated }}</span>
+        {% else %}
+          {{ t.updated }}
+        {% endif %}
+        {{ site.time | date: "%Y-%m" }}
+      </span>
+    </div>
+  </footer>
+</body>
+</html>

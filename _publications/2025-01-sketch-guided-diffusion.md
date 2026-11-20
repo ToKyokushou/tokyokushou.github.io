@@ -9,6 +9,8 @@ date: 2025-01-01
 venue: 'Computer & Graphics (Accepted), ACM/EG Expressive Symposium'
 citation: 'Tianyu Zhang, Xiaoxuan Xie, **Xusheng Du**, Haoran Xie.'
 thumbnail: /images/12-sg-1.png
+venue_short: "Computers & Graphics 2025"
+thumb: /images/thumbs/12-sg-1.jpg
 ---
 <img src="/images/12-sg-1.png" alt="" style="width:100%;" />
 

@@ -9,6 +9,8 @@ date: 2024-12-01
 venue: 'ACM SIGGRAPH Asia 2024, Posters, Tokyo, Japan'
 citation: 'Hao Jin, Zhengyang Wang, **Xusheng Du**, Xiaoxuan Xie, Haoran Xie.'
 thumbnail: /images/10-cinema-sketch-1.png
+venue_short: "SIGGRAPH Asia 2024 Posters"
+thumb: /images/thumbs/10-cinema-sketch-1.jpg
 ---
 <img src="/images/10-cinema-sketch-1.png" alt="" style="width:100%;" />
 

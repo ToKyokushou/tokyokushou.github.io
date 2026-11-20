@@ -9,6 +9,8 @@ date: 2023-06-01
 venue: 'NICOGRAPH International 2023, Hokkaido, Japan'
 citation: 'Jiahao Weng, **Xusheng Du** and Haoran Xie.'
 thumbnail: /images/3-dualslide-1.png
+venue_short: "NICOGRAPH Int'l 2023"
+thumb: /images/thumbs/3-dualslide-1.jpg
 ---
 
 <img src="/images/3-dualslide-1.png" alt="" style="width:100%;" />

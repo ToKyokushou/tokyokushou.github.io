@@ -9,4 +9,5 @@ date: 2022-03-01
 venue: '2nd International Symposium on Intelligence Design (ISID 2022), Online'
 citation: '**Xusheng Du**, Yi He, Xi Yang, Chia-Ming Chang and Haoran Xie.'
 type: Poster
+venue_short: "ISID 2022"
 ---

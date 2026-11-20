@@ -9,6 +9,8 @@ date: 2024-06-01
 venue: 'NICOGRAPH International 2024, Tokyo, Japan'
 citation: 'Zhengyang Wang, **Xusheng Du**, Tsukasa Fukusato, Haoran Xie.'
 thumbnail: /images/7-comic-1.png
+venue_short: "NICOGRAPH Int'l 2024"
+thumb: /images/thumbs/7-comic-1.jpg
 ---
 <img src="/images/7-comic-1.png" alt="" style="width:100%;" />
 

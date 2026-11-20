@@ -9,5 +9,8 @@ date: 2024-03-01
 venue: '4th International Symposium on Intelligence Design (ISID 2024), Online'
 citation: '**Xusheng Du**, Haoran Xie.'
 type: Poster
+venue_short: "ISID 2024"
+selected: true
+award: "Best Poster Award"
 ---
 

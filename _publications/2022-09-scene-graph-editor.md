@@ -9,6 +9,8 @@ date: 2022-09-01
 venue: 'The 21st International Conference on Cyberworlds (CW2022), Kanazawa, Japan'
 citation: 'Tianyu Zhang, **Xusheng Du**, Chia-Ming Chang, Xi Yang, Haoran Xie.' 
 thumbnail: /images/2-sg-1.png
+venue_short: "CW 2022"
+thumb: /images/thumbs/2-sg-1.jpg
 ---
 
 **Abstract:**

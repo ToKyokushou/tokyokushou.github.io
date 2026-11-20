@@ -1,0 +1,20 @@
+{% comment %} Top bar for one language. Params: lang, en_url, ja_url {% endcomment %}
+{% assign mt = site.data.i18n[include.lang] %}
+{% assign mp = site.data.profile[include.lang] %}
+{% assign home_url = mt.root | append: "/" %}
+{% assign pubs_url = mt.root | append: "/publications/" %}
+{% assign cv_url = mt.root | append: "/cv/" %}
+<header class="masthead" data-lang="{{ include.lang }}">
+  <div class="wrap masthead__inner">
+    <a class="masthead__name" href="{{ home_url }}">{{ mp.name }}</a>
+    <nav class="masthead__nav" aria-label="Main">
+      <a href="{{ home_url }}"{% if page.url == home_url %} aria-current="page"{% endif %}>{{ mt.nav_home }}</a>
+      <a href="{{ pubs_url }}"{% if page.url == pubs_url or page.collection %} aria-current="page"{% endif %}>{{ mt.nav_publications }}</a>
+      <a href="{{ cv_url }}"{% if page.url == cv_url %} aria-current="page"{% endif %}>{{ mt.nav_cv }}</a>
+    </nav>
+    <div class="masthead__lang" aria-label="Language">
+      <a href="{{ include.en_url }}" lang="en"{% if include.lang == "en" %} aria-current="true"{% endif %}>EN</a>
+      <a href="{{ include.ja_url }}" lang="ja"{% if include.lang == "ja" %} aria-current="true"{% endif %}>日本語</a>
+    </div>
+  </div>
+</header>

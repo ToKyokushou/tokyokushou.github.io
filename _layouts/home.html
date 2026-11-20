@@ -1,0 +1,59 @@
+---
+layout: site
+---
+{% assign lang = page.lang | default: "en" %}
+{% assign p = site.data.profile[lang] %}
+{% assign c = site.data.profile.common %}
+{% assign t = site.data.i18n[lang] %}
+
+<section class="profile">
+  <img class="profile__photo" src="{{ c.photo }}" alt="{{ p.name }}" width="160" height="160">
+  <div class="profile__text">
+    <h1 class="profile__name">{{ p.name }} <span class="profile__name-alt">{{ p.name_alt }}</span></h1>
+    <p class="profile__role">{{ p.role }}</p>
+    <p class="profile__affiliation">{{ p.affiliation }}</p>
+    <p class="profile__location">{{ p.location }}</p>
+    <ul class="profile__links">
+      <li><a href="mailto:{{ c.email }}">{{ c.email }}</a></li>
+      {% if c.scholar %}<li><a href="{{ c.scholar }}">Google Scholar</a></li>{% endif %}
+      {% if c.orcid %}<li><a href="{{ c.orcid }}">ORCID</a></li>{% endif %}
+      {% if c.github %}<li><a href="{{ c.github }}">GitHub</a></li>{% endif %}
+      <li><a href="{{ t.root }}/cv/">{{ t.nav_cv }}</a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <h2>{{ t.about }}</h2>
+  <p>{{ p.about }}</p>
+</section>
+
+<section class="section" id="interests">
+  <h2>{{ t.interests }}</h2>
+  <dl class="pairs">
+    {% for i in p.interests %}
+    <dt>{{ i.title }}</dt><dd>{{ i.text }}</dd>
+    {% endfor %}
+  </dl>
+</section>
+
+<section class="section" id="selected">
+  <h2>{{ t.selected }}</h2>
+  {% assign docs = site.publications | concat: site.talks | where: "selected", true | sort: "date" | reverse %}
+  <ul class="pubs">
+    {% for post in docs %}
+      {% include pub-item.html post=post lang=lang thumb=true %}
+    {% endfor %}
+  </ul>
+  <p class="more"><a href="{{ t.root }}/publications/">{{ t.all_publications }} →</a></p>
+</section>
+
+<section class="section" id="education">
+  <h2>{{ t.education }}</h2>
+  {% include entry-list.html items=p.education %}
+</section>
+
+<section class="section" id="awards">
+  <h2>{{ t.awards }}</h2>
+  {% include entry-list.html items=p.awards %}
+</section>

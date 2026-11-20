@@ -9,4 +9,5 @@ date: 2024-03-01
 venue: '4th International Symposium on Intelligence Design (ISID 2024), Online'
 citation: 'Zhengyang Wang, **Xusheng Du**, Tsukasa Fukusato, Haoran Xie.' 
 type: Poster
+venue_short: "ISID 2024"
 ---

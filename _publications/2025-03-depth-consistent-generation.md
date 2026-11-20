@@ -9,6 +9,9 @@ date: 2025-03-01
 venue: 'The Association for Computer-Aided Architectural Design Research in Asia (CAADRIA 2025), Tokyo, Japan'
 citation: '**Xusheng Du**, Ruihan Gui, Zhengyang Wang, Ye Zhang, Haoran Xie.'
 thumbnail: /images/14-arc-3.png
+venue_short: "CAADRIA 2025"
+thumb: /images/thumbs/14-arc-3.jpg
+selected: true
 ---
 <img src="/images/14-arc-1.png" alt="" style="width:100%;" />
 
