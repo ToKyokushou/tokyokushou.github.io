@@ -29,7 +29,7 @@ layout: site
   <div class="paper__content">
     <section data-lang="en">
       {% if page.abstract %}
-        <h2>{{ en.abstract }}</h2>
+        <h2>{{ page.abstract_label | default: en.abstract }}</h2>
         {{ page.abstract | markdownify }}
       {% else %}
         <h2>{{ en.summary }}</h2>
@@ -40,7 +40,7 @@ layout: site
       <h2>{{ ja.summary }}</h2>
       <p>{{ page.summary_ja }}</p>
       {% if page.abstract %}
-        <h2>Abstract</h2>
+        <h2>{{ page.abstract_label | default: "Abstract" }}</h2>
         {{ page.abstract | markdownify }}
       {% endif %}
     </section>
