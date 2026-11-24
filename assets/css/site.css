@@ -228,8 +228,8 @@ html[lang="ja"] .sec span { letter-spacing: 0.06em; }
 /* ---------- Dated entries (education, work, awards) ---------- */
 
 .entries { list-style: none; margin: 0; padding: 0; }
-.entry { display: grid; grid-template-columns: 150px 1fr; gap: 0 24px; }
-.entry__period { color: var(--accent); font-size: var(--fs-sm); font-weight: 700; font-variant-numeric: tabular-nums; text-align: right; padding-top: 1px; }
+.entry { display: grid; grid-template-columns: 132px 1fr; gap: 0 20px; }
+.entry__period { color: var(--accent); font-size: var(--fs-sm); font-weight: 700; font-variant-numeric: tabular-nums; text-align: left; padding-top: 1px; }
 .entry__body { position: relative; border-left: 2px solid var(--rule); padding: 0 0 18px 24px; }
 .entry:last-child .entry__body { padding-bottom: 4px; }
 .entry__body::before {
