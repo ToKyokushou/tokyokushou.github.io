@@ -82,7 +82,7 @@ layout: site
   <ul class="pubs">
     {% for g in featured_grants %}
     <li class="pub pub--thumb">
-      <div class="pub__fig pub__fig--art">{% include grant-art.html lang=lang %}</div>
+      <div class="pub__fig">{% if g.figure %}<img src="{{ g.figure }}" alt="{{ g.figure_alt | escape }}" loading="lazy">{% endif %}</div>
       <div class="pub__body">
         <p class="pub__title">{% if g.url %}<a href="{{ g.url }}">{{ g.org }}</a>{% else %}{{ g.org }}{% endif %}</p>
         <p class="pub__authors">{{ g.title }}</p>
