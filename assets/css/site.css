@@ -13,6 +13,7 @@
   --fs-xxs: 0.78rem;  /* tags */
   --col: 180px;       /* width of the left column (dates, thumbnails, photo) */
   --col-gap: 20px;
+  --lift: 0 1px 2px rgba(20, 30, 50, 0.10), 0 8px 22px rgba(20, 30, 50, 0.13);   /* shadow of a raised block */
   --sans: "Helvetica Neue", Helvetica, Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans",
           "Noto Sans JP", "Noto Sans CJK JP", "Yu Gothic", Meiryo, sans-serif;
   --serif: Georgia, "Times New Roman", "Hiragino Mincho ProN", "Noto Serif JP",
@@ -28,6 +29,7 @@
     --soft: #1c2026;
     --accent: #9dbde6;
     --award: #e0b45c;
+    --lift: 0 1px 2px rgba(0, 0, 0, 0.5), 0 8px 22px rgba(0, 0, 0, 0.55);
   }
 }
 
@@ -304,14 +306,15 @@ html[lang="ja"] .sec span { letter-spacing: 0.06em; }
 
 .pubs { list-style: none; margin: 0; padding: 0; }
 
-.pub { padding: 14px; margin: 0 -14px; border-radius: 8px; transition: background-color 0.15s; }
+.pub { padding: 14px; margin: 0 -14px; border-radius: 8px; transition: background-color 0.15s, box-shadow 0.15s, transform 0.15s; }
 .pub + .pub { margin-top: 2px; }
 /* the padding that makes room for the hover background should not push the list away from its heading or the next section */
 .sec + .pubs { margin-top: -12px; }
 .sec + .pubs--compact { margin-top: -8px; }
 .section > .pubs:last-child { margin-bottom: -12px; }
 @media (hover: hover) {
-  .pub:hover { background: var(--soft); }
+  /* the entry under the pointer lifts slightly off the page */
+  .pub:hover { background: var(--soft); box-shadow: var(--lift); transform: translateY(-2px); }
   .pub:hover .pub__fig { border-color: var(--accent); }
   .pub:hover .pub__title a { color: var(--accent); }
 }
