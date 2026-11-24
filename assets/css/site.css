@@ -258,7 +258,7 @@ html[lang="ja"] .sec span { letter-spacing: 0.06em; }
 
 /* ---------- Expandable list ---------- */
 
-.expand { border-top: 1px solid var(--rule); display: flex; flex-direction: column; }
+.expand { display: flex; flex-direction: column; }
 .expand > summary {
   order: 2;
   align-self: flex-start;
@@ -306,6 +306,10 @@ html[lang="ja"] .sec span { letter-spacing: 0.06em; }
 
 .pub { padding: 14px; margin: 0 -14px; border-radius: 8px; transition: background-color 0.15s; }
 .pub + .pub { margin-top: 2px; }
+/* the padding that makes room for the hover background should not push the list away from its heading or the next section */
+.sec + .pubs { margin-top: -12px; }
+.sec + .pubs--compact { margin-top: -8px; }
+.section > .pubs:last-child { margin-bottom: -12px; }
 @media (hover: hover) {
   .pub:hover { background: var(--soft); }
   .pub:hover .pub__fig { border-color: var(--accent); }
