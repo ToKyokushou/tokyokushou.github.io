@@ -136,7 +136,13 @@ html[lang="ja"] .sec span { letter-spacing: 0.06em; }
 
 /* ---------- Profile header ---------- */
 
-.profile { display: flex; gap: 40px; align-items: center; }
+.profile {
+  display: flex; gap: 40px; align-items: center;
+  padding: 28px 32px;
+  background: var(--soft);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+}
 
 .profile__photo {
   width: 160px;
@@ -227,11 +233,19 @@ html[lang="ja"] .sec span { letter-spacing: 0.06em; }
 /* ---------- News ---------- */
 
 .news { list-style: none; margin: 0; padding: 0; }
-/* the news list keeps its own, narrower date column */
-.news li { display: grid; grid-template-columns: 5.2em 1fr; gap: 0 16px; padding: 4px 0; }
+/* News as a timeline: a vertical line with a marker for each item */
+.news { position: relative; margin-left: 5px; padding-left: 22px; border-left: 2px solid var(--rule); }
+.news li { position: relative; padding: 0 0 14px; }
+.news:last-child li:last-child, .expand .news li:last-child { padding-bottom: 2px; }
+.news:has(+ .expand[open]) li:last-child { padding-bottom: 14px; }
+.news li::before {
+  content: ""; position: absolute; left: -29px; top: 6px;
+  width: 10px; height: 10px; border-radius: 50%;
+  background: var(--bg); border: 2px solid var(--accent);
+}
 /* avoid a lone word on the last line */
 .news li, .entry__body, .pub__title, .pub__venue { text-wrap: pretty; }
-.news__date { color: var(--muted); font-variant-numeric: tabular-nums; }
+.news__date { display: block; color: var(--accent); font-size: var(--fs-xs); font-weight: 700; letter-spacing: 0.04em; font-variant-numeric: tabular-nums; }
 
 /* ---------- Expandable list ---------- */
 
@@ -360,7 +374,7 @@ html[lang="ja"] .sec span { letter-spacing: 0.06em; }
   main.wrap { padding-top: 28px; }
   .masthead__name { width: 100%; }
   .masthead__nav { margin-right: auto; }
-  .profile { flex-direction: column; align-items: flex-start; gap: 18px; }
+  .profile { flex-direction: column; align-items: flex-start; gap: 18px; padding: 20px; }
   .profile__photo { width: 128px; height: 128px; }
   .profile__name { font-size: 1.6rem; }
   .profile__name-alt { display: block; margin: 2px 0 0; }
@@ -368,7 +382,7 @@ html[lang="ja"] .sec span { letter-spacing: 0.06em; }
   .profile__links li + li::before { content: none; }
   .profile__links a { display: inline-block; padding: 6px 12px; border: 1px solid var(--rule); border-radius: 4px; }
   .pub__links a { padding: 4px 11px; }
-  .entry, .news li, .themes { grid-template-columns: 1fr; }
+  .entry, .themes { grid-template-columns: 1fr; }
   .flow__row { grid-template-columns: 1fr; gap: 26px; }
   .themes { gap: 14px; }
   .flow__box:not(:last-child)::after { content: "↓"; left: 0; top: 100%; width: 100%; height: 26px; line-height: 26px; transform: none; }
@@ -396,5 +410,5 @@ html[lang="ja"] .sec span { letter-spacing: 0.06em; }
   .section { margin-top: 22px; }
   .lede, .entry__period, .entry__note, .pub__venue, .news__date { color: #333; }
   .pub, .entry, .news li { break-inside: avoid; }
-  .theme__fig, .flow__box { background: none; }
+  .theme__fig, .flow__box, .profile { background: none; }
 }

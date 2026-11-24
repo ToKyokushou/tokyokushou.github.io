@@ -76,6 +76,12 @@ layout: site
   </ul>
 </section>
 
+<section class="section" id="grants">
+  <h2 class="sec"><span>{{ t.grants }}</span></h2>
+  {% assign featured_grants = p.grants | where: "featured", true %}
+  {% include entry-list.html items=featured_grants %}
+</section>
+
 <section class="section" id="selected">
   <h2 class="sec"><span>{{ t.selected }}</span></h2>
   {% assign docs = site.publications | where_exp: "d", "d.selected" | sort: "selected" %}
