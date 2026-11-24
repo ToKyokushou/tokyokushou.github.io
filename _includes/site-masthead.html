@@ -6,7 +6,7 @@
 {% assign cv_url = mt.root | append: "/cv/" %}
 <header class="masthead" data-lang="{{ include.lang }}">
   <div class="wrap masthead__inner">
-    <a class="masthead__name" href="{{ home_url }}">{{ mp.name }}</a>
+    {% unless page.layout == "home" %}<a class="masthead__name" href="{{ home_url }}">{{ mp.name }}</a>{% endunless %}
     <nav class="masthead__nav" aria-label="Main">
       <a href="{{ home_url }}"{% if page.url == home_url %} aria-current="page"{% endif %}>{{ mt.nav_home }}</a>
       <a href="{{ pubs_url }}"{% if page.url == pubs_url or page.collection %} aria-current="page"{% endif %}>{{ mt.nav_publications }}</a>

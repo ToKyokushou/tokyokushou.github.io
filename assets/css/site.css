@@ -83,6 +83,8 @@ html[data-lang="ja"] [data-lang="en"] { display: none; }
 .masthead__name:hover { text-decoration: none; }
 
 .masthead__nav { display: flex; gap: 22px; }
+/* the homepage has no site name in the bar: keep the navigation on the right */
+.masthead__inner > .masthead__nav:first-child { margin-left: auto; }
 .masthead__nav a { color: var(--muted); font-size: var(--fs-sm); padding: 4px 0; border-bottom: 2px solid transparent; }
 .masthead__nav a:hover { color: var(--text); text-decoration: none; }
 .masthead__nav a[aria-current] { color: var(--text); border-bottom-color: var(--accent); }
@@ -222,6 +224,16 @@ html[lang="ja"] .sec span { letter-spacing: 0.06em; }
 .art-road { stroke: color-mix(in srgb, currentColor 18%, var(--bg)); stroke-width: 5; }
 .theme h3 { font-size: 1rem; margin: 14px 16px 4px; }
 .theme p { font-size: var(--fs-sm); margin: 0 16px 16px; text-wrap: balance; }
+
+/* ---------- Grant on the homepage ---------- */
+
+.grant__title { font-size: 1rem; line-height: 1.4; margin: 0; text-wrap: pretty; }
+.grant__title a { color: var(--text); }
+.grant__title a::after { content: " \2197"; color: var(--accent); font-weight: 400; }
+.grant__title a:hover { color: var(--accent); text-decoration: none; }
+.grant__meta { font-size: var(--fs-sm); color: var(--muted); margin: 3px 0 0; }
+.grant__fig { margin: 14px 0 0; padding: 12px; background: #fff; border: 1px solid var(--rule); border-radius: 4px; }
+.grant__fig img { display: block; margin: 0 auto; }
 
 /* ---------- Dated entries (education, work, awards) ---------- */
 
@@ -374,6 +386,7 @@ html[lang="ja"] .sec span { letter-spacing: 0.06em; }
   main.wrap { padding-top: 28px; }
   .masthead__name { width: 100%; }
   .masthead__nav { margin-right: auto; }
+  .masthead__inner > .masthead__nav:first-child { margin-left: 0; }
   .profile { flex-direction: column; align-items: flex-start; gap: 18px; padding: 20px; }
   .profile__photo { width: 128px; height: 128px; }
   .profile__name { font-size: 1.6rem; }
