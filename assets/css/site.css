@@ -225,16 +225,6 @@ html[lang="ja"] .sec span { letter-spacing: 0.06em; }
 .theme h3 { font-size: 1rem; margin: 14px 16px 4px; }
 .theme p { font-size: var(--fs-sm); margin: 0 16px 16px; text-wrap: balance; }
 
-/* ---------- Grant on the homepage ---------- */
-
-.grant__title { font-size: 1rem; line-height: 1.4; margin: 0; text-wrap: pretty; }
-.grant__title a { color: var(--text); }
-.grant__title a::after { content: " \2197"; color: var(--accent); font-weight: 400; }
-.grant__title a:hover { color: var(--accent); text-decoration: none; }
-.grant__meta { font-size: var(--fs-sm); color: var(--muted); margin: 3px 0 0; }
-.grant__fig { margin: 14px 0 0; padding: 12px; background: #fff; border: 1px solid var(--rule); border-radius: 4px; }
-.grant__fig img { display: block; margin: 0 auto; }
-
 /* ---------- Dated entries (education, work, awards) ---------- */
 
 .entries { list-style: none; margin: 0; padding: 0; }

@@ -79,13 +79,19 @@ layout: site
 <section class="section" id="grants">
   <h2 class="sec"><span>{{ t.grants }}</span></h2>
   {% assign featured_grants = p.grants | where: "featured", true %}
-  {% for g in featured_grants %}
-  <article class="grant">
-    <h3 class="grant__title">{% if g.url %}<a href="{{ g.url }}">{{ g.org }}</a>{% else %}{{ g.org }}{% endif %}</h3>
-    <p class="grant__meta">{{ g.title }} · {{ g.period }}</p>
-    {% if g.figure %}<figure class="grant__fig"><img src="{{ g.figure }}" alt="{{ g.figure_alt | escape }}" loading="lazy"></figure>{% endif %}
-  </article>
-  {% endfor %}
+  <ul class="pubs">
+    {% for g in featured_grants %}
+    <li class="pub pub--thumb">
+      <div class="pub__fig">{% if g.figure %}<img src="{{ g.figure }}" alt="{{ g.figure_alt | escape }}" loading="lazy">{% endif %}</div>
+      <div class="pub__body">
+        <p class="pub__title">{% if g.url %}<a href="{{ g.url }}">{{ g.org }}</a>{% else %}{{ g.org }}{% endif %}</p>
+        <p class="pub__authors">{{ g.title }}</p>
+        <p class="pub__venue">{{ g.period }}</p>
+        {% if g.url %}<p class="pub__links"><a href="{{ g.url }}">KAKEN</a></p>{% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
 </section>
 
 <section class="section" id="selected">

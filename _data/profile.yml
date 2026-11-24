@@ -101,7 +101,7 @@ en:
     org: A Generative AI Framework for Multiscale Design Support Across Urban, Architectural, and 3D Geometric Domains
     featured: true
     url: https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-26K24681/
-    figure: /images/grants/kaken-26K24681.jpg
+    figure: /images/thumbs/kaken-26K24681.jpg
     figure_alt: 'Concept of the project: conditions and constraints are passed from the urban scale to the building scale and to the 3D model scale, with consistency feedback between the scales (multi-scale continuous generation).'
   - period: 2025.04 – 2026.03
     title: JST SPRING (JPMJSP2102), JAIST-SPRING Researcher
@@ -224,7 +224,7 @@ ja:
     org: 都市・建築・三次元形状を横断するマルチスケール設計支援のための生成AI基盤の構築
     featured: true
     url: https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-26K24681/
-    figure: /images/grants/kaken-26K24681.jpg
+    figure: /images/thumbs/kaken-26K24681.jpg
     figure_alt: 研究課題の概念図：都市スケール（上位条件）から建築スケール（中位生成），三次元モデルスケール（下位生成）へ条件・制約を伝達し，整合性フィードバックにより一貫性を確保する多尺度連続生成。
   - period: 2025.04 – 2026.03
     title: JST 次世代研究者挑戦的研究プログラム（SPRING，JPMJSP2102），JAIST-SPRING研究員
