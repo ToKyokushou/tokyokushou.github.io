@@ -15,10 +15,10 @@ layout: site
     <p class="profile__location">{{ p.degree }}</p>
     <ul class="profile__links">
       <li><a class="js-email" data-user="{{ c.email_user }}" data-domain="{{ c.email_domain }}">{{ c.email_user }} [at] {{ c.email_domain }}</a></li>
-      {% if c.scholar %}<li><a href="{{ c.scholar }}">Google Scholar</a></li>{% endif %}
-      {% if c.orcid %}<li><a href="{{ c.orcid }}">ORCID</a></li>{% endif %}
-      {% if c.kaken %}<li><a href="{{ c.kaken }}">KAKEN</a></li>{% endif %}
-      {% if c.github %}<li><a href="{{ c.github }}">GitHub</a></li>{% endif %}
+      {% if c.scholar %}<li><a href="{{ c.scholar }}" target="_blank" rel="noopener">Google Scholar</a></li>{% endif %}
+      {% if c.orcid %}<li><a href="{{ c.orcid }}" target="_blank" rel="noopener">ORCID</a></li>{% endif %}
+      {% if c.kaken %}<li><a href="{{ c.kaken }}" target="_blank" rel="noopener">KAKEN</a></li>{% endif %}
+      {% if c.github %}<li><a href="{{ c.github }}" target="_blank" rel="noopener">GitHub</a></li>{% endif %}
       <li><a href="{{ t.root }}/cv/">{{ t.nav_cv }}</a></li>
     </ul>
   </div>

@@ -41,9 +41,9 @@
     {% if detail_url or post.doi or post.arxiv or post.code %}
     <p class="pub__links">
       {% if detail_url %}<a href="{{ detail_url }}">{{ it.details }}</a>{% endif %}
-      {% if post.doi %}<a href="https://doi.org/{{ post.doi }}">DOI</a>{% endif %}
-      {% if post.arxiv %}<a href="{{ post.arxiv }}">arXiv</a>{% endif %}
-      {% if post.code %}<a href="{{ post.code }}">{{ it.code }}</a>{% endif %}
+      {% if post.doi %}<a href="https://doi.org/{{ post.doi }}" target="_blank" rel="noopener">DOI</a>{% endif %}
+      {% if post.arxiv %}<a href="{{ post.arxiv }}" target="_blank" rel="noopener">arXiv</a>{% endif %}
+      {% if post.code %}<a href="{{ post.code }}" target="_blank" rel="noopener">{{ it.code }}</a>{% endif %}
     </p>
     {% endif %}
   </div>

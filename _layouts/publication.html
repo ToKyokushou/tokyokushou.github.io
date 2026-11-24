@@ -19,9 +19,9 @@ layout: site
     </p>
     {% if page.doi or page.arxiv or page.code %}
     <p class="pub__links">
-      {% if page.doi %}<a href="https://doi.org/{{ page.doi }}">DOI</a>{% endif %}
-      {% if page.arxiv %}<a href="{{ page.arxiv }}">arXiv</a>{% endif %}
-      {% if page.code %}<a href="{{ page.code }}"><span data-lang="en">{{ en.code }}</span><span data-lang="ja">{{ ja.code }}</span></a>{% endif %}
+      {% if page.doi %}<a href="https://doi.org/{{ page.doi }}" target="_blank" rel="noopener">DOI</a>{% endif %}
+      {% if page.arxiv %}<a href="{{ page.arxiv }}" target="_blank" rel="noopener">arXiv</a>{% endif %}
+      {% if page.code %}<a href="{{ page.code }}" target="_blank" rel="noopener"><span data-lang="en">{{ en.code }}</span><span data-lang="ja">{{ ja.code }}</span></a>{% endif %}
     </p>
     {% endif %}
   </header>
